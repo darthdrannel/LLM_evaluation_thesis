@@ -1,0 +1,146 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Assessment"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "yes",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "no",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Out-of-Office BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Automated Oscillometric Monitors"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "no",
+              "value_criterion": {
+                "value": 1,
+                "unit": "min"
+              }
+            },
+            {
+              "label": "yes",
+              "value_criterion": {
+                "value": 3,
+                "unit": "min"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Blood Pressure",
+        "Out-of-Office BP",
+        "Automated Oscillometric Monitors"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Blood Pressure",
+        "Out-of-Office BP",
+        "Automated Oscillometric Monitors"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Orthostatic Hypotension"
+      ]
+    }
+  ]
+}

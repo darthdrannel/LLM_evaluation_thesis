@@ -1,0 +1,130 @@
+{
+"observations": [
+{
+"name": "BP measurement",
+"context": ["office", "out-of-office"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High blood pressure (HBP)",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal blood pressure (NBP)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated blood pressure (EBBP)",
+"value_criterion": {
+"value": [120, 139],
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic hypotension assessment",
+"context": ["initial diagnosis of elevated BP or hypertension", "suggestive symptoms arise"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High blood pressure (HBP)",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal blood pressure (NBP)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated blood pressure (EBBP)",
+"value_criterion": {
+"value": [120, 139],
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension (OH)",
+"value_criterion": {
+"value": [20, 10],
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement technique",
+"context": ["office", "out-of-office"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High blood pressure (HBP)",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal blood pressure (NBP)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated blood pressure (EBBP)",
+"value_criterion": {
+"value": [120, 139],
+"unit": "mmHg"
+}
+},
+{
+"label": "Low blood pressure (LBP)",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+]
+
+ 	 																	,"conditions": [
+{
+"name": "High blood pressure (HBP)",
+"observations": ["BP measurement"]
+},
+{
+"name": "Normal blood pressure (NBP)",
+"observations": ["BP measurement"]
+},
+{
+"name": "Elevated blood pressure (EBBP)",
+"observations": ["BP measurement"]
+},
+{
+"name": "Orthostatic hypotension (OH)",
+"observations": ["Orthostatic hypotension assessment"]
+}
+]
+}

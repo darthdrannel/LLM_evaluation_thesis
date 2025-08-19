@@ -1,0 +1,80 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measured",
+"context": ["Office Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": {"value": [120, 80], "unit": "mmHg"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Blood Pressure (Out-of-office)",
+"context": ["Home Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Elevated", "value_criterion": {"value": [120, 89], "unit": "mmHg"}},
+{"label": "Hypertension", "value_criterion": {"value": [140, 90], "unit": "mmHg"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Blood Pressure in AF",
+"context": ["Clinical Setting"],
+"patient_inferences": [
+{
+"inferences": [],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "Unmeasured", "value_criterion": {"value": [],"unit": ""}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Clinical Setting"],
+"patient_inferences": [
+{
+"inferences": [],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "Normal", "value_criterion": {"value": [0, 0], "unit": "mmHg"}}
+],
+"gender": null,
+"age": null
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measured"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+  																		

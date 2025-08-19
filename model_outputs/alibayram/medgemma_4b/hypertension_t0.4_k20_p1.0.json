@@ -1,0 +1,478 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Blood Pressure",
+        "Out-of-Office Blood Pressure",
+        "Automated Oscillometric Monitor",
+        "Manual Auscultatory Method"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 130,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 150,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 160,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 170,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 180,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 190,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 200,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 210,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 220,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 230,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 240,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 250,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 260,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 270,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 280,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 290,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 300,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 310,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 320,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 330,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 340,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 350,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 360,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 370,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 380,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 390,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 400,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 410,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 420,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 430,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 440,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 450,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 460,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 470,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 480,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 490,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 500,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 510,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 520,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 530,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 540,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 550,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 560,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 570,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 580,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 590,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 600,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 610,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 620,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 630,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 640,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 650,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 660,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 670,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 680,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 690,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 700,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 710,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 720,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 730,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 740,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 750,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 760,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 770,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              

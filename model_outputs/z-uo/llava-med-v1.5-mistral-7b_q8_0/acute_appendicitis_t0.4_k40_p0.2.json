@@ -1,0 +1,523 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["radiology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal chest x-ray"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "coronal chest CT-scan",
+"context": ["radiology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "axial chest CT-scan",
+"context": ["radiology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal axial chest ct-scan"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "age of the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["patient's condition or symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "patient's specific condition or symptom"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["specific criteria for a particular observation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "criteria for the specific observation"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",
+"context": ["the patient's overall condition or status"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "patient's overall condition or status"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Inference",
+"context": ["a conclusion or observation based on the available information"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "a specific conclusion or observation"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "CRP",
+"context": ["C-reactive protein levels in the patient's blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "CRP levels in the patient's blood"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PMN",
+"context": ["polymorphonucleocyte (PMN) levels in the patient's blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "PMN levels in the patient's blood"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["leukocytosis, which is an elevated white blood cell count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "leukocytosis in the patient's blood"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["the patient's body temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "patient's body temperature"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Pain",
+"context": ["the patient's pain level or intensity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "patient's pain level or intensity"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "MRI",
+"context": ["magnetic resonance imaging (MRI) findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "mri findings related to the patient's condition"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Ultrasound",
+"context": ["ultrasound findings related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "ultrasound findings related to the patient's condition"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "CT-scan",
+"context": ["computed tomography (CT) scan findings related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "ct-scan findings related to the patient's condition"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "X-ray",
+"context": ["chest X-ray findings related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "chest x-ray findings related to the patient's condition"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "EKG",
+"context": ["electrocardiogram (EKG) findings related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "ekg findings related to the patient's condition"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ECG",
+"context": ["electrocardiogram (ECG) findings related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "ecg findings related to the patient's condition"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Blood Pressure",
+"context": ["blood pressure measurements for the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "blood pressure measurements for the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Heart Rate",
+"context": ["heart rate measurements for the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "heart rate measurements for the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Respiratory Rate",
+"context": ["respiratory rate measurements for the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "respiratory rate measurements for the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "SpO2",
+"context": ["pulse oximetry (SpO2) measurements for the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "spo2 measurements for the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Pulse Rate",
+"context": ["pulse rate measurements for the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "pulse rate measurements for the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Pallor",
+"context": ["pallor, which is a pale or yellowish appearance of the skin or mucous membranes"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "pallor observed in the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Jaundice",
+"context": ["jaundice, which is a yellowish discoloration of the skin and eyes due to an accumulation of bilirubin"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "jaundice observed in the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Weight Loss",
+"context": ["weight loss experienced by the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "weight loss experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Weight Gain",
+"context": ["weight gain experienced by the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "weight gain experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["anorexia, which is a loss of appetite or an inability to eat enough food"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "anorexia experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Nausea",
+"context": ["nausea, which is a feeling of unease or discomfort in the stomach"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "nausea experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Vomiting",
+"context": ["vomiting, which is the act of forcefully expelling the contents of the stomach through the mouth"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "vomiting experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Fever",
+"context": ["fever, which is an elevated body temperature due to an infection or inflammation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "fever experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Cough",
+"context": ["cough, which is a sudden and forceful expulsion of air from the lungs through the mouth or nose"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "cough experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Shortness of Breath",
+"context": ["shortness of breath, which is a feeling of difficulty breathing or not being able to breathe enough air"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "shortness of breath experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Dyspnea",
+"context": ["dyspnea, which is a medical term for difficulty breathing or shortness of breath"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "dyspnea experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Chest Pain",
+"context": ["chest pain, which is a discomfort or pain in the chest area that may be caused by various factors such as heart problems, lung issues, or other conditions"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "chest pain experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Headache",
+"context": ["headache, which is a pain or discomfort in the head that can be caused by various factors such as stress, dehydration, or other medical conditions"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "headache experienced by the patient"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Fatigue",
+"context": ["fatigue, which is a feeling of weakness or exhaustion that

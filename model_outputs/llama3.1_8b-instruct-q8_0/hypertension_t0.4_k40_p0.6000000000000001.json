@@ -1,0 +1,10 @@
+{"observations": [
+    {"name": "Blood Pressure", "context": ["Office Measurement", "Out-of-Office Measurement"], "patient_inferences": [{"inferences": [{"label": "elevated", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}]}]},
+    {"name": "Orthostatic Hypotension", "context": ["Initial Diagnosis", "Follow-up"], "patient_inferences": [{"inferences": [{"label": "present", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}]}]}
+],
+"conditions": [
+    {"name": "Elevated Blood Pressure", "observations": ["Blood Pressure"]},
+    {"name": "Orthostatic Hypotension", "observations": ["Orthostatic Hypotension"]}
+]}
+
+   

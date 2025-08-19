@@ -1,0 +1,30 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated"}]},
+        {"inferences": [{"label": "high"}]}
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis of elevated BP or hypertension", "Suggestive symptoms arise"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present"}]},
+        {"inferences": [{"label": "absent"}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure", "Orthostatic Hypotension"]
+    }
+  ]
+}

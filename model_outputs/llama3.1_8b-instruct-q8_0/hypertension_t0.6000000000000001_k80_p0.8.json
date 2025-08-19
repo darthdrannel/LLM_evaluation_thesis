@@ -1,0 +1,34 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": ["Office", "Out-of-office"],
+            "patient_inferences": [
+                {"inferences": [{"label": "elevated"}]},
+                {"inferences": [{"label": "normal"}]}
+            ]
+        },
+        {
+            "name": "Age",
+            "context": ["Patient's Age"],
+            "patient_inferences": [
+                {"inferences": [{"label": "adult"}]},
+                {"inferences": [{"label": "frailty"}]}
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated Blood Pressure",
+            "observations": ["Blood Pressure"]
+        },
+        {
+            "name": "Hypertension",
+            "observations": ["Blood Pressure"]
+        },
+        {
+            "name": "Orthostatic Hypotension",
+            "observations": ["Blood Pressure", "Patient's Age"]
+        }
+    ]
+}

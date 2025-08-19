@@ -1,0 +1,1 @@
+{"hypertension": {"true_positive": 48.11350059737157, "false_positive": 67, "false_negative": 11, "true_negative": 34, "valid_json": true, "valid_structure": true}, "acute_appendicitis": {"true_positive": 20.752978478905607, "false_positive": 46, "false_negative": 14, "true_negative": 10, "valid_json": true, "valid_structure": true}}

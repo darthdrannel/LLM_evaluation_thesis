@@ -1,0 +1,69 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["office", "out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": [90, 120],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [120, 129],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "hypertension",
+              "value_criterion": {
+                "value": [140, 90],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["patient's medical record"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "adult",
+              "value_criterion": {
+                "value": [18, 120],
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elderly",
+              "value_criterion": {
+                "value": [65, 120],
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "frailty",
+      "observations": ["Age", "orthostatic hypotension"]
+    }
+  ]
+}

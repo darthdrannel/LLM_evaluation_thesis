@@ -1,0 +1,78 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 5, "unit": "", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis in pediatric patients"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 6, "unit": "", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis with inflammatory response"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 6, "unit": "", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "CRP",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis with inflammatory response"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 50, "unit": "g/L", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "g/L", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis with inflammatory response"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 15000, "unit": "per μL", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "per μL", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "PMN",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis with inflammatory response"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 85, "unit": "%", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "%", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis with inflammatory response"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 38.5, "unit": "°C", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "°C", "operator": "<"}}]}
+      ]
+    },
+    {
+      "name": "Rebound Pain",
+      "context": ["Appendicitis diagnosis", "Suspected appendicitis with inflammatory response"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": 3, "unit": "", "operator": ">"}}]},
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Inflammatory Response",
+      "observations": ["CRP", "Leukocytosis", "PMN", "Temperature", "Rebound Pain"]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["office", "out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": [90, 120],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [120, 129],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [130, 139],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "very high",
+              "value_criterion": {
+                "value": [140, 159],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "severe hypertension",
+              "value_criterion": {
+                "value": [160, 179],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "hypertensive crisis",
+              "value_criterion": {
+                "value": [180, 219],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["medical history"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "young adult",
+              "value_criterion": {
+                "value": 18,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "middle-aged",
+              "value_criterion": {
+                "value": [40, 64],
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elderly",
+              "value_criterion": {
+                "value": [65, 79],
+                "unit": "years"
+              }
+            },
+            {
+              "label": "very elderly",
+              "value_criterion": {
+                "value": 80,
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    }
+  ]
+}

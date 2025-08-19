@@ -1,0 +1,535 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89

@@ -1,0 +1,32 @@
+{
+"observations": [
+{
+"name": "Systolic blood pressure measurement",
+"context": ["In a clinical setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal blood pressure",
+"value_criterion": {
+"value": 110,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+}
+],
+"gender": null,
+"age": null
+}
+]
+}
+],
+"conditions": []
+}
+

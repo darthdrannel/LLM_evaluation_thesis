@@ -1,0 +1,90 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal chest x-ray",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal coronal chest ct-scan",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal axial chest ct-scan",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray (CXR) normal",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan (CCTS) normal",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan (CCTS) normal",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

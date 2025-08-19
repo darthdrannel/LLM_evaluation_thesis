@@ -1,0 +1,222 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["History", "Physical Exam"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": 7,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["History", "Physical Exam"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": 9,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Laboratory"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": 8,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP (C-reactive protein)",
+      "context": ["Laboratory"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Inflammation",
+              "value_criterion": {
+                "value": 50,
+                "unit": "mg/L"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Laboratory"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Infection or Inflammation",
+              "value_criterion": {
+                "value": 15000,
+                "unit": "/μL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN (Polymorphonuclear cells)",
+      "context": ["Laboratory"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Infection or Inflammation",
+              "value_criterion": {
+                "value": 85,
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["Vital Signs"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Fever",
+              "value_criterion": {
+                "value": 38.5,
+                "unit": "°C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Tenderness",
+      "context": ["Physical Exam"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Abdominal Pain",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound Pain",
+      "context": ["Physical Exam"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Abdominal Pain",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+  {
+  "name": "Anorexia",
+  "context": ["History"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {
+          "label": "Malnutrition or Dehydration",
+          "value_criterion": null
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Nausea/Vomiting",
+  "context": ["History"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {
+          "label": "Gastrointestinal Disorder",
+          "value_criterion": null
+        }
+      ]
+    }
+  ]
+}
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": [
+        "Alvarado Score",
+        "Pediatric Appendicitis Score",
+        "Appendicitis Inflammatory Response Score"
+      ]
+    },
+    {
+      "name": "Inflammation",
+      "observations": [
+        "CRP (C-reactive protein)",
+        "Leukocytosis",
+        "PMN (Polymorphonuclear cells)"
+      ]
+    },
+    {
+      "name": "Fever",
+      "observations": [
+        "Temperature"
+      ]
+    },
+    {
+      "name": "Abdominal Pain",
+      "observations": [
+        "Right Lower Quadrant Tenderness",
+        "Rebound Pain"
+      ]
+    },
+    {
+      "name": "Malnutrition or Dehydration",
+      "observations": [
+        "Anorexia"
+      ]
+    },
+    {
+      "name": "Gastrointestinal Disorder",
+      "observations": [
+        "Nausea/Vomiting"
+      ]
+    }
+  ]
+}

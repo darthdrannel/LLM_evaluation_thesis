@@ -1,0 +1,131 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "clinic"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper BP measurement technique used",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Blood pressure measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Consistent approach to BP measurement for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+},
+{
+"name": "Out-of-office BP Measurement",
+"context": ["home setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood pressure measured outside the clinic or office setting",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Out-of-office BP measurement used for diagnostic purposes",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Blood pressure measured using a validated and calibrated device outside the clinic or office setting",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["clinic"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Blood pressure drop of ≥20 systolic BP and/or ≥10 diastolic BP mmHg observed at 1 and/or 3 min after standing",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Measurement in AF",
+"context": ["clinic"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood pressure measurement performed using a manual auscultatory method when automated oscillometric monitors have not been validated for BP measurement in atrial fibrillation (AF)",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Blood pressure measured using a manual auscultatory method when possible",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}

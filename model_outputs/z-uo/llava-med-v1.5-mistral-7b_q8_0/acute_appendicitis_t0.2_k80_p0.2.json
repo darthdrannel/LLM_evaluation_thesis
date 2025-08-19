@@ -1,0 +1,451 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["sharp, localized pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is experiencing sharp, localized chest pain."
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature of 38.5°C (101.3°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's temperature is elevated, which may indicate an infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["leukocytosis with a white blood cell count of 15,000 per μL (15.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has leukocytosis, which is an elevated white blood cell count, often associated with infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["polymorphonucleocyte (pmn) percentage of 85%"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pmn percentage is high, which may indicate an ongoing infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["c-reactive protein (crp) level of 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's crp level is elevated, which may indicate an ongoing infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "Appendedicitis Inflammatory Response score",
+"context": ["score of 12 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's appendicitis inflammatory response score is high, which may indicate the presence of appendicitis or another inflammatory condition."
+}
+]
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["score of 10 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's alvarado score is high, which may indicate the presence of appendicitis or another inflammatory condition."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["score of 12 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pediatric appendicitis score is high, which may indicate the presence of appendicitis or another inflammatory condition in children."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 45-year-old male, which may provide additional context for the medical team when evaluating the patient's condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["patient is a female"],
+"patient_inferences": [
+{
+"inferences": [
+{

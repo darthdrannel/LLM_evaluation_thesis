@@ -1,0 +1,116 @@
+{
+"observations": [
+        {
+            "name": "Blood Pressure",
+            "context": [
+                "The 2024 ESC/ESH Guidelines on the management of arterial hypertension.",
+                "Updates to the 2018 guidelines.",
+                "Incorporates new evidence regarding CVD outcomes.",
+                "Focus on out-of-office BP measurement.",
+                "Emphasis on personalized clinical decision-making."
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "elevated",
+                    "value_criterion": {
+                    "value": 120,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CVD Risk",
+            "context": [
+                "Continuous exposure scale for BP.",
+                "Benefit of BP-lowering medications in high CVD risk individuals.",
+                "Importance of CVD outcomes over BP lowering alone."
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "high",
+                    "value_criterion": {
+                    "value": 70,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Out-of-Office BP Measurement",
+            "context": [
+                "Recommended for diagnostic purposes.",
+                "Detects white-coat and masked hypertension.",
+                "Feasibility and economic considerations."
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "detect",
+                    "value_criterion": {
+                    "value": 10,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Orthostatic Hypotension",
+            "context": [
+                "Assessment at initial diagnosis and if suggestive symptoms arise.",
+                "Performed after lying or sitting for 5 min."
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "low",
+                    "value_criterion": {
+                    "value": 20,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated Blood Pressure",
+            "observations": [
+               "The 2024 ESC/ESH Guidelines on the management of arterial hypertension.",
+               "Updates to the 2018 guidelines.",
+               "Incorporates new evidence regarding CVD outcomes.",
+               "Focus on out-of-office BP measurement.",
+               "Emphasis on personalized clinical decision-making."
+            ]
+        },
+        {
+            "name": "CVD Risk",
+            "observations": [
+                "Continuous exposure scale for BP.",
+                "Benefit of BP-lowering medications in high CVD risk individuals.",
+                "Importance of CVD outcomes over BP lowering alone."
+            ]
+        },
+         {
+            "name": "Orthostatic Hypotension",
+            "observations": [
+                "Assessment at initial diagnosis and if suggestive symptoms arise.",
+                "Performed after lying or sitting for 5 min."
+            ]
+        }
+    ]
+}

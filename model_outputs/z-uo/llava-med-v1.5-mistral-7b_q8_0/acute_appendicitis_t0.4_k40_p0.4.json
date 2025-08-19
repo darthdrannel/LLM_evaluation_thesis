@@ -1,0 +1,578 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["radiology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal chest x-ray"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "coronal chest CT-scan",
+"context": ["radiology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "axial chest CT-scan",
+"context": ["radiology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal axial chest ct-scan"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["criteria used to evaluate the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",
+"context": ["the patient's overall condition as inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Inference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ConditionKnowledgeGraph",
+"context": ["the overall knowledge graph related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Observation",
+"context": ["the patient's observations, including the diagnostic tools used and their results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["the patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["criteria used to evaluate the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",
+"context": ["the patient's overall condition as inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Inference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ConditionKnowledgeGraph",
+"context": ["the overall knowledge graph related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Observation",
+"context": ["the patient's observations, including the diagnostic tools used and their results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["the patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["criteria used to evaluate the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",
+"context": ["the patient's overall condition as inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Inference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ConditionKnowledgeGraph",
+"context": ["the overall knowledge graph related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Observation",
+"context": ["the patient's observations, including the diagnostic tools used and their results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["the patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["criteria used to evaluate the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",
+"context": ["the patient's overall condition as inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Inference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ConditionKnowledgeGraph",
+"context": ["the overall knowledge graph related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Observation",
+"context": ["the patient's observations, including the diagnostic tools used and their results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["the patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["criteria used to evaluate the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",
+"context": ["the patient's overall condition as inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Inference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ConditionKnowledgeGraph",
+"context": ["the overall knowledge graph related to the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Observation",
+"context": ["the patient's observations, including the diagnostic tools used and their results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["the patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "PatientInference",
+"context": ["the patient's condition inferred from the data"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "no abnormalities detected"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "ValueCriterion",
+"context": ["criteria used to evaluate the patient's condition"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal"
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Condition",

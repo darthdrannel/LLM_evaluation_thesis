@@ -1,0 +1,408 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumonia",
+"context": ["pneumonia in the right lower lobe of the lung"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumonia in the right lower lobe of the lung"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumonia",
+"context": ["pneumonia in the right lower lobe of the lung"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumonia in the right lower lobe of the lung"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumonia",
+"context": ["pneumonia in the right lower lobe of the lung"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumonia in the right lower lobe of the lung"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pleural effusion",
+"context": ["pleural effusion in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pleural effusion in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pleural effusion",
+"context": ["pleural effusion in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pleural effusion in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pleural effusion",
+"context": ["pleural effusion in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pleural effusion in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumothorax",
+"context": ["pneumothorax in the right hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumothorax in the right hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumothorax",
+"context": ["pneumothorax in the right hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumothorax in the right hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumothorax",
+"context": ["pneumothorax in the right hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumothorax in the right hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with atelectasis",
+"context": ["atelectasis in the left lower lobe of the lung"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Atelectasis in the left lower lobe of the lung"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with atelectasis",
+"context": ["atelectasis in the left lower lobe of the lung"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Atelectasis in the left lower lobe of the lung"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with atelectasis",
+"context": ["atelectasis in the left lower lobe of the lung"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Atelectasis in the left lower lobe of the lung"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumomediastinum",
+"context": ["pneumomediastinum extending to the right hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumomediastinum",
+"context": ["pneumomediastinum extending to the right hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumomediastinum",
+"context": ["pneumomediastinum extending to the right hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumopericardium",
+"context": ["pneumopericardium in the pericardial space"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumopericardium in the pericardial space"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumopericardium",
+"context": ["pneumopericardium in the pericardial space"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumopericardium in the pericardial space"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumopericardium",
+"context": ["pneumopericardium in the pericardial space"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumopericardium in the pericardial space"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumoperitoneum",
+"context": ["pneumoperitoneum in the abdominal cavity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumoperitoneum in the abdominal cavity"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumoperitoneum",
+"context": ["pneumoperitoneum in the abdominal cavity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumoperitoneum in the abdominal cavity"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumoperitoneum",
+"context": ["pneumoperitoneum in the abdominal cavity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumoperitoneum in the abdominal cavity"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumomediastinum and pneumothorax",
+"context": ["pneumomediastinum extending to the right hemithorax and pneumothorax in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax and pneumothorax in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumomediastinum and pneumothorax",
+"context": ["pneumomediastinum extending to the right hemithorax and pneumothorax in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax and pneumothorax in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumomediastinum and pneumothorax",
+"context": ["pneumomediastinum extending to the right hemithorax and pneumothorax in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax and pneumothorax in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumopericardium and pneumothorax",
+"context": ["pneumopericardium in the pericardial space and pneumothorax in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumopericardium in the pericardial space and pneumothorax in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumopericardium and pneumothorax",
+"context": ["pneumopericardium in the pericardial space and pneumothorax in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumopericardium in the pericardial space and pneumothorax in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan with pneumopericardium and pneumothorax",
+"context": ["pneumopericardium in the pericardial space and pneumothorax in the left hemithorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumopericardium in the pericardial space and pneumothorax in the left hemithorax"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray with pneumomediastinum, pneumothorax, and pneumoperitoneum",
+"context": ["pneumomediastinum extending to the right hemithorax, pneumothorax in the left hemithorax, and pneumoperitoneum in the abdominal cavity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumomediastinum extending to the right hemithorax, pneumothorax in the left hemithorax, and pneumoperitoneum in the abdominal cavity"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan with pneumomediastinum, pneumothorax, and pneumoperitoneum",
+"context": ["pneumomediastinum extending to the right hemithorax, pneumothorax in the left hemithorax, and pneumoperitoneum

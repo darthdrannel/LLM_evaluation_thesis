@@ -1,0 +1,113 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": -1,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Out-of-office BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": -1,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Orthostatic Hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": -1,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Blood Pressure",
+        "Blood Pressure",
+        "Blood Pressure"
+      ]
+    }
+  ]
+}

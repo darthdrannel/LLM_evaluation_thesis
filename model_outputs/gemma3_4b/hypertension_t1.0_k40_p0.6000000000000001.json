@@ -1,0 +1,106 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "elevated blood pressure",
+        "hypertension",
+        "management guidelines",
+        "ESC/European Society of Hypertension Guidelines"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "target systolic BP",
+        "120-129 mmHg",
+        "office BP measurement",
+        "out-of-office BP measurement"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "assessment",
+        "initial diagnosis",
+        "suggestive symptoms"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "office systolic BP of 120–139 mmHg",
+        "office diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "office systolic BP of ≥140 mmHg",
+        "office diastolic BP of ≥90 mmHg"
+      ]
+    }
+  ]
+}

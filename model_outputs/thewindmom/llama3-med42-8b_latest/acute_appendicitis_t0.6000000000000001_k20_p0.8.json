@@ -1,0 +1,112 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["physical examination", "lab test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 7,
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["physical examination", "lab test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 9,
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["physical examination", "lab test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 10,
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP level",
+      "context": ["lab test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 50,
+                "unit": "mg/L"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WBC count",
+      "context": ["lab test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 15000,
+                "unit": "cells/μL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN percentage",
+      "context": ["lab test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 85,
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

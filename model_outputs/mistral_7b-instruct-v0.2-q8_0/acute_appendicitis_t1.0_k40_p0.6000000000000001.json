@@ -1,0 +1,253 @@
+{
+"observations": [
+{
+"name": "Patient Temperature",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Fever",
+"value_criterion": {
+"value": [37.3, 100.4],
+"unit": "°C (F)"
+}
+},
+{
+"label": "Elevated Temperature",
+"value_criterion": {
+"value": [38, 100.4],
+"unit": "°C (F)",
+"operator": ">"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated White Blood Cell Count",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL (per L)"
+}
+},
+{
+"label": "High Leukocytosis",
+"value_criterion": {
+"value": [15000, 49000],
+"unit": "per μL (per L)",
+"operator": ">"
+}
+}
+]
+}
+]
+},
+{
+"name": "Migration of Pain",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain Migration",
+"value_criterion": {
+"value": 1
+, "unit": "Point"
+}
+},
+{
+"label": "Significant Pain Migration",
+"value_criterion": {
+"value": [1, 2],
+"unit": "Point"
+, "operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Anorexia",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Significant Anorexia",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Nausea/Vomiting",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Significant Nausea/Vomiting",
+"value_criterion": {
+"value": 2,
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Right Lower Quadrant Tenderness",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Significant Right Lower Quadrant Tenderness",
+"value_criterion": {
+"value": [2, 2],
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Rebound Pain",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Rebound Pain (Light)",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Rebound Pain (Medium)",
+"value_criterion": {
+"value": 2,
+"unit": "Point"
+}
+},
+{
+"label": "Rebound Pain (Strong)",
+"value_criterion": {
+"value": [3, 3],
+"unit": "Point",
+"operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Iliac Fossa Pain",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Right Iliac Fossa Pain",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Significant Right Iliac Fossa Pain",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP Level",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal CRP Level",
+"value_criterion": {
+"value": [0, 10],
+"unit": "g per L"
+}
+},
+{
+"label": "Elevated CRP Level (Mild)",
+"value_criterion": {
+"value": [10.1, 49],
+"unit": "g per L"
+}
+},
+{
+"label": "High CRP Level",
+"value_criterion": {
+"value": [50, 100],
+"unit": "g per L",
+"operator": ">"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Suspected Appendicitis (Alvarado Score)",
+"observations": ["Patient Temperature", "Leukocytosis", "Migration of Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain"]
+},
+{
+"name": "Suspected Appendicitis (Pediatric Score)",
+"observations": ["Patient Temperature", "Leukocytosis", "Migration of Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain with coughing/hopping/percussion"]
+},
+{
+"name": "Appendicitis Inflammatory Response (Score)",
+"observations": ["Vomiting", "Right Iliac fossa pain", "Rebound pain", "Temperature", "Leukocytosis", "PMN percentage", "CRP level"]
+}
+]
+}

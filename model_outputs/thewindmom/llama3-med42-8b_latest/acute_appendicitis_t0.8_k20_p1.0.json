@@ -1,0 +1,96 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Physical Examination", "Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {
+                "value": [0, 5],
+                "unit": "score"
+              }
+            },
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [6, 10],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Physical Examination", "Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {
+                "value": [0, 11],
+                "unit": "score"
+              }
+            },
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [12, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Physical Examination", "Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Not Inflamed",
+              "value_criterion": {
+                "value": [0, 11],
+                "unit": "score"
+              }
+            },
+            {
+              "label": "Mildly Inflamed",
+              "value_criterion": {
+                "value": [12, 9],
+                "unit": "score"
+              }
+            },
+            {
+              "label": "Moderately Inflamed",
+              "value_criterion": {
+                "value": [10, 7],
+                "unit": "score"
+              }
+            },
+            {
+              "label": "Severely Inflamed",
+              "value_criterion": {
+                "value": [6, 0],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

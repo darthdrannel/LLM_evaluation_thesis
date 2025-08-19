@@ -1,0 +1,156 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AppendicitisSuspected",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "MigrationOfPainPresent",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "ReboundPainPresent",
+"value_criterion": {
+"value": [1, 2],
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "NauseaVomiting",
+"context": ["Abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AnorexiaPresent",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "NauseaVomitingPresent",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "FeverPresent",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "TemperatureAbove373DegreesCelsius",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "TemperatureAbove38DegreesCelsius",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "WhiteBloodCellCountAbove10000PerMicroliter",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "PercentPolymorphonucleocytesAbove75",
+"value_criterion": {
+"value": [1, 2],
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "CRPLevelAbove10GPerL",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "CRPLevelAbove50GPerL",
+"value_criterion": {
+"value": 2,
+"unit": "point"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "AppendicitisSuspected",
+"observations": ["MigrationOfPainPresent", "AnorexiaPresent", "NauseaVomitingPresent", "RightLowerQuadrantTendernessPresent", "FeverPresent", "LeukocytosisPresent"]
+},
+{
+"name": "MildInflammatoryResponse",
+"observations": ["VomitingPresent", "RightIliacFossaPainPresent", "ReboundPainLightPresent", "TemperatureAbove385DegreesCelsiusPresent", "LeukocytosisLevel10To49GPerL"]
+},
+{
+"name": "ModerateInflammatoryResponse",
+"observations": ["VomitingPresent", "RightIliacFossaPainPresent", "ReboundPainMediumPresent", "TemperatureAbove385DegreesCelsiusPresent", "LeukocytosisLevel10To49GPerL", "PercentPolymorphonucleocytes70To84"]
+},
+{
+"name": "SevereInflammatoryResponse",
+"observations": ["VomitingPresent", "RightIliacFossaPainPresent", "ReboundPainStrongPresent", "TemperatureAbove385DegreesCelsiusPresent", "LeukocytosisLevel15000PerMicroliter"]
+}
+]
+}

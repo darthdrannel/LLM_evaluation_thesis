@@ -1,0 +1,66 @@
+{
+  "observations": [
+    {
+      "name": "Chest X-ray",
+      "context": ["chest x-ray"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Infiltrates in the lower lobe of the right lung are present."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coronal chest CT-scan",
+      "context": ["coronal chest ct-scan"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "The coronal chest CT-scan shows opacities in the right lower lobe of the lung."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Axial chest CT-scan",
+      "context": ["axial chest ct-scan"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "The axial chest CT-scan reveals opacities in the right lower lobe of the lung."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patient age",
+      "context": ["patient's age"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "The patient is a 42-year-old woman."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Pneumonia",
+      "observations": ["Chest X-ray", "Coronal chest CT-scan", "Axial chest CT-scan"]
+    },
+    {
+      "name": "Anemia",
+      "observations": ["Patient age"]
+    }
+  ]
+}

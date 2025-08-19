@@ -1,0 +1,107 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "out-of-office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 130,
+"unit": "mmHg"
+}
+}
+],
+"gender": "male"
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["initial diagnosis of elevated BP or hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Orthostatic Hypotension",
+"value_criterion": {
+"value": 10,
+"unit": "mmHg"
+}
+},
+{
+"label": "Abnormal Orthostatic Hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring Device Validation and Calibration",
+"context": ["office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Validated Blood Pressure Monitoring Device",
+"value_criterion": {
+"value": 1,
+"unit": "yes"
+}
+},
+{
+"label": "Calibrated Blood Pressure Monitoring Device",
+"value_criterion": {
+"value": 1,
+"unit": "yes"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Measurement Technique Enforcement and Consistency",
+"context": ["office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct Blood Pressure Measurement Technique Enforced",
+"value_criterion": {
+"value": 1,
+"unit": "yes"
+}
+},
+{
+"label": "Consistent Approach to Blood Pressure Measurement for Each Patient",
+"value_criterion": {
+"value": 1,
+"unit": "yes"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure and Hypertension Guidelines 2024",
+"observations": ["Blood Pressure Measurement", "Orthostatic Hypotension Assessment", "Blood Pressure Monitoring Device Validation and Calibration"]
+}
+]
+}

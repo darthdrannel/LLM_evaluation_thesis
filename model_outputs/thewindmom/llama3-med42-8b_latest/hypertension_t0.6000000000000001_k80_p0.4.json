@@ -1,0 +1,70 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["office", "out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg",
+                "operator": "="
+              }
+            },
+            {
+              "label": "hypertension",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "frailty",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years",
+                "operator": ">="
+              }
+            },
+            {
+              "label": "moderate-to-severe frailty",
+              "value_criterion": {
+                "value": 90,
+                "unit": "years",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Frailty",
+      "observations": ["Age"]
+    }
+  ]
+}

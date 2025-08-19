@@ -1,0 +1,400 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [10, 49], "unit": "g per L", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [70, 84], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [10, 14.9], "unit": "× 109 per L", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [37.3, 38], "unit": "°C (99.1°F)", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound Pain",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Tenderness",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Migration of Pain",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nausea/Vomiting",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis ≥ 15,000 per μL",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [15.0], "unit": "× 109 per L", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP ≥ 50 g per L",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [50.0], "unit": "g per L", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN ≥ 85%",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [85.0], "unit": "", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature ≥ 38.5°C (101.3°F)",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [38.5], "unit": "°C (101.3°F)", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound Pain, Strong",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [3], "unit": "", "operator": "="}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Iliac Fossa Pain",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Pain with Coughing/Hopping/Percussion",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [2, 3], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature ≥ 38°C (100.4°F)",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [38], "unit": "°C (100.4°F)", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis ≥ 10,000 per μL",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [10.0], "unit": "× 109 per L", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN ≥ 75%",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [75], "unit": "", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound Pain, Light",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Tenderness",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Migration of Pain",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nausea/Vomiting",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis",
+      "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": {"value": [10.0], "unit": "", "operator": ">"}}
+          ]
+        }
+      ]
+    },
+  {
+  "name": "Suspected Appendicitis",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "low", "value_criterion": {"value": [0, 2], "unit": "", "operator": null}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "CRP ≥ 50 g per L",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "high", "value_criterion": {"value": [50.0], "unit": "g per L", "operator": ">"}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "PMN ≥ 85%",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "high", "value_criterion": {"value": [85.0], "unit": "", "operator": ">"}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "Temperature ≥ 38.5°C (101.3°F)",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "high", "value_criterion": {"value": [38.5], "unit": "°C (101.3°F)", "operator": ">"}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "Rebound Pain, Strong",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "high", "value_criterion": {"value": [3], "unit": "", "operator": "="}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "Right Iliac Fossa Pain",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "Vomiting",
+  "context": ["Appendicitis"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {"label": "low", "value_criterion": {"value": [1, 2], "unit": "", "operator": null}}
+      ]
+    }
+  ]
+},
+  {
+  "name": "Right Lower Quadr

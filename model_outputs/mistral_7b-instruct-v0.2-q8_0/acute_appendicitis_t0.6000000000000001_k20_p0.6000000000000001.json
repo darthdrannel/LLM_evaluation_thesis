@@ -1,0 +1,136 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "≥ 37.3°C (99.1°F)", "value_criterion": { "value": 37.3, "unit": "°C"}}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "≥ 38°C (100.4°F)", "value_criterion": { "value": 38, "unit": "°C"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "≥ 10,000 per μL (10.0 × 109 per L)", "value_criterion": { "value": 10000, "unit": "per μL"}}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "≥ 10,000 to 14,900 per μL (10.0 to 14.9 × 109 per L)", "value_criterion": { "value": [10000, 14900], "unit": "per μL"}}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "≥ 15,000 per μL (15.0 × 109 per L)", "value_criterion": { "value": 15000, "unit": "per μL"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "≥ 75%", "value_criterion": { "value": 0.75, "unit": "%"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "10 to 49 g per L", "value_criterion": { "value": 10, "unit": "g per L"}},
+{"label": "≥ 50 g per L", "value_criterion": { "value": 50, "unit": "g per L"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient Age",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [],
+"gender": null,
+"age": {
+"value": 0,
+"unit": "years"
+}
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant tenderness", "Rebound pain", "Temperature", "Leukocytosis", "PMN"]
+}
+]
+}
+
+    																

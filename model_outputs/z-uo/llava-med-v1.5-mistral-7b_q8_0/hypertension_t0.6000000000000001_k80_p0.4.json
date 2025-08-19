@@ -1,0 +1,396 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension",
+"context": ["systolic BP drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Orthostatic Hypotension (OH)",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Measurement Technique",
+"context": ["validated and calibrated device", "correct measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct Blood Pressure (BP) Measurement Technique",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Out-of-Office Blood Pressure (BP) Monitoring",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Atrial Fibrillation (AF)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Atrial Fibrillation (BP-AF)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Orthostatic Hypotension (OH)",
+"context": ["assessment for OH"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Orthostatic Hypotension (BP-OH)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Office Systolic BP and Diastolic BP",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Office Systolic BP (BP-OS) and Diastolic BP (BP-D)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeat office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["out-of-office measurements"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["out-of-office measurements"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"value_criterion": {
+"value": 1,
+"unit": "number of times",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Elevated Blood Pressure (BP-E) and Hypertension (BP-HTN)",
+"context": ["repeated office BP measurement using the correct standardized measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Monitoring

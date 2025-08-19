@@ -1,0 +1,485 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["adult patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is an adult, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["male patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a male, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["pediatric patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a pediatric patient, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a female, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["elderly patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is an elderly individual, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["nonbinary patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a nonbinary individual, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with chronic obstructive pulmonary disease (copd)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has chronic obstructive pulmonary disease, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with copd"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has chronic obstructive pulmonary disease, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with copd"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has chronic obstructive pulmonary disease, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with asthma"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has asthma, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with asthma"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has asthma, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with asthma"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has asthma, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with pneumonia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has pneumonia, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with pneumonia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has pneumonia, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with pneumonia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has pneumonia, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with chronic kidney disease (ckd)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has chronic kidney disease, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with ckd"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has chronic kidney disease, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with ckd"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has chronic kidney disease, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with heart failure (hf)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has heart failure, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has heart failure, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has heart failure, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with chronic liver disease (cld)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has chronic liver disease, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with cld"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has chronic liver disease, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with cld"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has chronic liver disease, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with chronic obstructive pulmonary disease (copd) and heart failure (hf)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has both chronic obstructive pulmonary disease and heart failure, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with copd and hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has both chronic obstructive pulmonary disease and heart failure, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with copd and hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has both chronic obstructive pulmonary disease and heart failure, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with asthma and heart failure (hf)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has both asthma and heart failure, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with asthma and hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has both asthma and heart failure, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with asthma and hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has both asthma and heart failure, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with pneumonia and heart failure (hf)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has both pneumonia and heart failure, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient with pneumonia and hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The female patient has both pneumonia and heart failure, which may be relevant to the diagnosis and management of her condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["male patient with pneumonia and hf"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The male patient has both pneumonia and heart failure, which may be relevant to the diagnosis and management of his condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["patient with chronic kidney disease (ckd) and heart failure (hf)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has both chronic kidney disease and heart failure, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient

@@ -1,0 +1,554 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["abnormal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["abnormal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["abnormal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal axial chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["pain in the chest area"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Chest pain"
+}
+]
+}
+]
+},
+{
+"name": "Fever",
+"context": ["temperature above 37.5°C (99.6°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Fever"
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["white blood cell count above 12,000 per μL (12.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Leukocytosis"
+}
+]
+}
+]
+},
+{
+"name": "Pain in the right lower quadrant",
+"context": ["pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain in the right lower quadrant"
+}
+]
+}
+]
+},
+{
+"name": "Rigidity of the abdominal wall",
+"context": ["stiffness or rigidity of the abdominal wall"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Rigidity of the abdominal wall"
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature above 37.5°C (99.6°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated temperature"
+}
+]
+}
+]
+},
+{
+"name": "White blood cell count",
+"context": ["white blood cell count above 12,000 per μL (12.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Leukocytosis"
+}
+]
+}
+]
+},
+{
+"name": "Worsening of symptoms",
+"context": ["progression or worsening of the patient's symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Worsening of symptoms"
+}
+]
+}
+]
+},
+{
+"name": "X-ray findings",
+"context": ["abnormal x-ray findings in the chest area"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal x-ray findings"
+}
+]
+}
+]
+},
+{
+"name": "Yellowish skin or eyes",
+"context": ["yellowish appearance of the skin or eyes"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Jaundice"
+}
+]
+}
+]
+},
+{
+"name": "Zigzag pattern on chest X-ray",
+"context": ["a zigzag or wavy pattern seen on a chest X-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pneumonia"
+}
+]
+}
+]
+},
+{
+"name": "Abdominal distension",
+"context": ["swelling or enlargement of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abdominal distension"
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["loss of appetite or aversion to food"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Anorexia"
+}
+]
+}
+]
+},
+{
+"name": "Nausea and vomiting",
+"context": ["feeling sick or uneasy, along with the act of vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Nausea and vomiting"
+}
+]
+}
+]
+},
+{
+"name": "Pain in the right lower quadrant with coughing/hopping/percussion",
+"context": ["pain in the right lower quadrant of the abdomen that worsens when the patient coughs, hops, or experiences percussion (tapping)],",
+"patient_inferences: [",
+  "{"
+  , "label" ,"Pain in the right lower quadrant with coughing/hopping/percussion"
+  , "}"
+]
+
+,
+
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal chest X-ray"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest CT-scan"
+}
+],
+"age": {
+"value": 20,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Abnormal axial chest CT-scan"
+}
+],
+"age": {
+"value": 18,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Chest pain"
+}
+],
+"age": {
+"value": 35,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Fever"
+}
+],
+"age": {
+"value": 28,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Leukocytosis"
+}
+],
+"age": {
+"value": 30,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Pain in the right lower quadrant"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Rigidity of the abdominal wall"
+}
+],
+"age": {
+"value": 31,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Temperature"
+}
+],
+"age": {
+"value": 29,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "White blood cell count"
+}
+],
+"age": {
+"value": 34,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Worsening of symptoms"
+}
+],
+"age": {
+"value": 26,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "X-ray findings"
+}
+],
+"age": {
+"value": 30,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Yellowish skin or eyes"
+}
+],
+"age": {
+"value": 24,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Zigzag pattern on chest X-ray"
+}
+],
+"age": {
+"value": 31,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Abdominal distension"
+}
+],
+"age": {
+"value": 29,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Anorexia"
+}
+],
+"age": {
+"value": 35,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Nausea and vomiting"
+}
+],
+"age": {
+"value": 27,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Pain in the right lower quadrant with coughing/hopping/percussion"
+}
+],
+"age": {
+"value": 30,
+"unit": "years"
+}
+}
+]
+
+}
+
+,
+
+{"name": "Abnormal chest X-ray",
+"context": ["abnormal findings on a chest X-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal chest X-ray"
+}
+]
+}
+]
+},
+{
+"name": "Abnormal coronal chest CT-scan",
+"context": ["abnormal findings on a coronal chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest CT-scan"
+}
+]
+}
+]
+},
+{
+"name": "Abnormal axial chest CT-scan",
+"context": ["abnormal findings on an axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal axial chest CT-scan"
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["pain in the chest area"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Chest pain"
+}
+]
+}
+]
+},
+{
+"name": "Fever",
+"context": ["temperature above 37.5°C (99.6°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated temperature"
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["white blood cell count above 12,000 per μL (12.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Leukocytosis"
+}
+]
+}
+]
+},
+{
+"name": "Pain in the right lower quadrant",
+"context": ["pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain in the right lower quadrant"
+}
+]
+}
+]
+},
+{
+"name": "Rigidity of the abdominal wall",
+"context": ["stiffness or rigidity of the abdominal wall"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Rigidity of the abdominal wall"
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature above 37.5°C (99.6°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated temperature"
+}
+]
+}
+]
+},
+{
+"name": "White blood cell count",
+"context": ["white blood cell count above 

@@ -1,0 +1,92 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office Blood Pressure Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office Blood Pressure Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 79,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Elevated BP",
+        "Office Blood Pressure Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Elevated BP",
+        "Office Blood Pressure Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ]
+    }
+  ]
+}

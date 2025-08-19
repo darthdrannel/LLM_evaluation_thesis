@@ -1,0 +1,333 @@
+{
+  "observations": [
+    {
+      "name": "Blood pressure measurement",
+      "context": ["Clinical examination room"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normalization of blood pressure measurement",
+              "value_criterion": {
+                "value": 100,
+                "unit": "mmHg",
+                "operator": ">"
+              }
+            },
+            {
+              "label": "Low normalization of systolic blood pressure measurement",
+              "value_criterion": {
+                "value": 95,
+                "unit": "mmHg",
+                "operator": ">"
+              }
+            },
+            {
+              "label": "Normalization of diastolic blood pressure measurement",
+      "value_criterion": {
+        "value": 60,
+        "unit": "mmHg",
+        "operator": ">"
+      }
+    },
+    {
+      "label": "No normalization of the blood pressure measurement",
+      "value_criterion": {
+        "value": 20,
+        "unit": "mmHg",
+        "operator": "="
+      }
+    }],
+    "age": {
+      "value": 79,
+      "unit": "years"
+    }
+  }] },
+  {
+    "name": "Arterial hypertension diagnosis",
+    "context": ["Clinical examination room"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Normalization of blood pressure measurements in a general population sample",
+            "value_criterion": {
+              "value": 102.9,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "Abnormal normalization of systolic arterial pressures (SAP) in the general population sample",
+            "value_criterion": {
+              "value": 102.9,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "Abnormal normalization of diastolic arterial pressures (DAP) in the general population sample",
+      "value_criterion": {
+        "value": 56.0,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Abnormal normalization of either SAP or DAP in the general population sample",
+      "value_criterion": {
+        "value": 1,
+        "unit": "N/A"
+      }
+    }],
+    "age": {
+      "value": 60.6,
+      "unit": "years"
+    }
+  }] },
+  {
+    "name": "Orthostatic hypotension assessment",
+    "context": ["Clinical examination room"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Normalization of systolic blood pressure measurements in a general population sample after 2 minutes of standing",
+            "value_criterion": {
+              "value": 136.3,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "Normalization of systolic blood pressure measurements in a general population sample after 5 minutes of standing",
+            "value_criterion": {
+              "value": 124.7,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "Normalization of diastolic blood pressure measurements in a general population sample after 5 minutes of standing",
+      "value_criterion": {
+        "value": 70.6,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Abnormal normalization of systolic blood pressure measurements after 2 minutes of standing in the general population sample",
+      "value_criterion": {
+        "value": 100.6,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Low normalization of systolic blood pressure measurements after 2 minutes of standing in the general population sample",
+      "value_criterion": {
+        "value": 104.6,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Low normalization of diastolic blood pressure measurements after 2 minutes of standing in the general population sample",
+      "value_criterion": {
+        "value": 49.3,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Very low normalization of diastolic blood pressure measurements after 2 minutes of standing in the general population sample",
+      "value_criterion": {
+        "value": 40.8,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Low normalization of diastolic blood pressure measurements after 5 minutes of standing in the general population sample",
+      "value_criterion": {
+        "value": 62.3,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Low normalization of diastolic blood pressure measurements after 60 minutes of standing in the general population sample",
+      "value_criterion": {
+        "value": 48.5,
+        "unit": "mmHg"
+      }
+    },
+    {
+      "label": "Abnormal normalization of either systolic or diastolic blood pressure measurements after standing for a certain period in the general population sample",
+      "value_criterion": {
+        "value": 1,
+        "unit": "N/A"
+      }
+    },
+    {
+      "label": "Abnormal normalization of diastolic blood pressure measurements after standing for a certain period in the general population sample",
+      "value_criterion": {
+        "value": 1,
+        "unit": "N/A"
+      }
+    }],
+    "age": {
+      "value": 64.0,
+      "unit": "years"
+    }
+  }] },
+  {
+    "name": "Frailty assessment",
+    "context": ["Clinical examination room"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Meeting the Clinical Research Network Frailty Phenotype 5-6 criteria using grip strength, chair rise test, and walking speed",
+      "value_criterion": {
+        "value": 1,
+        "unit": "<30 kg (men" ,"operator": "<" }
+      }
+    ]
+    },
+    {
+      "inferences": [
+        {
+          "label": "Meeting the Clinical Research Network Frailty Phenotype 4-5 criteria using grip strength, chair rise test, and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<32 kg (men" ,"operator": "<" }
+      }
+    ]
+    },
+    {
+      "inferences": [
+        {
+          "label": "Meeting the Clinical Research Network Frailty Phenotype 4-5 criteria using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<32 kg (men" ,"operator": "<" }
+      }
+    ]
+    },
+    {
+      "inferences": [
+        {
+          "label": "Meeting the Clinical Research Network Frailty Phenotype 5-6 criteria using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<30 kg (men" ,"operator": "<" }
+      }
+    ]
+    },
+    {
+      "inferences": [
+        {
+          "label": "Meeting the Clinical Research Network Frailty Phenotype 2 criteria using walking speed and an unsuccessful chair rise test",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<1.8 m/s (men" ,"operator": ">" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 3 criterion using grip strength",
+        "value_criterion": {
+          "value": 1,
+          "unit": "<28 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 5 criterion using grip strength",
+        "value_criterion": {
+          "value": 1,
+          "unit": "<26 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 4 criterion using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<28 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 5-6 criteria using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<30 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 5-6 criteria using walking speed and an unsuccessful chair rise test",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<1.8 m/s (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 7 criterion using grip strength",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<24 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 5 criterion using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<26 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 6 criterion using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<24 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 3-4 criteria using walking speed and an unsuccessful chair rise test",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<1.6 m/s (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 3-4 criteria using grip strength",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<28 kg (men" ,"operator": ">=" }
+      }
+    ]
+  },
+  {
+    "inferences": [
+      {
+        "label": "Meeting the Clinical Research Network Frailty Phenotype 4-5 criteria using grip strength and walking speed",
+          "value_criterion": {
+            "value": 1,
+            "unit": "<28 kg (men" ,"operator": ">=" }

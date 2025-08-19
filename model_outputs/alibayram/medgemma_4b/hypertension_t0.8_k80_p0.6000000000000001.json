@@ -1,0 +1,490 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office systolic BP",
+        "Office diastolic BP",
+        "Out-of-office systolic BP",
+        "Out-of-office diastolic BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {

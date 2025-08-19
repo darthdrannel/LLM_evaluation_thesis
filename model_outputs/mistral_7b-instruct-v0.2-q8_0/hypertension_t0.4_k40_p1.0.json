@@ -1,0 +1,75 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["ESH Guidelines", "2024"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP measured using validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": ""
+}
+},
+{
+"label": "BP measurement enforced with correct technique",
+"value_criterion": {
+"value": 1,
+"unit": ""
+}
+},
+{
+"label": "Consistent approach to BP measurement for each patient",
+"value_criterion": {
+"value": 1,
+"unit": ""
+}
+},
+{
+"label": "Out-of-office BP measurement for diagnostic purposes",
+"value_criterion": {
+"value": 1,
+"unit": ""
+}
+},
+{
+"label": "Repeat office BP measurement if out-of-office not feasible",
+"value_criterion": {
+"value": 1,
+"unit": ""
+}
+},
+{
+"label": "BP measurement using manual auscultatory method in AF",
+"value_criterion": {
+"value": 0,
+"unit": ""
+}
+},
+{
+"label": "Assessment for orthostatic hypotension considered at diagnosis and symptom onset",
+"value_criterion": {
+"value": 1,
+"unit": ""
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension Diagnosis",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}
+
+																				

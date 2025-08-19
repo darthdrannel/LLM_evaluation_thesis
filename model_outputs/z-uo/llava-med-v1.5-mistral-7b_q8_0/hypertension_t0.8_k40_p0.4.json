@@ -1,0 +1,510 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension",
+"context": ["systolic BP drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Orthostatic Hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Frailty Assessment",
+"context": ["frailty assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Frailty",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "Age Assessment",
+"context": ["age assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Age-related Frailty",
+"value_criterion": {
+"value": 85,
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "Sex Assessment",
+"context": ["sex assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Female",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+},
+{
+"label": "Male",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "Lived Experiences Assessment",
+"context": ["lived experiences assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Lived Experiences of Hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Target Assessment",
+"context": ["BP target assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Target Systolic BP of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target Systolic BP of <120 mmHg",
+"value_criterion": {
+"value": 119,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Monitoring Assessment",
+"context": ["BP monitoring assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate BP Monitoring",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Inadequate BP Monitoring",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Assessment",
+"context": ["BP treatment assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Target Systolic BP of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target Systolic BP of <120 mmHg",
+"value_criterion": {
+"value": 119,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Adherence Assessment",
+"context": ["BP treatment adherence assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adherent to BP Treatment",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Non-adherent to BP Treatment",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Intolerance Assessment",
+"context": ["BP treatment intolerance assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Intolerant to BP Treatment",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Tolerant to BP Treatment",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Effectiveness Assessment",
+"context": ["BP treatment effectiveness assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Effective BP Treatment",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Ineffective BP Treatment",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Duration Assessment",
+"context": ["BP treatment duration assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Short BP Treatment Duration (<1 year)",
+"value_criterion": {
+"value": 0,
+"unit": "years"
+}
+},
+{
+"label": "Long BP Treatment Duration (≥1 year)",
+"value_criterion": {
+"value": 1,
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Adverse Effects Assessment",
+"context": ["BP treatment adverse effects assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No BP Treatment Adverse Effects",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+},
+{
+"label": "BP Treatment Adverse Effects Present",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Compliance Assessment",
+"context": ["BP treatment compliance assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Compliant with BP Treatment",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Non-compliant with BP Treatment",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Cost Assessment",
+"context": ["BP treatment cost assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low BP Treatment Cost",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+},
+{
+"label": "High BP Treatment Cost",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Availability Assessment",
+"context": ["BP treatment availability assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Available BP Treatment",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Unavailable BP Treatment",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Accessibility Assessment",
+"context": ["BP treatment accessibility assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Accessible BP Treatment",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Inaccessible BP Treatment",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Effectiveness Assessment (Office Systolic BP)",
+"context": ["BP treatment effectiveness assessment for office systolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Effective BP Treatment (<120 mmHg)",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Ineffective BP Treatment (≥120 mmHg)",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Effectiveness Assessment (Office Diastolic BP)",
+"context": ["BP treatment effectiveness assessment for office diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Effective BP Treatment (<90 mmHg)",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Ineffective BP Treatment (≥90 mmHg)",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Effectiveness Assessment (Ambulatory Systolic BP)",
+"context": ["BP treatment effectiveness assessment for ambulatory systolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Effective BP Treatment (<120 mmHg)",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Ineffective BP Treatment (≥120 mmHg)",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Effectiveness Assessment (Ambulatory Diastolic BP)",
+"context": ["BP treatment effectiveness assessment for ambulatory diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Effective BP Treatment (<90 mmHg)",
+"value_criterion": {
+"value": 1,
+"unit": "score"
+}
+},
+{
+"label": "Ineffective BP Treatment (≥90 mmHg)",
+"value_criterion": {
+"value": 0,
+"unit": "score"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Treatment Effectiveness Assessment (Ambulatory Pulse Wave Velocity)",
+"context": ["BP treatment effectiveness assessment for ambulatory pulse wave velocity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Effective B

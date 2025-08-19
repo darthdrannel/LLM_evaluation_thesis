@@ -1,0 +1,108 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": null
+            },
+            {
+              "label": "Elevated",
+              "value_criterion": {
+                "value": [120, 139],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Stage 1 Hypertension",
+              "value_criterion": {
+                "value": [140, 159],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Stage 2 Hypertension",
+              "value_criterion": {
+                "value": [160, 179],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Stage 3 Hypertension",
+              "value_criterion": {
+                "value": [180, 189],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Severe Stage 3 Hypertension",
+              "value_criterion": {
+                "value": [190, 209],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Very Severe Stage 3 Hypertension",
+              "value_criterion": {
+                "value": [210, 229],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Extremely Severe Stage 3 Hypertension",
+              "value_criterion": {
+                "value": [230, 239],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial Diagnosis"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {
+                "value": [20, 10],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Absent",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension Stage 1",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension Stage 2",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension Stage 3",
+      "observations": ["Blood Pressure"]
+    }
+  ]
+}
+
+       

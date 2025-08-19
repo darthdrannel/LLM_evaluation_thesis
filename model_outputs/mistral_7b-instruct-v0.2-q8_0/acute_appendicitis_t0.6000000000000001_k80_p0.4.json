@@ -1,0 +1,133 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+ "value_criterion": {
+  "value": 37.3,
+  "unit": "°C"
+}
+},
+{
+"label": "Present",
+ "value_criterion": {
+  "value": 1,
+  "unit": ""
+}
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+  "value": 10000,
+  "unit": "per μL"
+}
+},
+{
+"label": "Elevated",
+ "value_criterion": {
+  "value": 10000,
+  "unit": "per μL"
+}
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+ "value_criterion": {
+  "value": 75,
+  "unit": "%"
+}
+},
+{
+"label": "Present",
+ "value_criterion": {
+  "value": 1,
+  "unit": ""
+}
+}
+],
+"gender": null,
+"age": null
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Suspected Appendicitis (Alvarado Score)",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Suspected Appendicitis (Pediatric Score)",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain with Coughing/Hopping/Percussion", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Appendicitis Inflammatory Response",
+"observations": ["Vomiting", "Right Iliac Fossa Pain", "Rebound Pain (Light)", "Rebound Pain (Medium)", "Rebound Pain (Strong)", "Temperature", "Leukocytosis", "PMN percentage", "CRP"]
+}
+]
+}

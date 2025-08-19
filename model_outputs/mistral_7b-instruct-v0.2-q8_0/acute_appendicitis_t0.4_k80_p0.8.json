@@ -1,0 +1,147 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Points"
+}
+},
+{
+"label": "Migrating",
+"value_criterion": {
+"value": [1, 2],
+"unit": "Points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+},
+{
+"label": "Feverish",
+"value_criterion": {
+"value": [38, 100.4],
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [10000, 14900],
+"unit": "per μL"
+}
+},
+{
+"label": "Significant",
+"value_criterion": {
+"value": 15000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN Count",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+"value_criterion": {
+"value": 75,
+"unit": "%"
+}
+},
+{
+"label": "Significantly Elevated",
+"value_criterion": {
+"value": 85,
+"unit": "%"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN Count"]
+}
+]
+}

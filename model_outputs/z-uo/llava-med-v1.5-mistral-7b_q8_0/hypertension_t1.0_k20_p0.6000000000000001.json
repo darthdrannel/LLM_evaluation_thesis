@@ -1,0 +1,76 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office setting", "automated oscillometric monitor"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure (Hypotension)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg",
+"operator": "<"
+}
+},
+{
+"label": "Normal Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "High Blood Pressure (Hypertension)",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension",
+"context": ["initial diagnosis of elevated BP or hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure (Hypotension)",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg",
+"operator": "<"
+}
+},
+{
+"label": "Normal Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (EBP)"
+ 																			,
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Hypertension"
+																		,
+"observations": ["Blood Pressure"]
+}
+]
+}

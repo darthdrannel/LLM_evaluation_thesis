@@ -1,0 +1,2 @@
+{"observations": [{"name": "Migration of pain", "context": ["Alvarado score"], "patient_inferences": [{"inferences": [{"label": "elevated", "value_criterion": {"value": 1, "unit": "points"}}]} ]}], "conditions": [{"name": "Alvarado score", "observations": ["Migration of pain", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Rebound pain", "Temperature ≥ 37.3°C (99.1°F)", "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)", "PMN ≥ 75%"]}]}
+

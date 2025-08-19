@@ -1,0 +1,488 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["CP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild chest pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pain in the right lower quadrant",
+"context": ["RLQP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild pain in the right lower quadrant"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["T"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal temperature"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["LK"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal leukocytosis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMNP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal PMN percentage"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal CRP level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying Alvarado score",
+"context": ["AS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Alvarado score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying Pediatric Appendicitis Score",
+"context": ["PAS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Pediatric Appendicitis Score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying Appendicitis Inflammatory Response score",
+"context": ["AIRS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Appendicitis Inflammatory Response score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for appendicitis",
+"context": ["AC"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for appendicitis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis",
+"context": ["ACA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis",
+"context": ["ACCH"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with perforation",
+"context": ["ACAP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with perforation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with perforation",
+"context": ["ACCHP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with perforation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with abscess formation",
+"context": ["ACAB"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with abscess formation",
+"context": ["ACCHAB"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with perforation and abscess formation",
+"context": ["ACAPAB"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with perforation and abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with perforation and abscess formation",
+"context": ["ACCHPAB"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with perforation and abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with inflammatory changes in the surrounding tissues",
+"context": ["ACAI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with inflammatory changes in the surrounding tissues",
+"context": ["ACCHI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with perforation and inflammatory changes in the surrounding tissues",
+"context": ["ACAPAI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with perforation and inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with perforation and inflammatory changes in the surrounding tissues",
+"context": ["ACCHPAI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with perforation and inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with abscess formation and inflammatory changes in the surrounding tissues",
+"context": ["ACABI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with abscess formation and inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with abscess formation and inflammatory changes in the surrounding tissues",
+"context": ["ACCHABI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with abscess formation and inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with perforation, abscess formation, and inflammatory changes in the surrounding tissues",
+"context": ["ACAPABI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with perforation, abscess formation, and inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with perforation, abscess formation, and inflammatory changes in the surrounding tissues",
+"context": ["ACCHPABI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with perforation, abscess formation, and inflammatory changes in the surrounding tissues"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with inflammatory changes in the surrounding tissues without perforation or abscess formation",
+"context": ["ACAI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with inflammatory changes in the surrounding tissues without perforation or abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with inflammatory changes in the surrounding tissues without perforation or abscess formation",
+"context": ["ACCHI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for chronic appendicitis with inflammatory changes in the surrounding tissues without perforation or abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for acute appendicitis with perforation and inflammatory changes in the surrounding tissues without abscess formation",
+"context": ["ACAPAI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal criteria for acute appendicitis with perforation and inflammatory changes in the surrounding tissues without abscess formation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Applying the criteria for chronic appendicitis with perforation and inflammatory changes in the surrounding tissues without abscess formation",
+"context": ["ACCHPAI"],
+"patient_inferences": [
+{
+"inferences": [

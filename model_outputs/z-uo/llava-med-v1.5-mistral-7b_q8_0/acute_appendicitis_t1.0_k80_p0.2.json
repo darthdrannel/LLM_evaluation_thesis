@@ -1,0 +1,70 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["abnormal findings in the chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal finding in the chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["abnormal findings in the coronal chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal finding in the coronal chest CT-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["abnormal findings in the axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Abnormal finding in the axial chest CT-scan"
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["age of the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Age of the patient"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray abnormality",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan abnormality",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan abnormality",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

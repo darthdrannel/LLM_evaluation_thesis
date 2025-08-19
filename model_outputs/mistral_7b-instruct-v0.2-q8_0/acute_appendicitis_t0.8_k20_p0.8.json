@@ -1,0 +1,164 @@
+{
+"observations": [
+{
+"name": "Patient Temperature",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Fever", "value_criterion": {"value": [37.3, 38], "unit": "°C"}}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Elevated White Blood Cell Count", "value_criterion": {"value": [10000, 15000], "unit": "per μL"}}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Tender", "value_criterion": {"value": 1, "unit": "points"}}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Lack of Appetite", "value_criterion": {"value": 1, "unit": "points"}}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Vomiting", "value_criterion": {"value": 1, "unit": "points"}},
+{"label": "Nausea", "value_criterion": {"value": 1, "unit": "points"}}
+]
+}
+]
+},
+{
+"name": "Rebound Pain",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": {"value": 1, "unit": "points"}},
+{"label": "Medium Intensity", "value_criterion": {"value": 2, "unit": "points"}}
+]
+}
+]
+},
+{
+"name": "Right Iliac Fossa Pain",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": {"value": 1, "unit": "points"}}
+]
+}
+]
+},
+{
+"name": "PMN %",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Elevated", "value_criterion": {"value": [75, 85], "unit": "%"}},
+{"label": "Very Elevated", "value_criterion": {"value": [85, 100], "unit": "%"}}
+]
+}
+]
+},
+{
+"name": "CRP Level",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal to Moderately Elevated", "value_criterion": {"value": [10, 49], "unit": "g per L"}},
+{"label": "Severely Elevated", "value_criterion": {"value": [50, 150], "unit": "g per L"}}
+]
+}
+]
+},
+{
+"name": "Patient Age",
+"context": ["Demographics"],
+"patient_inferences": []
+}
+],
+"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": [
+"Patient Temperature",
+"Leukocytosis",
+"Right Lower Quadrant Tenderness",
+"Anorexia",
+"Nausea/Vomiting",
+"Rebound Pain"
+]
+},
+{
+"name": "Mild Appendicitis",
+"observations": [
+"Patient Temperature",
+"Leukocytosis",
+"Right Lower Quadrant Tenderness",
+"Anorexia",
+"Nausea/Vomiting",
+"Rebound Pain",
+"PMN %",
+"CRP Level"
+]
+},
+{
+"name": "Moderate Appendicitis",
+"observations": [
+"Patient Temperature",
+"Leukocytosis",
+"Right Lower Quadrant Tenderness",
+"Anorexia",
+"Nausea/Vomiting",
+"Rebound Pain",
+"PMN %",
+"CRP Level"
+]
+},
+{
+"name": "Severe Appendicitis",
+"observations": [
+"Patient Temperature",
+"Leukocytosis",
+"Right Lower Quadrant Tenderness",
+"Anorexia",
+"Nausea/Vomiting",
+"Rebound Pain",
+"PMN %",
+"CRP Level"
+]
+}
+]
+}

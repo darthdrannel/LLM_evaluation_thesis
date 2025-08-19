@@ -1,0 +1,122 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Clinical Assessment", "Diagnostic Tools"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 3, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 5, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Clinical Assessment", "Diagnostic Tools"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 4, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 8, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Clinical Assessment", "Diagnostic Tools"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 5, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 10, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Migration of Pain",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 1, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 2, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 1, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 2, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Nausea/Vomiting",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 1, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 2, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Tenderness",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 1, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 2, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Rebound Pain",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 1, "unit": ""}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 2, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 36.5, "unit": "°C"}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 37.3, "unit": "°C"}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 38.5, "unit": "°C"}}]}
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 10, "unit": "per μL"}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 15, "unit": "per μL"}}]}
+      ]
+    },
+    {
+      "name": "PMN",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 75, "unit": "%"}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 85, "unit": "%"}}]}
+      ]
+    },
+    {
+      "name": "CRP",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "normal", "value_criterion": {"value": 10, "unit": "g/L"}}]},
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": 50, "unit": "g/L"}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Appendicitis",
+      "observations": ["Migration of Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN", "CRP"]
+    }
+  ]
+}

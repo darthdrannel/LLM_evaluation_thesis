@@ -1,0 +1,58 @@
+{
+"observations": [
+{
+"name": "Blood pressure measurement technique",
+"context": ["office setting", "non-invasive method"],
+"patient_inferences": [
+{
+"inferences": [{
+"label": "Correct measurement technique applied"
+}]
+},
+{
+"inferences": [{
+"label": "Blood pressure measured using a validated and calibrated device"
+}]
+}
+]
+},
+{
+"name": "Out-of-office blood pressure measurement",
+"context": ["diagnostic purposes"],
+"patient_inferences": [
+{
+"inferences": [{
+"label": "Blood pressure measured using a validated and calibrated device"
+}]
+},
+{
+"inferences": [{
+"label": "Office BP measurement confirmed with a repeat office BP measurement"
+}]
+}
+]
+},
+{
+"name": "Assessment for orthostatic hypotension",
+"context": ["initial diagnosis of elevated blood pressure or hypertension"],
+"patient_inferences": [
+{
+"inferences": [{
+"label": "Blood pressure measurement technique applied correctly"
+}]
+},
+{
+"inferences": [{
+"label": "Blood pressure assessment performed at least once after the patient is first lying or sitting for 5 min"
+}]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated blood pressure or hypertension"
+  																		,"observations": ["Blood pressure measurement technique", "Out-of-office blood pressure measurement"]
+}
+]
+}

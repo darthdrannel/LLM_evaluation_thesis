@@ -1,0 +1,64 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {"value": [120, 139], "unit": "mmHg"}
+            },
+            {
+              "label": "hypertensive",
+              "value_criterion": {"value": [140, 180], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["Patient's medical history"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "frailty",
+              "value_criterion": {"value": [85], "unit": "years"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis of elevated BP or hypertension"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": {"value": [20, 10], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Frailty",
+      "observations": ["Age"]
+    }
+  ]
+}

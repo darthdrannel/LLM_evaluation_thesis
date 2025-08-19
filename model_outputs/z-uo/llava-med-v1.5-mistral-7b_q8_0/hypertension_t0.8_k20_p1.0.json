@@ -1,0 +1,32 @@
+{
+  "observations": [
+    {
+      "name": "blood_pressure",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Blood pressure assessment"
+            },
+            {
+              "label": "Inadequate blood pressure management"
+            }
+          ],
+          "gender": null,
+          "age": null
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "elevated_blood_pressure",
+      "observations": ["blood_pressure"]
+    },
+    {
+      "name": "hypertension",
+      "observations": ["blood_pressure"]
+    }
+  ]
+}

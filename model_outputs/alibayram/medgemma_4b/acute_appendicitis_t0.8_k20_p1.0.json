@@ -1,0 +1,540 @@
+{
+  "observations": [
+    {
+      "name": "Migration of pain",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nausea/vomiting",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right lower quadrant tenderness",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound pain",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature ≥ 37.3°C (99.1°F)",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN ≥ 75%",
+      "context": [
+        "Alvarado score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Migration of pain",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nausea/vomiting",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right lower quadrant tenderness",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound pain",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature ≥ 38°C (100.4°F)",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN ≥ 75%",
+      "context": [
+        "Pediatric Appendicitis Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "context": [
+        "Appendicitis Inflammatory Response Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Iliac fossa pain",
+      "context": [
+        "Appendicitis Inflammatory Response Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound pain, light",
+      "context": [
+        "Appendicitis Inflammatory Response Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound pain, medium",
+      "context": [
+        "Appendicitis Inflammatory Response Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound pain, strong",
+      "context": [
+        "Appendicitis Inflammatory Response Score"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "label": "normal",
+              "value_

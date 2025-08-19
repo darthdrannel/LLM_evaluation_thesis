@@ -1,0 +1,70 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal lung fields", "no pleural effusion"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray findings"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["no pleural effusion", "no pneumothorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan findings"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["no pleural effusion", "no pneumothorax"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan findings"
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["18 years old"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adult patient"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray findings",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan findings",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan findings",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

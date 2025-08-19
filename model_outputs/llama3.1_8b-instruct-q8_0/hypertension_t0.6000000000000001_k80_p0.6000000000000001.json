@@ -1,0 +1,101 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "elevated", "value_criterion": {"value": [120, 139], "unit": "mmHg"}},
+            {"label": "hypertension", "value_criterion": {"value": [140, 180], "unit": "mmHg"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "present", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": ["Older age", "Limited life expectancy"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "moderate-to-severe", "value_criterion": null}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respiratory Rate",
+      "context": ["Symptomatic orthostatic hypotension"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "normal", "value_criterion": {"value": [12, 20], "unit": "breaths/min"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["General population"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "adult", "value_criterion": {"value": [18, 65], "unit": "years"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gender",
+      "context": ["Biological condition"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "female", "value_criterion": null},
+            {"label": "male", "value_criterion": null}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardiovascular Disease Risk",
+      "context": ["High risk"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "high", "value_criterion": null}
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": ["Orthostatic Hypotension"]
+    },
+    {
+      "name": "Frailty",
+      "observations": ["Frailty"]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["BP measurement", "office visit"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": [140, 90],
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["BP assessment", "initial diagnosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Negative",
+"value_criterion": {
+"value": [0, 0],
+"unit": "mmHg"
+}
+},
+{
+"label": "Positive",
+"value_criterion": {
+"value": [20, 10],
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+																				

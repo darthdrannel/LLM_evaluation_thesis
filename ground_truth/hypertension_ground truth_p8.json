@@ -1,0 +1,126 @@
+{
+  "observations": [
+    {
+      "name": "systolic Blood Pressure",
+      "context": [
+        "Office"
+      ],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [
+                  120,
+                  139
+                ],
+                "unit": "mmHg",
+                "operator": null
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "diastolic Blood Pressure",
+      "context": [
+        "Office"
+      ],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [
+                  70,
+                  89
+                ],
+                "unit": "mmHg",
+                "operator": null
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "systolic Blood Pressure Drop",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "large",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "diastolic Blood Pressure Drop",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "large",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "hypertension",
+      "observations": [
+        "systolic Blood Pressure",
+        "diastolic Blood Pressure"
+      ]
+    },
+    {
+      "name": "orthostatic hypotension",
+      "observations": [
+        "systolic Blood Pressure Drop",
+        "diastolic Blood Pressure Drop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "2024 ESC/ESH Guidelines on the management of arterial hypertension",
+        "Updated guidelines incorporating new evidence",
+        "Target systolic BP of 120-129 mmHg",
+        "Elevated BP defined as 120-139 mmHg or 70-89 mmHg diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ],
+          "gender": null,
+          "age": null
+        }
+      ]
+    },
+    {
+      "name": "Office Systolic Blood Pressure",
+      "context": [
+        "≥140 mmHg",
+        "≥90 mmHg diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ],
+          "gender": null,
+          "age": null
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office systolic BP 120-139 mmHg",
+        "Diastolic BP 70-89 mmHg"
+      ]
+    }
+  ]
+}

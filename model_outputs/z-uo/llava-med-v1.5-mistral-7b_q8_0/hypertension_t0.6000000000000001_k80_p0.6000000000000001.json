@@ -1,0 +1,384 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Elevated BP (BP < Hypertension)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<"
+}
+},
+{
+"label": "Normal BP (BP > Elevated BP and < Hypertension)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg",
+"operator": ">"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Out-of-Office BP Measurement for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Repeat Office BP Measurement for Diagnostic Purposes (when out-of-office measurements are not feasible)",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Assessment for Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Atrial Fibrillation (AF)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in the Emergency Department (ED)",
+"context": ["blood pressure measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Measurement in the ED",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Frailty Assessment",
+"context": ["frailty assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Frailty Assessment in the Initial Diagnosis of Elevated BP or Hypertension and Thereafter if Suggestive Symptoms Arise",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Orthostatic Hypotension (OH)",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with White-Coat Hypertension (WCH)",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for White-Coat Hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Masked Hypertension (MH)",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Masked Hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Symptomatic Orthostatic Hypotension (SOH)",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Symptomatic Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Suggestive Symptoms of Orthostatic Hypotension (SOH)",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Suggestive Symptoms of Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Cardiovascular Disease (CVD)",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Orthostatic Hypotension in Patients with CVD",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in the Emergency Department (ED) for Diagnostic Purposes",
+"context": ["blood pressure measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Measurement in the ED for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with White-Coat Hypertension (WCH) for Diagnostic Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for White-Coat Hypertension in Patients with WCH for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Masked Hypertension (MH) for Diagnostic Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Masked Hypertension in Patients with MH for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Symptomatic Orthostatic Hypotension (SOH) for Diagnostic Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Symptomatic Orthostatic Hypotension in Patients with SOH for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Suggestive Symptoms of Orthostatic Hypotension (SOH) for Diagnostic Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Suggestive Symptoms of Orthostatic Hypotension in Patients with SOH for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Cardiovascular Disease (CVD) for Diagnostic Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Orthostatic Hypotension in Patients with CVD for Diagnostic Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in the Emergency Department (ED) for Treatment Purposes",
+"context": ["blood pressure measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood Pressure Measurement in the ED for Treatment Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with White-Coat Hypertension (WCH) for Treatment Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for White-Coat Hypertension in Patients with WCH for Treatment Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Masked Hypertension (MH) for Treatment Purposes",
+"context": ["≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for Masked Hypertension in Patients with MH for Treatment Purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Patients with Symptomatic Orthostatic Hypotension (SOH) for Treatment Purposes",
+"context": ["≥20 systolic BP and/or ≥10 di

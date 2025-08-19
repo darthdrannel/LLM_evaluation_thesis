@@ -1,0 +1,113 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP Measurement",
+        "Orthostatic Hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "context": [
+        "120-129 mmHg",
+        "Target BP",
+        "CVD Outcomes"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Diagnosis",
+        "Measurement Technique",
+        "Patient Symptoms"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Systolic Blood Pressure of 120–139 mmHg",
+        "Diastolic Blood Pressure of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Systolic Blood Pressure ≥140 mmHg",
+        "Diastolic Blood Pressure ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Systolic BP drop ≥20 mmHg",
+        "Diastolic BP drop ≥10 mmHg"
+      ]
+    }
+  ]
+}

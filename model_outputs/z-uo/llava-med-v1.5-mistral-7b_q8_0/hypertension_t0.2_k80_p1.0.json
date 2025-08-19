@@ -1,0 +1,83 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office", "out-of-office"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 130,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Masked Hypertension",
+"value_criterion": {
+"value": 135,
+"unit": "mmHg"
+}
+},
+{
+"label": "White-Coat Hypertension",
+"value_criterion": {
+"value": 125,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["initial diagnosis of elevated BP or hypertension", "suggestive symptoms arise"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Orthostatic Hypotension",
+"value_criterion": {
+"value": 10,
+"unit": "mmHg"
+}
+},
+{
+"label": "Abnormal Orthostatic Hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP) and Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}

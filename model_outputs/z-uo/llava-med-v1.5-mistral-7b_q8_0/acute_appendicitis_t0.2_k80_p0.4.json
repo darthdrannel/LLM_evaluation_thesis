@@ -1,0 +1,343 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is experiencing chest pain, which may be related to a condition affecting the chest area."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["score of 12 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pediatric appendicitis score is 12 points, which may indicate a higher likelihood of appendicitis. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["score of 12 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's appendicitis inflammatory response score is 12 points, which may suggest an ongoing inflammatory process in the appendix. However, it is essential to consider other clinical findings and consult a healthcare professional for a comprehensive evaluation and accurate diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP level of 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CRP level is elevated at 50 g per L. Elevated CRP levels can be indicative of inflammation or infection in the body. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "PMN level",
+"context": ["PMN level of 85%"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's PMN (polymorphonuclear leukocytes) level is elevated at 85%. Elevated PMN levels can be indicative of an ongoing inflammatory process or infection in the body. However, it is important to consider other clinical findings and consult a healthcare professional for a comprehensive evaluation and accurate diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature of 38.5°C (101.3°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's temperature is elevated at 38.5°C (101.3°F). Elevated temperatures can be indicative of inflammation or infection in the body. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["leukocytosis with 15,000 per μL (15.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has leukocytosis, which means an increased number of white blood cells in their blood. This can be indicative of an ongoing inflammatory process or infection in the body. However, it is important to consider other clinical findings and consult a healthcare professional for a comprehensive evaluation and accurate diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "MRI scan",
+"context": ["normal mri scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's MRI scan appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "Ultrasound scan",
+"context": ["normal ultrasound scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's ultrasound scan appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the abdomen",
+"context": ["normal ct scan of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the abdomen appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the pelvis",
+"context": ["normal ct scan of the pelvis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the pelvis appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the chest",
+"context": ["normal ct scan of the chest"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the chest appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the neck",
+"context": ["normal ct scan of the neck"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the neck appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the head",
+"context": ["normal ct scan of the head"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the head appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the pelvis with contrast",
+"context": ["normal ct scan of the pelvis with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the pelvis with contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the chest with contrast",
+"context": ["normal ct scan of the chest with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the chest with contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the neck with contrast",
+"context": ["normal ct scan of the neck with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the neck with contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the head with contrast",
+"context": ["normal ct scan of the head with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the head with contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the pelvis without contrast",
+"context": ["normal ct scan of the pelvis without contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the pelvis without contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the chest without contrast",
+"context": ["normal ct scan of the chest without contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the chest without contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the neck without contrast",
+"context": ["normal ct scan of the neck without contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the neck without contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the head without contrast",
+"context": ["normal ct scan of the head without contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the head without contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the pelvis with contrast and without contrast",
+"context": ["normal ct scan of the pelvis with contrast and without contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CT scan of the pelvis with contrast and without contrast appears to be normal, which means that no significant abnormalities were detected in the scanned area. However, it is important to consider other clinical findings and consult a healthcare professional for a thorough evaluation and proper diagnosis."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the chest with contrast and without contrast",
+"context": ["normal ct scan of the chest with contrast and without contrast"],

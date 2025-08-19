@@ -1,0 +1,494 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High Blood Pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension",
+"context": ["systolic BP drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Orthostatic Hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Out-of-Office BP Monitoring",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Frailty Assessment",
+"context": ["frailty assessment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Frailty Assessment",
+"value_criterion": {
+"value": 1,
+"unit": "assessment"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (2)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (2)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (3)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (3)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (4)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (4)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (5)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (5)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (6)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (6)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (7)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (7)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (8)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (8)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (9)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (9)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (10)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (10)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (11)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (11)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (12)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (12)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (13)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (13)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (14)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (14)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (15)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (15)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (16)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (16)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (17)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (17)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (18)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (18)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (19)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (19)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (20)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (20)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (21)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (21)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (22)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (22)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (23)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (23)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (24)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (24)",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in AF (25)",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive for Blood Pressure Monitoring in AF (25)",
+"value_criterion": {

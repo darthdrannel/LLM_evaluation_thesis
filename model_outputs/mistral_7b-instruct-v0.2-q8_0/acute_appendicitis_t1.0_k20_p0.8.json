@@ -1,0 +1,188 @@
+{
+"observations": [
+{
+"name": "Patient Age",
+"context": ["Clinical Evaluation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adult or Child",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+}
+]
+}
+]
+},
+{
+"name": "Abdominal Pain",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Migration of Pain",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+},
+{
+"label": "Right Lower Quadrant Tenderness",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+},
+{
+"label": "Rebound Pain",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present or Absent",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present or Absent",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+}
+]
+}
+]
+},
+{
+"name": "Fever",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Temperature",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+},
+{
+"label": "Feverish or Normal",
+"value_criterion": {
+"value": [37.3, 38],
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present or Absent",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+},
+{
+"label": "Leukocyte Count",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "Polymorphonucleocytes (PMN)",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Percentage",
+"value_criterion": {
+"value": [75, 85],
+"unit": "%"
+}
+},
+{
+"label": "PMN Count",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "C-reactive protein (CRP)",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present or Absent",
+"value_criterion": {
+"value": 0,
+"unit": "Unknown"
+}
+},
+{
+"label": "CRP Level",
+"value_criterion": {
+"value": [10, 50],
+"unit": "g per L"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": ["Abdominal Pain", "Anorexia", "Fever", "Leukocytosis", "Polymorphonucleocytes (PMN)", "C-reactive protein (CRP)"]
+}
+]
+}

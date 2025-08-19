@@ -1,0 +1,191 @@
+{"observations": [
+    {"name": "Alvarado score", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 5, "unit": "", "operator": "<"}}
+        ]}
+    ]},
+    {"name": "Pediatric Appendicitis Score", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 4, "unit": "", "operator": "<"}}
+        ]}
+    ]},
+    {"name": "Appendicitis Inflammatory Response score", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 4, "unit": "", "operator": "<"}}
+        ]}
+    ]},
+    {"name": "CRP (C-reactive protein)", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 50, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "PMN (polymorphonucleocytes)", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 25, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 85, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Leukocytosis (white blood cell count)", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 9000, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 14900, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Temperature", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 36.5, "unit": "°C", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 38.5, "unit": "°C", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Rebound pain", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 1, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 3, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Right lower quadrant tenderness", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 2, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Nausea/vomiting", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 2, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Anorexia", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 1, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Migration of pain", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 1, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Abdominal pain", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 2, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Right lower quadrant pain with coughing/hopping/percussion", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 2, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Respiratory rate", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 12, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 30, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Blood pressure", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 60, "unit": "mmHg", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 140, "unit": "mmHg", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Heart rate", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 40, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 120, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Oxygen saturation", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 80, "unit": "%", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 100, "unit": "%", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Systolic blood pressure", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 60, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 140, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Diastolic blood pressure", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 40, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 90, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Mean arterial pressure", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 30, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 120, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Central venous pressure", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0, "unit": "", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 20, "unit": "", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Blood glucose level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 40, "unit": "mg/dL", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 300, "unit": "mg/dL", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Hemoglobin level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 5, "unit": "g/dL", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 18, "unit": "g/dL", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Platelet count", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 50, "unit": "×10^9/L", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 500, "unit": "×10^9/L", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Creatinine level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0.5, "unit": "mg/dL", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 3, "unit": "mg/dL", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Urea level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 5, "unit": "mmol/L", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 20, "unit": "mmol/L", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Sodium level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 120, "unit": "mmol/L", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 150, "unit": "mmol/L", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Potassium level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 2.5, "unit": "mmol/L", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 6, "unit": "mmol/L", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Calcium level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 6, "unit": "mg/dL", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 12, "unit": "mg/dL", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Phosphate level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0.5, "unit": "mmol/L", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 2, "unit": "mmol/L", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Magnesium level", "context": ["Suspected Appendicitis"], "patient_inferences": [
+        {"inferences": [
+            {"label": "low", "value_criterion": {"value": 0.5, "unit": "mmol/L", "operator": "<"}},
+            {"label": "high", "value_criterion": {"value": 2, "unit": "mmol/L", "operator": ">" }}
+        ]}
+    ]},
+    {"name": "Alkaline

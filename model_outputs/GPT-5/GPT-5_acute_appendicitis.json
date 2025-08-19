@@ -1,0 +1,276 @@
+{
+  "observations": [
+    {
+      "name": "Migration of Pain",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nausea/Vomiting",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score (vomiting)"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Tenderness",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound Pain",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "light",
+              "value_criterion": null
+            },
+            {
+              "label": "medium",
+              "value_criterion": null
+            },
+            {
+              "label": "strong",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Pain with Coughing/Hopping/Percussion",
+      "context": ["Pediatric Appendicitis Score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Iliac Fossa Pain",
+      "context": ["Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body Temperature",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "fever",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 37.3,
+                "unit": "°C"
+              }
+            },
+            {
+              "label": "fever",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 38.0,
+                "unit": "°C"
+              }
+            },
+            {
+              "label": "high fever",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 38.5,
+                "unit": "°C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 10000,
+                "unit": "per μL"
+              }
+            },
+            {
+              "label": "moderately elevated",
+              "value_criterion": {
+                "value": [10000, 14900],
+                "unit": "per μL"
+              }
+            },
+            {
+              "label": "highly elevated",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 15000,
+                "unit": "per μL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polymorphonuclear Neutrophils (PMN)",
+      "context": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 75,
+                "unit": "%"
+              }
+            },
+            {
+              "label": "moderately elevated",
+              "value_criterion": {
+                "value": [70, 84],
+                "unit": "%"
+              }
+            },
+            {
+              "label": "highly elevated",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 85,
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C-reactive Protein (CRP)",
+      "context": ["Appendicitis Inflammatory Response score"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [10, 49],
+                "unit": "g/L"
+              }
+            },
+            {
+              "label": "highly elevated",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 50,
+                "unit": "g/L"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Appendicitis (Alvarado Score Criteria)",
+      "observations": [
+        "Migration of Pain",
+        "Anorexia",
+        "Nausea/Vomiting",
+        "Right Lower Quadrant Tenderness",
+        "Rebound Pain",
+        "Body Temperature",
+        "Leukocytosis",
+        "Polymorphonuclear Neutrophils (PMN)"
+      ]
+    },
+    {
+      "name": "Appendicitis (Pediatric Appendicitis Score Criteria)",
+      "observations": [
+        "Migration of Pain",
+        "Anorexia",
+        "Nausea/Vomiting",
+        "Right Lower Quadrant Tenderness",
+        "Rebound Pain",
+        "Right Lower Quadrant Pain with Coughing/Hopping/Percussion",
+        "Body Temperature",
+        "Leukocytosis",
+        "Polymorphonuclear Neutrophils (PMN)"
+      ]
+    },
+    {
+      "name": "Appendicitis (Appendicitis Inflammatory Response Score Criteria)",
+      "observations": [
+        "Nausea/Vomiting",
+        "Right Iliac Fossa Pain",
+        "Rebound Pain",
+        "Body Temperature",
+        "Leukocytosis",
+        "Polymorphonuclear Neutrophils (PMN)",
+        "C-reactive Protein (CRP)"
+      ]
+    }
+  ]
+}

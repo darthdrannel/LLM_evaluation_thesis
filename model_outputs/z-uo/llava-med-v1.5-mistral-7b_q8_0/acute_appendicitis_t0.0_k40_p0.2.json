@@ -1,0 +1,83 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["age of 25 years"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 25-year-old individual."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["male gender"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a male individual."
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Normal chest X-ray",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Normal coronal chest CT-scan",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Normal axial chest CT-scan",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

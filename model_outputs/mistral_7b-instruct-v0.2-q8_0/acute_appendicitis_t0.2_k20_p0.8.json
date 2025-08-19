@@ -1,0 +1,202 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea and Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+ "value_criterion": {
+ "value": 37.3,
+ "unit": "°C"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Elevated",
+ "value_criterion": {
+ "value": 38,
+ "unit": "°C"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+ "value": 10000,
+ "unit": "per μL"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+ "value": 15000,
+ "unit": "per μL"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+ "value": 10000,
+ "unit": "per L"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+ "value": 15000,
+ "unit": "per L"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "≥ 75%",
+ "value_criterion": {
+ "value": 75,
+ "unit": "%"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "≥ 85%",
+ "value_criterion": {
+ "value": 85,
+ "unit": "%"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "<= 49 g/L",
+ "value_criterion": {
+ "value": 49,
+ "unit": "g/L"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": ">= 50 g/L",
+ "value_criterion": {
+ "value": 50,
+ "unit": "g/L"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+}
+]
+,"conditions": [
+{
+"name": "Appendicitis",
+"observations": ["Abdominal Pain", "Nausea and Vomiting", "Anorexia", "Temperature", "Leukocytosis", "PMN percentage", "CRP level"]
+}
+]
+}
+
+  																		

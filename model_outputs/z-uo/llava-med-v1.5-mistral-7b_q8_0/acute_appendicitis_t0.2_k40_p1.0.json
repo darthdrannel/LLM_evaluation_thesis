@@ -1,0 +1,109 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Abnormal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["Age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adult patient"
+}
+],
+"gender": null,
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Pediatric patient"
+}
+],
+"gender": null,
+"age": {
+"value": 10,
+"unit": "years"
+}
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray",
+"observations": ["CXR"]
+},
+{
+"name": "Coronal chest CT-scan",
+"observations": ["CCTS"]
+},
+{
+"name": "Axial chest CT-scan",
+"observations": ["CCTS"]
+}
+]
+}

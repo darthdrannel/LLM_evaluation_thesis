@@ -1,0 +1,210 @@
+{
+"observations": [
+{
+"name": "Patient Age",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adult",
+"value_criterion": {
+"value": 18,
+"unit": "years"
+}
+},
+{
+"label": "Child",
+"value_criterion": {
+"value": [2, 18],
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "Abdominal Pain",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Migration of pain",
+"value_criterion": {
+"value": 1,
+"unit": "present or absent"
+}
+},
+{
+"label": "Right lower quadrant tenderness",
+"value_criterion": {
+"value": 1,
+"unit": "present or absent"
+}
+},
+{
+"label": "Rebound pain",
+"value_criterion": {
+"value": [1, 3],
+"unit": "intensity (light, medium, strong)"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "present or absent"
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "present or absent"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "≥ 37.3°C (99.1°F)",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+},
+{
+"label": "≥ 38°C (100.4°F)",
+"value_criterion": {
+"value": 38,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "≥ 10,000 per μL (10.0 × 109 per L)",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "≥ 10,000 to 14,900 per μL (10.0 to 14.9 × 109 per L)",
+"value_criterion": {
+"value": [10000, 14900],
+"unit": "per μL"
+}
+},
+{
+"label": "≥ 15,000 per μL (15.0 × 109 per L)",
+"value_criterion": {
+"value": 15000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN %",
+"context": ["Lab Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "≥ 75%",
+"value_criterion": {
+"value": 75,
+"unit": "%"
+}
+},
+{
+"label": "≥ 85%",
+"value_criterion": {
+"value": 85,
+"unit": "%"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": ["Lab Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "10 to 49 g per L",
+"value_criterion": {
+"value": [10, 49],
+"unit": "g per L"
+}
+},
+{
+"label": "≥ 50 g per L",
+"value_criterion": {
+"value": 50,
+"unit": "g per L"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Suspected Appendicitis - Alvarado Score",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right lower quadrant tenderness", "Rebound pain", "Temperature", "Leukocytosis", "PMN %"]
+},
+{
+"name": "Suspected Appendicitis - Pediatric Score",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right lower quadrant tenderness", "Rebound pain", "Right lower quadrant pain with coughing/hopping/percussion", "Temperature", "Leukocytosis", "PMN %"]
+},
+{
+"name": "Appendicitis Inflammatory Response",
+"observations": ["Vomiting", "Right Iliac fossa pain", "Rebound pain (light)", "Rebound pain (medium)", "Rebound pain (strong)", "Temperature", "Leukocytosis", "PMN %"]
+}
+]
+}

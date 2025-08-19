@@ -1,0 +1,84 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "2024 ESC/ESH Guidelines on the management of arterial hypertension",
+        "updated guidelines",
+        "elevated blood pressure and hypertension",
+        "office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg",
+        "target systolic BP of 120–129 mmHg",
+        "out-of-office BP measurement",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "personalized clinical decision-making",
+        "shared decisions with the patient",
+        "implementation challenges"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "complex",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "complex",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "office systolic BP of 120–139 mmHg or diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"
+      ]
+    }
+  ]
+}

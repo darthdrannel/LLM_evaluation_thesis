@@ -1,0 +1,490 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "office diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target systolic BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target diastolic BP",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+],
+"gender": "female"
+},
+{
+"inferences": [
+{
+"label": "Elevated blood pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target systolic BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target diastolic BP",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+],
+"gender": "male"
+},
+{
+"inferences": [
+{
+"label": "Elevated blood pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target systolic BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target diastolic BP",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+],
+"gender": "nonbinary"
+}
+]
+},
+{
+"name": "Blood Pressure Measurement Technique",
+"context": ["office systolic BP", "office diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Consistent approach to BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Correct measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Consistent approach to BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Correct measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Consistent approach to BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring Devices",
+"context": ["automated oscillometric monitors", "manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Enforced correct measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Consistent approach to BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Enforced correct measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Consistent approach to BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Enforced correct measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Consistent approach to BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]
+},
+{
+"name": "Frailty and Blood Pressure Management in Older Age",
+"context": ["frailty"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Tailoring treatment with respect to frailty",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Assessing frailty in older patients",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Tailoring treatment with respect to frailty",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Assessing frailty in older patients",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Tailoring treatment with respect to frailty",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Assessing frailty in older patients",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Targets and Treatment Goals",
+"context": ["target systolic BP", "target diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Target systolic BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target diastolic BP",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Well-tolerated treatment to target systolic BP of 120–129 mmHg",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Target systolic BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target diastolic BP",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Well-tolerated treatment to target systolic BP of 120–129 mmHg",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Target systolic BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target diastolic BP",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Well-tolerated treatment to target systolic BP of 120–129 mmHg",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring and Control in Patients with Symptomatic Orthostatic Hypotension",
+"context": ["symptomatic orthostatic hypotension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessing for orthostatic hypotension at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Performing the assessment after the patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Assessing for orthostatic hypotension at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Performing the assessment after the patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Assessing for orthostatic hypotension at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Performing the assessment after the patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]

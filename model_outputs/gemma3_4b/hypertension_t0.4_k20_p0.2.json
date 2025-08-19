@@ -1,0 +1,92 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Management of elevated blood pressure and hypertension",
+        "ESH Guidelines",
+        "Target systolic BP of 120-129 mmHg",
+        "Out-of-office BP measurement",
+        "Orthostatic hypotension assessment"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Assessment at initial diagnosis",
+        "Repeat assessment if suggestive symptoms arise",
+        "Performed after lying or sitting for 5 min"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "risk",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "risk",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office systolic BP of 120–139 mmHg",
+        "Office diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office systolic BP of ≥140 mmHg",
+        "Office diastolic BP of ≥90 mmHg"
+      ]
+    }
+  ]
+}

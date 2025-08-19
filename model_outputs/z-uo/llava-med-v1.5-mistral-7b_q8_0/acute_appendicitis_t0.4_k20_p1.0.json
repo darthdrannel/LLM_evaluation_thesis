@@ -1,0 +1,257 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["posteroanterior view of the chest wall and lungs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["coronal view of the chest wall and lungs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["axial view of the chest wall and lungs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal lung fields",
+"value_criterion": {
+"value": 0,
+"unit": "no abnormalities detected"
+}
+},
+{
+"label": "Abnormal lung fields",
+"value_criterion": {
+"value": 1,
+"unit": "abnormal findings in the lung fields"
+}
+},
+{
+"label": "Pneumonia or pneumothorax",
+"value_criterion": {
+"value": 2,
+"unit": "presence of pneumonia or pneumothorax"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Pneumonia or pneumothorax",
+"observations": ["Chest X-ray", "Coronal chest CT-scan", "Axial chest CT-scan"]
+},
+{
+"name": "Abnormal lung fields",
+"observations": ["Chest X-ray", "Coronal chest CT-scan", "Axial chest CT-scan"]
+}
+]
+}

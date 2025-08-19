@@ -1,0 +1,50 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["BP measurement", "Office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal BP", "value_criterion": { "value": [120, 80], "unit": "mmHg" }},
+{"label": "Elevated BP", "value_criterion": { "value": [120, 139], "unit": "mmHg" }}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["BP measurement", "Standing position"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Orthostatic hypotension present", "value_criterion": { "value": [-20, -10], "unit": "mmHg", "operator": "<" }}
+]
+}
+]
+},
+{
+"name": "AF and BP Measurement",
+"context": ["BP measurement", "Atrial fibrillation"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Manual auscultatory method used", "value_criterion": { "value": 1, "unit": "boolean" }}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+     															

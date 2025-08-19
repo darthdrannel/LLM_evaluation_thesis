@@ -1,0 +1,127 @@
+{
+"observations": [
+{
+"name": "Patient's Abdominal Pain",
+"context": ["Right lower quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": [2, 3],
+"unit": "Rebound pain score"
+}
+},
+{
+"label": "Elevated Temperature",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient's Nausea/Vomiting",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": 1,
+"unit": "Anorexia or Vomiting point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient's Leukocytosis",
+"context": ["Blood Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated White Blood Cell Count",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "PMN > 75%",
+"value_criterion": {
+"value": [75],
+"unit": "%"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient's Temperature",
+"context": ["Temperature measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Temperature",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+},
+{
+"label": "Fever",
+"value_criterion": {
+"value": 1,
+"unit": "Fever present (Temperature ≥ 37.3°C)"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient's Age",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pediatric Patient",
+"value_criterion": {
+"value": [18, 12],
+"unit": "Years"
+}
+},
+{
+"label": "Adult Patient",
+"value_criterion": {
+"value": [65, 18],
+"unit": "Years"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Suspected Appendicitis",
+"observations": ["Patient's Abdominal Pain", "Patient's Nausea/Vomiting", "Patient's Leukocytosis"]
+},
+{
+"name": "Elevated Temperature",
+"observations": ["Patient's Temperature"]
+}
+]
+}

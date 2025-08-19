@@ -1,0 +1,102 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["Emergency Department"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray findings"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal chest x-ray findings"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["Emergency Department"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan findings"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest ct-scan findings"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["Emergency Department"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan findings"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal axial chest ct-scan findings"
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["Emergency Department"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Age is within normal limits for the patient"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Age is outside the normal range for the patient"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray findings",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan findings",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan findings",
+"observations": ["Axial chest CT-scan"]
+},
+{
+"name": "Patient age",
+"observations": ["Patient age"]
+}
+]
+}

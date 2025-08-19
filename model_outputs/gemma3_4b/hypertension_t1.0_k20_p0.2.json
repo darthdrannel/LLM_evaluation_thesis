@@ -1,0 +1,143 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Management of elevated blood pressure and hypertension",
+        "ESC/European Society of Hypertension Guidelines",
+        "2024 Guidelines"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office Systolic BP",
+      "context": [
+        "Definition of Hypertension",
+        "ESC/European Society of Hypertension Guidelines",
+        "2024 Guidelines"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Target Systolic BP",
+      "context": [
+        "Management of elevated blood pressure and hypertension",
+        "ESC/European Society of Hypertension Guidelines",
+        "2024 Guidelines"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Management of elevated blood pressure and hypertension",
+        "ESC/European Society of Hypertension Guidelines",
+        "2024 Guidelines"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "present",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office Systolic BP ≥140 mmHg or Diastolic BP ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office Systolic BP 120–139 mmHg or Diastolic BP 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Systolic BP drop ≥20 mmHg or Diastolic BP drop ≥10 mmHg after standing"
+      ]
+    }
+  ]
+}

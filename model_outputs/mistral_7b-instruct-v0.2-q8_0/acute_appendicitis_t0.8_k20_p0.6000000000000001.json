@@ -1,0 +1,251 @@
+{
+"observations": [
+{
+"name": "Patient Age",
+"context": ["Diagnostic Process"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adult",
+"value_criterion": {
+"value": 18,
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Alvarado Score", "Pediatric Appendicitis Score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": null
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Alvarado Score", "Pediatric Appendicitis Score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": null
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Alvarado Score", "Pediatric Appendicitis Score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": null
+}
+]
+}
+]
+},
+{
+"name": "Rebound Pain",
+"context": ["Alvarado Score", "Pediatric Appendicitis Score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Light",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Medium",
+"value_criterion": {
+"value": 2,
+"unit": "point"
+}
+},
+{
+"label": "Strong",
+"value_criterion": {
+"value": 3,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": null
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Alvarado Score", "Appendicitis Inflammatory Response score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "<=37.3°C (99.1°F)",
+"value_criterion": {
+"value": 0,
+"unit": "°C"
+}
+},
+{
+"label": ">38.5°C (101.3°F)",
+"value_criterion": {
+"value": 2,
+"unit": "°C"
+}
+},
+{
+"label": ">=37.4°C (99.2°F) and <=38.4°C (101.1°F)",
+"value_criterion": null
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "<10,000 per μL (10.0 × 109 per L)",
+"value_criterion": {
+"value": 0,
+"unit": "per μL"
+}
+},
+{
+"label": ">=10,000 to <=14,900 per μL (10.0 to 14.9 × 109 per L)",
+"value_criterion": {
+"value": 1,
+"unit": "per μL"
+}
+},
+{
+"label": ">=15,000 per μL (15.0 × 109 per L)",
+"value_criterion": {
+"value": 2,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN",
+"context": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "<75%",
+"value_criterion": null
+},
+{
+"label": ">=75%",
+"value_criterion": {
+"value": 1,
+"unit": "%"
+}
+},
+{
+"label": ">=85%",
+"value_criterion": {
+"value": 2,
+"unit": "%"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": ["Appendicitis Inflammatory Response score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "<10 g per L",
+"value_criterion": {
+"value": 0,
+"unit": "g per L"
+}
+},
+{
+"label": ">=50 g per L",
+"value_criterion": {
+"value": 2,
+"unit": "g per L"
+}
+},
+{
+"label": "10 to 49 g per L",
+"value_criterion": {
+"value": 1,
+"unit": "g per L"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Alvarado Score >5",
+"observations": ["Right Lower Quadrant Tenderness", "Anorexia", "Nausea/Vomiting", "Rebound Pain", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "Pediatric Appendicitis Score >=10",
+"observations": ["Right Lower Quadrant Tenderness", "Anorexia", "Nausea/Vomiting", "Rebound Pain", "Right Lower Quadrant pain with coughing/hopping/percussion", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "Appendicitis Inflammatory Response score >=8",
+"observations": ["Vomiting", "Right Iliac fossa pain", "Rebound pain, light", "Rebound pain, medium", "Rebound pain, strong", "Temperature", "Leukocytosis", "PMN", "CRP"]
+}
+]
+}

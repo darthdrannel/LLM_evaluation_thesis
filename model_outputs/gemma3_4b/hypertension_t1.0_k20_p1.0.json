@@ -1,0 +1,61 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": [
+                "elevated blood pressure and hypertension",
+                "treatment to this BP target is well tolerated",
+                "more lenient BP targets can be considered in persons with symptomatic orthostatic hypotension",
+                "those aged 85 years or over",
+                "those with moderate-to-severe frailty"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    ]
+                }
+            ]
+        },
+    {
+            "name": "Measurement of blood pressure",
+            "context": [
+                "elevated blood pressure and hypertension",
+                "treatment to this BP target is well tolerated",
+                "more lenient BP targets can be considered in persons with symptomatic orthostatic hypotension",
+                "those aged 85 years or over",
+                "those with moderate-to-severe frailty"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    ]
+                }
+            ]
+        },
+    {
+            "name": "Measurement of blood pressure",
+            "context": [
+                "elevated blood pressure and hypertension",
+                "treatment to this BP target is well tolerated",
+                "more lenient BP targets can be considered in persons with symptomatic orthostatic hypotension",
+                "those aged 85 years or over",
+                "those with moderate-to-severe frailty"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated Blood Pressure",
+            "observations": [
+                "systolic BP between 120–129 mmHg",
+                "diastolic BP between 70–89 mmHg"
+            ]
+        }
+    ]
+}

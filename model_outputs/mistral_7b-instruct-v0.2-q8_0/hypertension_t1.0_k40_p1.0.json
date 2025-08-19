@@ -1,0 +1,70 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Office Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Blood Pressure",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg"
+}
+},
+{
+"label": "High Blood Pressure",
+"value_criterion": {
+"value": [140, 90],
+"unit": "mmHg"
+}
+}]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Initial Diagnosis of Elevated BP or Hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No Orthostatic Hypotension",
+"value_criterion": {
+"value": [0, 0],
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic Hypotension Present",
+"value_criterion": {
+"value": [20, 10],
+"unit": "mmHg",
+"operator": "<"
+}
+}]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+										     	    

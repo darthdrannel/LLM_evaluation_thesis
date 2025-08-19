@@ -1,0 +1,161 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado score",
+      "context": ["Clinical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low risk of appendicitis",
+              "value_criterion": {
+                "value": 6,
+                "unit": ""
+              }
+            },
+            {
+              "label": "high risk of appendicitis",
+              "value_criterion": {
+                "value": 8,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Clinical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low risk of appendicitis",
+              "value_criterion": {
+                "value": 7,
+                "unit": ""
+              }
+            },
+            {
+              "label": "high risk of appendicitis",
+              "value_criterion": {
+                "value": 10,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response score",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low inflammatory response",
+              "value_criterion": {
+                "value": 5,
+                "unit": ""
+              }
+            },
+            {
+              "label": "high inflammatory response",
+              "value_criterion": {
+                "value": 9,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "White Blood Cell Count (WBC)",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal WBC count",
+              "value_criterion": {
+                "value": [4000, 11000],
+                "unit": "per μL"
+              }
+            },
+            {
+              "label": "elevated WBC count",
+              "value_criterion": {
+                "value": [11000, 15000],
+                "unit": "per μL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polymorphonuclear cells (PMN) percentage",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal PMN percentage",
+              "value_criterion": {
+                "value": [20, 50],
+                "unit": "%"
+              }
+            },
+            {
+              "label": "elevated PMN percentage",
+              "value_criterion": {
+                "value": [75, 100],
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C-reactive protein (CRP)",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal CRP level",
+              "value_criterion": {
+                "value": [0, 10],
+                "unit": "mg per L"
+              }
+            },
+            {
+              "label": "elevated CRP level",
+              "value_criterion": {
+                "value": [50, 100],
+                "unit": "mg per L"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected appendicitis",
+      "observations": [
+        "Alvarado score",
+        "Pediatric Appendicitis Score",
+        "Appendicitis Inflammatory Response score",
+        "White Blood Cell Count (WBC)",
+        "Polymorphonuclear cells (PMN) percentage",
+        "C-reactive protein (CRP)"
+      ]
+    }
+  ]
+}

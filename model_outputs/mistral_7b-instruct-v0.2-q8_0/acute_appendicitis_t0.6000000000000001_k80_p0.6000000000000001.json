@@ -1,0 +1,170 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "Moderate",
+"value_criterion": {
+"value": [2, 3],
+"unit": "points"
+}
+},
+{
+"label": "Severe",
+"value_criterion": {
+"value": [4, 5],
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Gastrointestinal"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "Moderate",
+"value_criterion": {
+"value": 2,
+"unit": "points"
+}
+},
+{
+"label": "Severe",
+"value_criterion": {
+"value": [3, 4],
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Body Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [36.5, 37],
+"unit": "°C"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [37.1, 38.49],
+"unit": "°C"
+}
+},
+{
+"label": "High Fever",
+"value_criterion": {
+"value": [38.5, 40],
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["White Blood Cell Count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "Moderate",
+"value_criterion": {
+"value": [15000, 29999],
+"unit": "per μL"
+}
+},
+{
+"label": "Severe",
+"value_criterion": {
+"value": 30000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN Percentage",
+"context": ["White Blood Cell Differential"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "< 75%",
+"value_criterion": {
+"value": 0,
+"unit": "%"
+}
+},
+{
+"label": "≥ 75%",
+"value_criterion": {
+"value": [75, 100],
+"unit": "%"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": ["Abdominal Pain", "Nausea/Vomiting", "Temperature", "Leukocytosis", "PMN Percentage"]
+},
+{
+"name": "Mild Appendicitis",
+"observations": ["Abdominal Pain", "Nausea/Vomiting", "Temperature", "Leukocytosis", "PMN Percentage"]
+},
+{
+"name": "Moderate Appendicitis",
+"observations": ["Abdominal Pain", "Nausea/Vomiting", "Temperature", "Leukocytosis", "PMN Percentage"]
+},
+{
+"name": "Severe Appendicitis",
+"observations": ["Abdominal Pain", "Nausea/Vomiting", "Temperature", "Leukocytosis", "PMN Percentage"]
+}
+]
+}

@@ -1,0 +1,129 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "out-of-office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+},
+{
+"label": "High BP",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Low Blood Pressure (BP)",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 89,
+"unit": "mmHg"
+}
+},
+{
+"label": "High BP",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["initial diagnosis of elevated BP or hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure (BP) drop at 1 and/or 3 min after standing",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg"
+}
+},
+{
+"label": "Normal BP drop at 1 and/or 3 min after standing",
+"value_criterion": {
+"value": 10,
+"unit": "diastolic BP mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Measurement in AF (Atrial Fibrillation)",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure (BP) measurement using a manual auscultatory method",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal BP measurement using a manual auscultatory method",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+},
+{
+"label": "High BP measurement using a manual auscultatory method",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP) or Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"observations": ["Orthostatic Hypotension Assessment"]
+},
+{
+"name": "Blood Pressure Measurement in AF (Atrial Fibrillation)",
+"observations": ["Blood Pressure Measurement in AF (Atrial Fibrillation)"]
+}
+]
+}

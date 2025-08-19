@@ -1,0 +1,569 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["radiology", "imaging"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "coronal chest CT-scan",
+"context": ["radiology", "imaging"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan with abnormalities in other sections"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan with normal findings in other sections"
+}
+]
+},
+{
+"inferences": [

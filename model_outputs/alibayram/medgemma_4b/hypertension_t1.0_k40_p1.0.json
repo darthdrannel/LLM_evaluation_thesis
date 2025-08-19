@@ -1,0 +1,547 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "systolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 159,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 99,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 100,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 109,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "systolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "systolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 121,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 130,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 71,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 80,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 72,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 79,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 73,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 78,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 74,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 77,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 75,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 76,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 77,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 75,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 78,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 74,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 79,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 73,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 80,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 72,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 81,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 82,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 69,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 83,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 68,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 84,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 67,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office",
+        "diastolic"
+      

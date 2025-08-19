@@ -1,0 +1,102 @@
+{
+"observations": [
+{
+"name": "Patient Age",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "adult",
+"value_criterion": {
+"value": 18,
+"unit": "years"
+}
+},
+{
+"label": "child",
+"value_criterion": {
+"value": [2, 18],
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "Abdominal Pain",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "right lower quadrant",
+"value_criterion": {
+"value": 2,
+"unit": "quadrants"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "migration",
+"value_criterion": null
+},
+{
+"label": "present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "AppendicitisSuspected",
+"observations": ["Abdominal Pain", "Patient Age"]
+},
+{
+"name": "AppendicitisDiagnosticsAlvaradoScoreLowRisk",
+"observations": ["Abdominal Pain", "Patient Age", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "AppendicitisDiagnosticsAlvaradoScoreModerateRisk",
+"observations": ["Abdominal Pain", "Patient Age", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Rebound pain", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "AppendicitisDiagnosticsAlvaradoScoreHighRisk"
+, "observations": ["Abdominal Pain", "Patient Age", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Rebound pain", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "AppendicitisDiagnosticsPediatricLowRisk",
+"observations": ["Abdominal Pain", "Patient Age", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Right lower quadrant pain with coughing/hopping/percussion", "Temperature", "Leukocytosis"]
+},
+{
+"name": "AppendicitisDiagnosticsPediatricModerateRisk",
+"observations": ["Abdominal Pain", "Patient Age", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Right lower quadrant pain with coughing/hopping/percussion", "Rebound pain", "Temperature", "Leukocytosis"]
+},
+{
+"name": "AppendicitisDiagnosticsPediatricHighRisk",
+"observations": ["Abdominal Pain", "Patient Age", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Right lower quadrant pain with coughing/hopping/percussion", "Rebound pain", "Temperature", "Leukocytosis"]
+},
+{
+"name": "AppendicitisInflammatoryResponseLowRisk",
+"observations": ["Vomiting", "Abdominal Pain", "Rebound pain (light)", "Temperature", "Leukocytosis"]
+},
+{
+"name": "AppendicitisInflammatoryResponseModerateRisk",
+"observations": ["Vomiting", "Abdominal Pain", "Rebound pain (medium)", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "AppendicitisInflammatoryResponseHighRisk",
+"observations": ["Vomiting", "Abdominal Pain", "Rebound pain (strong)", "Temperature", "Leukocytosis", "CRP"]
+}
+]
+}

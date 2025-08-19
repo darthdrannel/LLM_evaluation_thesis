@@ -1,0 +1,405 @@
+{
+"observations": [
+{
+"name": "BP measurement",
+"context": ["office setting", "validated device", "calibrated device"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper BP measurement technique used",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "BP measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Consistent approach to BP measurement applied for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement technique used",
+"context": ["office setting", "validated device", "calibrated device"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper BP measurement technique used in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "BP measured using a validated and calibrated device in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Consistent approach to BP measurement applied for each patient in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in AF patients",
+"context": ["office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "Assessment for orthostatic hypotension",
+"context": ["initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min if suggestive symptoms arise in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min if suggestive symptoms arise outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement technique used in the office setting",
+"context": ["office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper BP measurement technique used in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "BP measured using a validated and calibrated device in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Consistent approach to BP measurement applied for each patient in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min in the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement technique used outside the office setting",
+"context": ["office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper BP measurement technique used outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "BP measured using a validated and calibrated device outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Consistent approach to BP measurement applied for each patient outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in AF patients outside the office setting",
+"context": ["office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "BP measured using a manual auscultatory method in AF patients outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+},
+{
+"label": "Assessment for orthostatic hypotension performed after the patient is first lying or sitting for 5 min outside the office setting",
+"value_criterion": {
+"value": 1,
+"unit": "Yes/No"
+}
+}
+]
+}
+]
+},
+{
+"name": "Assessment for orthostatic hypotension",
+"context": ["initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension performed at initial diagnosis of elevated BP or hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "

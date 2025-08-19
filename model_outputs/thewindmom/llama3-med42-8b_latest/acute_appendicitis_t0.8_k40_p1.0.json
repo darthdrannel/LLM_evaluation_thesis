@@ -1,0 +1,113 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": [
+        "Clinical examination"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 5,
+                "unit": ""
+              }
+            },
+            {
+              "label": "suspicious for appendicitis",
+              "value_criterion": {
+                "value": 6,
+                "unit": ""
+              }
+            },
+            {
+              "label": "highly suggestive of appendicitis",
+              "value_criterion": {
+                "value": 8,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": [
+        "Clinical examination"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 6,
+                "unit": ""
+              }
+            },
+            {
+              "label": "suspicious for appendicitis",
+              "value_criterion": {
+                "value": 9,
+                "unit": ""
+              }
+            },
+            {
+              "label": "highly suggestive of appendicitis",
+              "value_criterion": {
+                "value": 12,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": [
+        "Laboratory tests"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 2,
+                "unit": ""
+              }
+            },
+            {
+              "label": "suspected appendicitis",
+              "value_criterion": {
+                "value": 4,
+                "unit": ""
+              }
+            },
+            {
+              "label": "highly suggestive of appendicitis",
+              "value_criterion": {
+                "value": 10,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Appendicitis",
+      "observations": [
+        "Alvarado Score",
+        "Pediatric Appendicitis Score",
+        "Appendicitis Inflammatory Response Score"
+      ]
+    }
+  ]
+}

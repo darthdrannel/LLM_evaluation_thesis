@@ -1,0 +1,63 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measured",
+"context": ["Office Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": {"value": [120, 80], "unit": "mmHg"}},
+{"label": "Elevated", "value_criterion": {"value": [120, 89], "unit": "mmHg"}}
+]
+}
+]
+},
+{
+"name": "Out-of-office Blood Pressure Measured",
+"context": ["Home Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": {"value": [120, 80], "unit": "mmHg"}},
+{"label": "White-coat hypertension", "value_criterion": { "value": [140, 90], "unit": "mmHg"}},
+{"label": "Masked hypertension", "value_criterion": {"value": [120, 80], "unit": "mmHg"}}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Clinic Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": {"value": [0, 0], "unit": "mmHg"}},
+{"label": "Orthostatic hypotension", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}
+]
+}
+]
+},
+{
+"name": "BP Measured in AF",
+"context": ["Clinic Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Manual measurement required"}
+]
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure Measured"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}

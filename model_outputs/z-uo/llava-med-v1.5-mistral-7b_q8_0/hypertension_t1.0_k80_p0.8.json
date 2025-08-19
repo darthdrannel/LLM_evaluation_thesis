@@ -1,0 +1,76 @@
+{
+"observations": [
+{
+"name": "Measuring blood pressure",
+"context": ["device validation and calibration", "office BP measurement", "out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper measurement technique applied for each patient"
+},
+{
+"label": "Blood pressure measured using a validated and calibrated device"
+},
+{
+"label": "Consistent approach to blood pressure measurement"
+}
+]
+}
+]
+},
+{
+"name": "Out-of-office blood pressure measurement",
+"context": ["diagnostic purposes", "white-coat hypertension and masked hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Confirmation of the diagnosis with a repeat office BP measurement using the correct standardized technique"
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement in atrial fibrillation (AF)",
+"context": ["automated oscillometric monitors", "manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension"
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic hypotension assessment",
+"context": ["suggestive symptoms arise", "lying or sitting for 5 min"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood pressure measurement using a manual auscultatory method in AF where possible"
+}
+]
+}
+]
+},
+{
+"name": "Ageing population and tailoring treatment",
+"context": ["tailoring treatment with respect to frailty and into older age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Patient input and their lived experiences considered throughout the document"
+}
+]
+}
+]
+}
+],
+"conditions": []
+} 

@@ -1,0 +1,70 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["no evidence of acute lung pathology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities detected in the coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["no evidence of acute lung pathology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities detected in the axial chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["45 years old"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is 45 years old"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

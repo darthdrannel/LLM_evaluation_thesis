@@ -1,0 +1,50 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office Setting", "Home Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": { "value": 120, "unit": "mmHg" }},
+{"label": "Elevated", "value_criterion": { "value": [120, 139], "unit": "mmHg" }}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Initial Diagnosis", "Follow-up Appointments"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Negative", "value_criterion": { "value": 0, "unit": "mmHg" }}
+]
+}
+]
+},
+{
+"name": "AF and Blood Pressure Measurement",
+"context": ["Atrial Fibrillation Patients"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Manual Auscultation Recommended", "value_criterion": { "value": 1, "unit": "boolean" }}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+  																		

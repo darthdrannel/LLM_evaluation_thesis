@@ -1,0 +1,469 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest CT-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest CT-scan."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["adult patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is an adult, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["male patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a male, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient temperature",
+"context": ["normal body temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's body temperature is within the normal range, which may be relevant to their overall health and the diagnosis of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient leukocytosis",
+"context": ["normal white blood cell count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's white blood cell count is within the normal range, which may be relevant to their overall health and the diagnosis of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Patient PMN percentage",
+"context": ["normal polymorphonucleocyte percentage"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's polymorphonucleocyte percentage is within the normal range, which may be relevant to their overall health and the diagnosis of their condition."
+}
+]
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["normal C-reactive protein level"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's C-reactive protein (CRP) level is within the normal range, which may be relevant to their overall health and the diagnosis of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis Inflammatory Response score",
+"context": ["score of 0 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's appendicitis inflammatory response score is 0 points, which may indicate that the patient does not have signs or symptoms suggestive of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["score of 0 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pediatric appendicitis score is 0 points, which may indicate that the patient does not have signs or symptoms suggestive of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["score of 0 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's Alvarado score is 0 points, which may indicate that the patient does not have signs or symptoms suggestive of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "MRI findings",
+"context": ["normal MRI findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's MRI findings are normal, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Ultrasound findings",
+"context": ["normal ultrasound findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's ultrasound findings are normal, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Clinical examination findings",
+"context": ["normal clinical examination findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's clinical examination findings are normal, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Lab results",
+"context": ["normal lab results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's lab results are normal, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Medication history",
+"context": ["no significant medication history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have a significant medication history, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Allergies",
+"context": ["no significant allergies"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant allergies, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Family history",
+"context": ["no significant family history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant family history, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Social history",
+"context": ["no significant social history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant social history, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past medical history",
+"context": ["no significant past medical history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past medical history, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past surgical history",
+"context": ["no significant past surgical history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past surgical history, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past hospitalizations",
+"context": ["no significant past hospitalizations"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past hospitalizations, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past outpatient visits",
+"context": ["no significant past outpatient visits"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past outpatient visits, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past imaging studies",
+"context": ["no significant past imaging studies"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past imaging studies, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past laboratory tests",
+"context": ["no significant past laboratory tests"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past laboratory tests, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past physical therapy sessions",
+"context": ["no significant past physical therapy sessions"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past physical therapy sessions, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past rehabilitation programs",
+"context": ["no significant past rehabilitation programs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past rehabilitation programs, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past occupational therapy sessions",
+"context": ["no significant past occupational therapy sessions"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past occupational therapy sessions, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past speech therapy sessions",
+"context": ["no significant past speech therapy sessions"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past speech therapy sessions, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past counseling sessions",
+"context": ["no significant past counseling sessions"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past counseling sessions, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past psychiatric evaluations",
+"context": ["no significant past psychiatric evaluations"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past psychiatric evaluations, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past psychological tests",
+"context": ["no significant past psychological tests"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past psychological tests, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past neuropsychological evaluations",
+"context": ["no significant past neuropsychological evaluations"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past neuropsychological evaluations, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past cognitive assessments",
+"context": ["no significant past cognitive assessments"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past cognitive assessments, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]
+},
+{
+"name": "Past neuroimaging studies",
+"context": ["no significant past neuroimaging studies"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient does not have any significant past neuroimaging studies, which may be relevant to the diagnosis and management of their condition."
+}
+]
+}
+]

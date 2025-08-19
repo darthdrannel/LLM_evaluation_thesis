@@ -1,0 +1,151 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Chest X-ray", "Coronal chest CT-scan", "Axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild abdominal pain",
+"value_criterion": {
+"value": 1,
+"unit": "pain scale"
+}
+},
+{
+"label": "Moderate abdominal pain",
+"value_criterion": {
+"value": 2,
+"unit": "pain scale"
+}
+},
+{
+"label": "Severe abdominal pain",
+"value_criterion": {
+"value": 3,
+"unit": "pain scale"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No abdominal pain",
+"value_criterion": {
+"value": 0,
+"unit": "pain scale"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Chest X-ray", "Coronal chest CT-scan", "Axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal temperature",
+"value_criterion": {
+"value": 36.5,
+"unit": "°C"
+}
+},
+{
+"label": "Elevated temperature",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+},
+{
+"label": "High fever",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No fever",
+"value_criterion": {
+"value": 0,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Chest X-ray", "Coronal chest CT-scan", "Axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal leukocyte count",
+"value_criterion": {
+"value": 4.5,
+"unit": "×109 per L"
+}
+},
+{
+"label": "Leukocytosis (mild)",
+"value_criterion": {
+"value": 10.0,
+"unit": "×109 per L"
+}
+},
+{
+"label": "Leukocytosis (moderate)",
+"value_criterion": {
+"value": 12.5,
+"unit": "×109 per L"
+}
+},
+{
+"label": "Leukocytosis (severe)",
+"value_criterion": {
+"value": 15.0,
+"unit": "×109 per L"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal leukocyte count",
+"value_criterion": {
+"value": 4.5,
+"unit": "×109 per L"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Abdominal Pain in Suspected Appendicitis",
+"observations": ["Abdominal Pain"]
+},
+{
+"name": "Elevated Temperature in Suspected Appendicitis",
+"observations": ["Temperature"]
+},
+{
+"name": "Leukocytosis in Suspected Appendicitis",
+"observations": ["Leukocytosis"]
+}
+]
+}

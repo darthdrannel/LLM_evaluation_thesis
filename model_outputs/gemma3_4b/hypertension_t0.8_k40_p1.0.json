@@ -1,0 +1,105 @@
+{
+  "observations": [
+{
+"name": "Blood Pressure",
+"context": ["Office BP", "Out-of-office", "BP", "Blood Pressure"],
+"patient_inferences": [
+  {
+    "inferences": [
+      {
+        "label": "elevated",
+        "value_criterion": {
+          "value": 140,
+          "unit": "mmHg"
+        }
+      },
+      {
+        "label": "normal",
+        "value_criterion": {
+          "value": 90,
+          "unit": "mmHg"
+        }
+      }
+    ],
+    "gender": "male",
+    "age": {
+      "value": 65,
+      "unit": "years"
+    }
+  }
+]
+},
+{
+  "name": "Elevated BP",
+  "context": ["Office BP", "70-89 mmHg"],
+  "patient_inferences": [
+    {
+      "inferences": [
+        {
+          "label": "elevated",
+          "value_criterion": {
+            "value": 120,
+            "unit": "mmHg"
+          }
+        },
+        {
+          "label": "normal",
+          "value_criterion": {
+            "value": 89,
+            "unit": "mmHg"
+          }
+        }
+      ],
+      "gender": "female",
+      "age": {
+        "value": 78,
+        "unit": "years"
+      }
+    }
+  ]
+},
+{
+    "name": "Target Systolic BP",
+    "context": ["120-129 mmHg"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "normal",
+            "value_criterion": {
+              "value": 120,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "normal",
+            "value_criterion": {
+              "value": 129,
+              "unit": "mmHg"
+            }
+          }
+        ],
+        "gender": "male",
+        "age": {
+          "value": 82,
+          "unit": "years"
+        }
+      }
+    ]
+  }
+],
+"conditions": [
+  {
+    "name": "Elevated BP",
+    "observations": ["Office BP of 120-139 mmHg or diastolic BP of 70-89 mmHg"]
+  },
+  {
+    "name": "Hypertension",
+    "observations": ["Office systolic BP of ≥140 mmHg or diastolic BP of ≥90 mmHg"]
+  },
+  {
+    "name": "Target Systolic BP",
+    "observations": ["Systolic BP of 120-129 mmHg"]
+  }
+]
+}

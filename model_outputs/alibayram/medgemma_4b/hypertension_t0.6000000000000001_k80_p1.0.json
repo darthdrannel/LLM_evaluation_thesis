@@ -1,0 +1,144 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg",
+        "Elevated BP: Office systolic BP 120–139 mmHg or diastolic BP 70–89 mmHg",
+        "Out-of-office BP measurement recommended for diagnostic purposes",
+        "Orthostatic hypotension assessment recommended",
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Correct measurement technique recommended",
+        "Consistent approach to BP measurement recommended",
+        "Validated and calibrated device recommended"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "orthostatic hypotension",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "orthostatic hypotension",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "white-coat hypertension",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "masked hypertension",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "AF",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg",
+        "Elevated BP: Office systolic BP 120–139 mmHg or diastolic BP 70–89 mmHg",
+        "Out-of-office BP measurement recommended for diagnostic purposes",
+        "Orthostatic hypotension assessment recommended",
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Correct measurement technique recommended",
+        "Consistent approach to BP measurement recommended",
+        "Validated and calibrated device recommended"
+      ]
+    },
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": [
+        "Office systolic BP 120–139 mmHg or diastolic BP 70–89 mmHg",
+        "Out-of-office BP measurement recommended for diagnostic purposes",
+        "Orthostatic hypotension assessment recommended",
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Correct measurement technique recommended",
+        "Consistent approach to BP measurement recommended",
+        "Validated and calibrated device recommended"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Orthostatic hypotension assessment recommended",
+        "Orthostatic hypotension: ≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"
+      ]
+    },
+    {
+      "name": "White-Coat Hypertension",
+      "observations": [
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Automated oscillometric monitors not validated for BP measurement in AF"
+      ]
+    },
+    {
+      "name": "Masked Hypertension",
+      "observations": [
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Automated oscillometric monitors not validated for BP measurement in AF"
+      ]
+    },
+    {
+      "name": "Atrial Fibrillation (AF)",
+      "observations": [
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Automated oscillometric monitors not validated for BP measurement in AF",
+        "Automated oscillometric monitors not validated for BP measurement in AF"
+      ]
+    }
+  ]
+}

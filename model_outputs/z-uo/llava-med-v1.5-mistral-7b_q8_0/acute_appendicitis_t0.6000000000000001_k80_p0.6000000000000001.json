@@ -1,0 +1,166 @@
+{
+"observations": [
+{"name": "Chest X-ray", "context": ["cardiac view", "lung view"], "patient_inferences": [
+{"inferences": [
+{"label": "Normal appearance of the lungs and heart", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Coronal chest CT-scan", "context": ["cardiac view", "lung view"], "patient_inferences": [
+{"inferences": [
+{"label": "Normal appearance of the lungs and heart", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Axial chest CT-scan", "context": ["cardiac view", "lung view"], "patient_inferences": [
+{"inferences": [
+{"label": "Normal appearance of the lungs and heart", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "PatientAge", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "Age of the patient", "value_criterion": {"value": 35, "unit": "years"}}
+]}
+]},
+{"name": "PatientInference", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's gender is female", "value_criterion": {"value": 0, "unit": "score"}},
+{"label": "The patient has a normal appearance of the lungs and heart in all imaging modalities", "value_criterion": {"value": 10, "unit": "score"}}
+]}
+]},
+{"name": "ValueCriterion", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's normal appearance of the lungs and heart in all imaging modalities is consistent with a normal condition", "value_criterion": {"value": 10, "unit": "score"}}
+]}
+]},
+{"name": "Inference", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's normal appearance of the lungs and heart in all imaging modalities is consistent with a normal condition", "value_criterion": {"value": 10, "unit": "score"}}
+]}
+]},
+{"name": "Condition", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's normal appearance of the lungs and heart in all imaging modalities is consistent with a normal condition", "value_criterion": {"value": 10, "unit": "score"}}
+]}
+]},
+{"name": "CRP", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's CRP level is within the normal range (≤ 5 mg/dL), which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "PMN", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's PMN level is within the normal range (≤ 75%), which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Leukocytosis", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's leukocytosis level is within the normal range (≤ 10,000 per μL), which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Temperature", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's temperature is within the normal range (≤ 37.3°C or 99.1°F), which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Anorexia", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have anorexia, which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Nausea/vomiting", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have nausea or vomiting, which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Right lower quadrant tenderness", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have right lower quadrant tenderness, which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Rebound pain", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have rebound pain, which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Migration of pain", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have migration of pain, which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Total possible score", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's total possible score is 10 points, which may indicate a lower risk of infection or inflammation in this context", "value_criterion": {"value": 10, "unit": "score"}}
+]}
+]},
+{"name": "PMN > 75%", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's PMN level is above the normal range (> 75%), which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "PMN ≤ 75%", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's PMN level is within the normal range (≤ 75%), which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "CRP > 5 mg/dL", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's CRP level is above the normal range (> 5 mg/dL), which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "CRP ≤ 5 mg/dL", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's CRP level is within the normal range (≤ 5 mg/dL), which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Temperature > 37.3°C (99.1°F)", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's temperature is above the normal range (> 37.3°C or 99.1°F), which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "Temperature ≤ 37.3°C (99.1°F)", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient's temperature is within the normal range (≤ 37.3°C or 99.1°F), which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Anorexia present", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient has anorexia, which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "Anorexia absent", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have anorexia, which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Nausea/vomiting present", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient has nausea or vomiting, which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "Nausea/vomiting absent", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have nausea or vomiting, which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Right lower quadrant tenderness present", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient has right lower quadrant tenderness, which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "Right lower quadrant tenderness absent", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have right lower quadrant tenderness, which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Rebound pain present", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient has rebound pain, which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered", "value_criterion": {"value": -1, "unit": "score"}}
+]}
+]},
+{"name": "Rebound pain absent", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient does not have rebound pain, which may indicate a lower risk of infection or inflammation in this context, and further evaluation may not be necessary", "value_criterion": {"value": 0, "unit": "score"}}
+]}
+]},
+{"name": "Migration of pain present", "context": [], "patient_inferences": [
+{"inferences": [
+{"label": "The patient has migration of pain, which may indicate a higher risk of infection or inflammation in this context, and further evaluation should be considered",

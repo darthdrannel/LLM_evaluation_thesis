@@ -1,0 +1,30 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["hypertension", "elevated blood pressure", "arterial hypertension"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure and Hypertension",
+      "observations": [
+        "Systolic BP: 120-129 mmHg",
+        "Diastolic BP: 70-89 mmHg"
+      ]
+    }
+  ]
+}

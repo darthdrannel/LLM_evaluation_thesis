@@ -1,0 +1,541 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Elevated BP",
+              "value_criterion": {"value": [120, 139], "unit": "mmHg"}
+            },
+            {
+              "label": "Hypertension",
+              "value_criterion": {"value": [140, 180], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Target BP",
+              "value_criterion": {"value": [120, 129], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diastolic Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Target BP",
+              "value_criterion": {"value": [70, 89], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {"value": [20, 30], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": ["Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Moderate-to-severe frailty",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "85 years or over",
+              "value_criterion": {"value": [85, 100], "unit": "years"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respiratory Rate",
+      "context": ["Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {"value": [12, 20], "unit": "breaths/min"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardiovascular Disease Risk",
+      "context": ["Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "High risk",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP-lowering Medications",
+      "context": ["Treatment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Beneficial",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lifestyle Interventions",
+      "context": ["Treatment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Beneficial",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Care Delivery",
+      "context": ["Implementation"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Improved",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guideline Implementation",
+      "context": ["Implementation"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Poor",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patient Input and Lived Experiences",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evidence Tables",
+      "context": ["Supplementary data"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Improved transparency",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "National Societies Survey",
+      "context": ["Implementation"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Informative",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sex and Gender Consideration",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ageing Population Consideration",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty and Older Age Consideration",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personalized Clinical Decision-Making",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shared Decision-Making with Patient",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patient Tolerance to Treatment",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Important",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symptomatic Orthostatic Hypotension",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limited Life Expectancy",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardiovascular Disease Outcomes",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Beneficial",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP-lowering Medications in AF",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Beneficial",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manual Auscultatory Method in AF",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "White-coat Hypertension",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Masked Hypertension",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in AF",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Orthostatic Hypotension",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Frailty and Older Age",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Limited Life Expectancy",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Cardiovascular Disease Outcomes",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in AF and Orthostatic Hypotension",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Frailty and Older Age with Limited Life Expectancy",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Cardiovascular Disease Outcomes with AF and Orthostatic Hypotension",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Frailty and Older Age with Limited Life Expectancy and Cardiovascular Disease Outcomes",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in AF and Orthostatic Hypotension with Frailty and Older Age",
+      "context": ["Consideration"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": {"value": [1, 2], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP Measurement in Limited Life Expectancy with Cardiovascular Disease Outcomes and AF",
+      "

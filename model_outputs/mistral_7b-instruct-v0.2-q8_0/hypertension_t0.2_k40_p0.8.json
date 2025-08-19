@@ -1,0 +1,69 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office Setting", "Home Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": [140, 90],
+"unit": "mmHg"
+}
+},
+{
+"label": "White-coat hypertension",
+"value_criterion": {
+"value": [],
+"unit": ""
+}
+},
+{
+"label": "Masked hypertension",
+"value_criterion": {
+"value": [],
+"unit": ""
+}
+},
+{
+"label": "Orthostatic hypotension",
+"value_criterion": {
+"value": [20, 10],
+"unit": "mmHg",
+"operator": "<"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}
+
+    																

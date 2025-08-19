@@ -1,0 +1,70 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Chest X-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Coronal Chest CT-Scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Axial Chest CT-Scan"
+}
+]
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["age of the patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Patient's Age"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray Normal",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal Chest CT-Scan Normal",
+"observations": ["Coronal chest ct-scan"]
+},
+{
+"name": "Axial Chest CT-Scan Normal",
+"observations": ["Axial chest ct-scan"]
+}
+]
+}

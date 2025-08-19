@@ -1,0 +1,28 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": ["Office", "Out-of-Office"],
+            "patient_inferences": [
+                {"inferences": [{"label": "Low"}]}
+            ]
+        },
+        {
+            "name": "Age",
+            "context": [],
+            "patient_inferences": [
+                {"inferences": [{"label": "High", "value_criterion": {"value": [85, 100], "unit": "years"}}]}
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Hypertension",
+            "observations": ["Blood Pressure"]
+        },
+        {
+            "name": "Elevated Blood Pressure",
+            "observations": ["Blood Pressure"]
+        }
+    ]
+}

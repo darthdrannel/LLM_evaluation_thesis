@@ -1,0 +1,102 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normotension",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": [120, 139],
+"unit": "systolic mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": [140, 90],
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Measuring Approach",
+"context": ["clinic"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Valid measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Out-of-office measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Office BP measurement",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Manual auscultatory method for AF patients",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+},
+{
+"label": "Orthostatic hypotension assessment",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Frailty",
+"context": ["older age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Frail",
+"value_criterion": {
+"value": 1,
+"unit": "binary"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{"name": "Normotension", "observations": ["Blood Pressure"]},
+{"name": "Elevated BP", "observations": ["Blood Pressure"]},
+{"name": "Hypertension", "observations": ["Blood Pressure"]}
+]
+}

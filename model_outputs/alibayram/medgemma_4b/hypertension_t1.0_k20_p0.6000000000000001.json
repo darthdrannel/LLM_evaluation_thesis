@@ -1,0 +1,172 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office systolic BP",
+        "office diastolic BP",
+        "out-of-office BP",
+        "automated oscillometric monitors",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [
+        "patient age"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symptoms",
+      "context": [
+        "symptomatic orthostatic hypotension",
+        "symptoms arise"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": [
+        "moderate-to-severe frailty",
+        "limited life expectancy"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "office systolic BP of 120–139 mmHg",
+        "office diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "office systolic BP of ≥140 mmHg",
+        "office diastolic BP of ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "≥20 systolic BP drop",
+        "≥10 diastolic BP drop"
+      ]
+    },
+    {
+      "name": "Frailty",
+      "observations": [
+        "moderate-to-severe frailty",
+        "limited life expectancy"
+      ]
+    }
+  ]
+}

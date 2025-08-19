@@ -1,0 +1,78 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office Measurement", "Out-of-Office Measurement"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {"value": [120, 139], "unit": "mmHg"}
+            },
+            {
+              "label": "Elevated",
+              "value_criterion": {"value": [140, 180], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "context": ["Office Measurement", "Out-of-Office Measurement"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Target",
+              "value_criterion": {"value": [120, 129], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diastolic Blood Pressure",
+      "context": ["Office Measurement", "Out-of-Office Measurement"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {"value": [70, 89], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial Diagnosis", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected",
+              "value_criterion": {"value": [20, 30], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Target Systolic Blood Pressure",
+      "observations": ["Systolic Blood Pressure"]
+    }
+  ]
+}

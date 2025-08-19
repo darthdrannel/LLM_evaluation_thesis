@@ -1,0 +1,102 @@
+{
+"observations": [
+{
+"name": "Abdominal pain",
+"context": ["right lower quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Possible appendicitis"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No evidence of appendicitis"
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["fever"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Possible infection"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No evidence of infection"
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["white blood cell count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Possible inflammation or infection"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No evidence of inflammation or infection"
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": ["C-reactive protein level"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Possible inflammation or infection"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No evidence of inflammation or infection"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Possible appendicitis",
+"observations": ["Abdominal pain"]
+},
+{
+"name": "No evidence of appendicitis",
+"observations": ["Abdominal pain"]
+},
+{
+"name": "Possible infection",
+"observations": ["Temperature"]
+},
+{
+"name": "No evidence of infection",
+"observations": ["Temperature"]
+}
+]
+}

@@ -1,0 +1,117 @@
+{
+"observations": [
+  {
+    "name": "Blood Pressure",
+    "context": ["office", "out-of-office"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Low Blood Pressure",
+            "value_criterion": {
+              "value": 90,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "Normal Blood Pressure",
+            "value_criterion": {
+              "value": 120,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "High Blood Pressure",
+            "value_criterion": {
+              "value": 140,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blood Pressure Measurement Technique",
+    "context": ["office", "out-of-office"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Correct BP measurement technique used",
+            "value_criterion": {
+              "value": 1,
+              "unit": "boolean"
+            }
+          },
+          {
+            "label": "Incorrect BP measurement technique used",
+            "value_criterion": {
+              "value": 0,
+              "unit": "boolean"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blood Pressure Measurement Device",
+    "context": ["office", "out-of-office"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Validated and calibrated device used for BP measurement",
+            "value_criterion": {
+              "value": 1,
+              "unit": "boolean"
+            }
+          },
+          {
+            "label": "Non-validated or non-calibrated device used for BP measurement",
+            "value_criterion": {
+              "value": 0,
+              "unit": "boolean"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orthostatic Hypotension Assessment",
+    "context": ["office"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Assessment for orthostatic hypotension performed",
+            "value_criterion": {
+              "value": 1,
+              "unit": "boolean"
+            }
+          },
+          {
+            "label": "No assessment for orthostatic hypotension performed",
+            "value_criterion": {
+              "value": 0,
+              "unit": "boolean"
+            }
+          }
+        ]
+      }
+    ]
+  }
+],
+"conditions": [
+  {
+    "name": "Elevated Blood Pressure or Hypertension",
+    "observations": ["Blood Pressure"]
+  },
+  {
+    "name": "Low Blood Pressure",
+    "observations": ["Blood Pressure Measurement Technique"]
+  }
+]
+}

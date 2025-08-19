@@ -1,0 +1,141 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Physical Examination", "Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [6, 10],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Physical Examination", "Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [8, 12],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Physical Examination", "Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [6, 12],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP (C-reactive protein)",
+      "context": ["Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Inflammation",
+              "value_criterion": {
+                "value": [10, 49],
+                "unit": "g/L"
+              }
+            },
+            {
+              "label": "Severe Inflammation",
+              "value_criterion": {
+                "value": [50, 1000000],
+                "unit": "g/L"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Infection or Inflammation",
+              "value_criterion": {
+                "value": [10000, 14900],
+                "unit": "/μL"
+              }
+            },
+            {
+              "label": "Severe Infection or Inflammation",
+              "value_criterion": {
+                "value": [15000, 1000000],
+                "unit": "/μL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN (Polymorphonucleocytes)",
+      "context": ["Laboratory Tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Infection or Inflammation",
+              "value_criterion": {
+                "value": [75, 84],
+                "unit": "%"
+              }
+            },
+            {
+              "label": "Severe Infection or Inflammation",
+              "value_criterion": {
+                "value": [85, 100],
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Inflammation",
+      "observations": ["CRP (C-reactive protein)", "Leukocytosis"]
+    },
+    {
+      "name": "Severe Infection or Inflammation",
+      "observations": ["CRP (C-reactive protein)", "Leukocytosis", "PMN (Polymorphonucleocytes)"]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest CT-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest CT-scan."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["score of 10 or less"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's symptoms and test results do not indicate a high likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["score of 12 or less"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's symptoms and test results do not indicate a high likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["age less than 18 years"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's age may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["female patient"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's gender may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient leukocytosis",
+"context": ["leukocytosis less than 15,000 per μL (15.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's leukocytosis level may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient CRP levels",
+"context": ["CRP levels less than 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CRP levels may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient temperature",
+"context": ["temperature less than 38.5°C (101.3°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's temperature may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient pain level",
+"context": ["pain level less than 3 on a scale of 1 to 5"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pain level may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient nausea/vomiting",
+"context": ["no nausea or vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of nausea or vomiting may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient anorexia",
+"context": ["no anorexia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of anorexia may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient coughing/hopping/percussion pain",
+"context": ["no coughing, hopping, or percussion pain in the right lower quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of coughing, hopping, or percussion pain in the right lower quadrant may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient rebound pain",
+"context": ["rebound pain less than medium intensity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's rebound pain level may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient right lower quadrant tenderness",
+"context": ["no tenderness in the right lower quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of tenderness in the right lower quadrant may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient fever",
+"context": ["no fever or temperature less than 38.5°C (101.3°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of fever or low-grade fever may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient white blood cell count",
+"context": ["white blood cell count less than 15,000 per μL (15.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's white blood cell count may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient C-reactive protein (CRP) levels",
+"context": ["CRP levels less than 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's CRP levels may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient erythrocyte sedimentation rate (ESR) levels",
+"context": ["ESR levels less than 30 mm/h"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's ESR levels may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient chest x-ray findings",
+"context": ["normal chest x-ray findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's normal chest x-ray findings may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient abdominal ultrasound findings",
+"context": ["normal abdominal ultrasound findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's normal abdominal ultrasound findings may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient computed tomography (CT) scan findings",
+"context": ["normal CT scan findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's normal CT scan findings may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient magnetic resonance imaging (MRI) findings",
+"context": ["normal MRI findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's normal MRI findings may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient physical examination findings",
+"context": ["normal physical examination findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's normal physical examination findings may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient laboratory test results",
+"context": ["normal laboratory test results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's normal laboratory test results may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient clinical history",
+"context": ["no relevant clinical history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant clinical history may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient symptoms",
+"context": ["no relevant symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant symptoms may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient risk factors",
+"context": ["no relevant risk factors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant risk factors may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient imaging findings",
+"context": ["no relevant imaging findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant imaging findings may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient laboratory test results",
+"context": ["no relevant laboratory test results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant laboratory test results may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient clinical history",
+"context": ["no relevant clinical history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant clinical history may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient symptoms",
+"context": ["no relevant symptoms"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant symptoms may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient risk factors",
+"context": ["no relevant risk factors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's absence of relevant risk factors may be a factor to consider when evaluating the likelihood of appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient imaging findings",
+"context": ["no relevant imaging findings"],
+"patient_inferences": [
+{

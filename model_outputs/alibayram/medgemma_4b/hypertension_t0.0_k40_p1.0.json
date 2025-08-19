@@ -1,0 +1,468 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [
+        "Patient Age"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 65,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 100,
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": [
+        "Patient Frailty"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 2,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 3,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 4,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 5,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 6,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 7,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 8,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 9,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 10,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 11,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 12,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 13,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 14,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 15,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 16,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 17,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 18,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 19,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 20,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 21,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 22,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 23,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 24,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 25,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 26,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 27,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 28,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 29,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 30,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 31,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 32,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 33,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 34,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 35,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 36,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 37,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 38,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 39,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 40,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 41,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 42,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 43,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 44,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 45,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 46,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 47,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 48,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 49,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 50,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 51,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 52,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 53,
+                "unit": "moderate-to-severe"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 

@@ -1,0 +1,58 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "High Blood Pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low Blood Pressure Drop at 1 and/or 3 min after standing",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure and Hypertension Guidelines 2024",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}

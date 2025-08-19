@@ -1,0 +1,246 @@
+{
+"observations": [
+{
+"name": "Patient Temperature",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Fever",
+"value_criterion": {
+"value": [37.3, 100.4],
+"unit": "°C (F)"
+}
+},
+{
+"label": "Normal body temperature",
+"value_criterion": {
+"value": [36.5, 97.7],
+"unit": "°C (F)"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal white blood cell count",
+"value_criterion": {
+"value": [0, 10000],
+"unit": "per μL (per L)"
+}
+},
+{
+"label": "Elevated white blood cell count",
+"value_criterion": {
+"value": [10001, 14900],
+"unit": "per μL (per L)"
+}
+},
+{
+"label": "Very high white blood cell count",
+"value_criterion": {
+"value": [15000, 15000],
+"unit": "per μL (per L)"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal PMN percentage",
+"value_criterion": {
+"value": [0, 74],
+"unit": "%"
+}
+},
+{
+"label": "High PMN percentage",
+"value_criterion": {
+"value": [75, 100],
+"unit": "%"
+}
+}
+]
+}
+]
+},
+{
+"name": "Abdominal pain (migration of pain)",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Absent",
+"value_criterion": {
+"value": []
+
+																				,
+																				"unit": "N/A"
+}
+},
+{
+"label": "Present",
+"value_criterion": {
+"value": [1],
+"unit": "N/A"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right lower quadrant tenderness",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Absent",
+"value_criterion": {
+"value": []
+
+																				,
+																				"unit": "N/A"
+}
+},
+{
+"label": "Present",
+"value_criterion": {
+"value": [1],
+"unit": "N/A"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right lower quadrant pain with coughing/hopping/percussion",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Absent",
+"value_criterion": {
+"value": []
+
+																				,
+																				"unit": "N/A"
+}
+},
+{
+"label": "Present",
+"value_criterion": {
+"value": [1],
+"unit": "N/A"
+}
+}
+]
+}
+]
+},
+{
+"name": "Rebound pain (light)",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Absent",
+"value_criterion": {
+"value": []
+
+																				,
+																				"unit": "N/A"
+}
+},
+{
+"label": "Present",
+"value_criterion": {
+"value": [1],
+"unit": "N/A"
+}
+}
+]
+}
+]
+},
+{
+"name": "Rebound pain (medium)",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Absent",
+"value_criterion": {
+"value": []
+
+																				,
+																				"unit": "N/A"
+}
+},
+{
+"label": "Present",
+"value_criterion": {
+"value": [1],
+"unit": "N/A"
+}
+}
+]
+}
+]
+},
+{
+"name": "Rebound pain (strong)",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Absent",
+"value_criterion": {
+"value": []
+
+																				,
+																				"unit": "N/A"
+}
+},
+{
+"label": "Present",
+"value_criterion": {
+"value": [1],
+"unit": "N/A"
+}
+}
+]
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Appendicitis",
+"observations": ["Patient Temperature", "Leukocytosis", "PMN percentage", "Abdominal pain (migration of pain)", "Right lower quadrant tenderness"]
+}
+]
+}

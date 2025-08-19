@@ -1,0 +1,80 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office Blood Pressure Measurement",
+        "Out-of-office Blood Pressure Measurement",
+        "Orthostatic Hypotension Assessment"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Initial Diagnosis",
+        "Suggestive Symptoms",
+        "Measurement Technique"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "risk",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "risk",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office Blood Pressure",
+        "Out-of-office Blood Pressure Measurement",
+        "Orthostatic Hypotension Assessment"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office Blood Pressure",
+        "Out-of-office Blood Pressure Measurement",
+        "Orthostatic Hypotension Assessment"
+      ]
+    }
+  ]
+}

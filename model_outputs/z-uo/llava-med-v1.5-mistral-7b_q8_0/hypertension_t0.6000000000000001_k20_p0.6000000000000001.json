@@ -1,0 +1,66 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Out-of-Office BP Measurement",
+"context": ["diagnostic purposes"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "White-Coat Hypertension",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Masked Hypertension",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}

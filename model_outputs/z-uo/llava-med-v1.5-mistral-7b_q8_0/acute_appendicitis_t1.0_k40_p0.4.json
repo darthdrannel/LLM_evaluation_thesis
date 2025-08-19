@@ -1,0 +1,409 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "elevated blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "elevated blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "elevated blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Pain in the right lower quadrant of the abdomen",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "absent pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 0,
+"unit": "N/A"
+}
+},
+{
+"label": "mild pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 1,
+"unit": "N/A"
+}
+},
+{
+"label": "moderate pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 2,
+"unit": "N/A"
+}
+},
+{
+"label": "severe pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 3,
+"unit": "N/A"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "absent pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 0,
+"unit": "N/A"
+}
+},
+{
+"label": "mild pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 1,
+"unit": "N/A"
+}
+},
+{
+"label": "moderate pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 2,
+"unit": "N/A"
+}
+},
+{
+"label": "severe pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 3,
+"unit": "N/A"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "absent pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 0,
+"unit": "N/A"
+}
+},
+{
+"label": "mild pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 1,
+"unit": "N/A"
+}
+},
+{
+"label": "moderate pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 2,
+"unit": "N/A"
+}
+},
+{
+"label": "severe pain in the right lower quadrant of the abdomen",
+"value_criterion": {
+"value": 3,
+"unit": "N/A"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature in the body",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal temperature in the body",
+"value_criterion": {
+"value": 36.5,
+"unit": "°C"
+}
+},
+{
+"label": "elevated temperature in the body",
+"value_criterion": {
+"value": 37.5,
+"unit": "°C"
+}
+},
+{
+"label": "high fever in the body",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal temperature in the body",
+"value_criterion": {
+"value": 36.5,
+"unit": "°C"
+}
+},
+{
+"label": "elevated temperature in the body",
+"value_criterion": {
+"value": 37.5,
+"unit": "°C"
+}
+},
+{
+"label": "high fever in the body",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal temperature in the body",
+"value_criterion": {
+"value": 36.5,
+"unit": "°C"
+}
+},
+{
+"label": "elevated temperature in the body",
+"value_criterion": {
+"value": 37.5,
+"unit": "°C"
+}
+},
+{
+"label": "high fever in the body",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis (white blood cell count)",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal leukocyte count in the body",
+"value_criterion": {
+"value": 4500,
+"unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "mild leukocytosis (white blood cell count elevated by less than 2 standard deviations from the mean)",
+"value_criterion": {
+"value": 9000,
+"unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "moderate leukocytosis (white blood cell count elevated by more than 2 standard deviations from the mean but less than 15,000 cells per microliter (μL))",
+"value_criterion": {
+"value": 14, "unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "severe leukocytosis (white blood cell count greater than or equal to 15,000 cells per microliter (μL))",
+"value_criterion": {
+"value": 15, "unit": "cells per microliter (μL)"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal leukocyte count in the body",
+"value_criterion": {
+"value": 4500,
+"unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "mild leukocytosis (white blood cell count elevated by less than 2 standard deviations from the mean)",
+"value_criterion": {
+"value": 9000,
+"unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "moderate leukocytosis (white blood cell count elevated by more than 2 standard deviations from the mean but less than 15,000 cells per microliter (μL))",
+"value_criterion": {
+"value": 14, "unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "severe leukocytosis (white blood cell count greater than or equal to 15,000 cells per microliter (μL))",
+"value_criterion": {
+"value": 15, "unit": "cells per microliter (μL)"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal leukocyte count in the body",
+"value_criterion": {
+"value": 4500,
+"unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "mild leukocytosis (white blood cell count elevated by less than 2 standard deviations from the mean)",
+"value_criterion": {
+"value": 9000,
+"unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "moderate leukocytosis (white blood cell count elevated by more than 2 standard deviations from the mean but less than 15,000 cells per microliter (μL))",
+"value_criterion": {
+"value": 14, "unit": "cells per microliter (μL)"
+}
+},
+{
+"label": "severe leukocytosis (white blood cell count greater than or equal to 15,000 cells per microliter (μL))",
+"value_criterion": {
+"value": 15, "unit": "cells per microliter (μL)"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage in the blood",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal PMN percentage in the blood (less than 75%)",
+"value_criterion": {
+"value": 74,
+"unit": "%"
+}
+},
+{
+"label": "mild elevation of PMN percentage in the blood (greater than or equal to 75% but less than 85%)",
+"value_criterion": {
+"value": 84,
+"unit": "%"
+}
+},
+{
+"label": "moderate elevation of PMN percentage in the blood (greater than or equal to 85% but less than 95%)",
+"value_criterion": {
+"value": 94,
+"unit": "%"
+}
+},
+{
+"label": "severe elevation of PMN percentage in the blood (greater than or equal to 95%)",
+"value_criterion": {
+"value": 100,
+"unit": "%"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "normal PMN percentage in the blood (less than 75%)",
+"value_criterion": {
+"value": 74,
+"unit": "%"
+}
+},
+{
+"label": "mild elevation of PMN percentage in the blood (greater than or equal to 75

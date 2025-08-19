@@ -1,0 +1,103 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office Visit", "BP Monitoring"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": [140, 90],
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic Hypotension",
+"value_criterion": {
+"value": [-20, -10],
+"unit": "systolic mmHg",
+"operator": "<"
+}
+}
+]
+}
+]
+},
+{
+"name": "AF and Blood Pressure Measurement",
+"context": ["Electrocardiogram", "BP Monitoring"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP Unmeasurable",
+"value_criterion": null
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Manual Measurement Recommended",
+"value_criterion": {
+"value": [],
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Initial Diagnosis of Elevated BP or Hypertension", "Follow-up"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Orthostatic Response",
+"value_criterion": {
+"value": [0, 0],
+"unit": "systolic/diastolic mmHg"
+}
+},
+{
+"label": "Orthostatic Hypotension Present",
+"value_criterion": {
+"value": [20, 10],
+"unit": "systolic/diastolic mmHg",
+"operator": "<="
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Blood Pressure Measurement", "Orthostatic Hypotension Assessment"]
+}
+]
+}

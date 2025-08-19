@@ -1,0 +1,182 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": ""}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+ "value_criterion": {
+  "value": 37.3,
+  "unit": "°C"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Elevated",
+ "value_criterion": {
+  "value": 38,
+  "unit": "°C"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+  "value": 10000,
+  "unit": "per μL"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Present",
+ "value_criterion": {
+  "value": 15000,
+  "unit": "per μL"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "≥ 75%",
+ "value_criterion": {
+  "value": 75,
+  "unit": "%"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "≥ 85%",
+ "value_criterion": {
+  "value": 85,
+  "unit": "%"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "<= 49 g/L",
+ "value_criterion": {
+  "value": 49,
+  "unit": "g/L"
+ }
+}
+],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": ">= 50 g/L",
+ "value_criterion": {
+  "value": 50,
+  "unit": "g/L"
+ }
+}
+],
+"gender": null,
+"age": null
+}
+]
+}
+]
+,"conditions": [
+{
+"name": "Alvarado Score >= 7",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Pediatric Appendicitis Score >= 8",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Right Lower Quadrant Pain with Coughing/Hopping/Percussion", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Appendicitis Inflammatory Response score >= 7",
+"observations": ["Vomiting", "Right Iliac Fossa Pain", "Rebound Pain (light)", "Rebound Pain (medium)", "Rebound Pain (strong)", "Temperature", "Leukocytosis", "PMN percentage", "CRP level"]
+}
+]
+}

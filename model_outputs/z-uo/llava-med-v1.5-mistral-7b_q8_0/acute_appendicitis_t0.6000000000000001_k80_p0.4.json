@@ -1,0 +1,508 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "elevated blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "elevated blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "elevated blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Respiration Rate",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low respiration rate",
+"value_criterion": {
+"value": 12,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "normal respiration rate",
+"value_criterion": {
+"value": 15,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "elevated respiration rate",
+"value_criterion": {
+"value": 20,
+"unit": "breaths per minute"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low respiration rate",
+"value_criterion": {
+"value": 12,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "normal respiration rate",
+"value_criterion": {
+"value": 15,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "elevated respiration rate",
+"value_criterion": {
+"value": 20,
+"unit": "breaths per minute"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low respiration rate",
+"value_criterion": {
+"value": 12,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "normal respiration rate",
+"value_criterion": {
+"value": 15,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "elevated respiration rate",
+"value_criterion": {
+"value": 20,
+"unit": "breaths per minute"
+}
+}
+]
+}
+]
+},
+{
+"name": "Pain Score",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low pain score",
+"value_criterion": {
+"value": 1,
+"unit": "numerical scale"
+}
+},
+{
+"label": "normal pain score",
+"value_criterion": {
+"value": 5,
+"unit": "numerical scale"
+}
+},
+{
+"label": "elevated pain score",
+"value_criterion": {
+"value": 10,
+"unit": "numerical scale"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low pain score",
+"value_criterion": {
+"value": 1,
+"unit": "numerical scale"
+}
+},
+{
+"label": "normal pain score",
+"value_criterion": {
+"value": 5,
+"unit": "numerical scale"
+}
+},
+{
+"label": "elevated pain score",
+"value_criterion": {
+"value": 10,
+"unit": "numerical scale"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low pain score",
+"value_criterion": {
+"value": 1,
+"unit": "numerical scale"
+}
+},
+{
+"label": "normal pain score",
+"value_criterion": {
+"value": 5,
+"unit": "numerical scale"
+}
+},
+{
+"label": "elevated pain score",
+"value_criterion": {
+"value": 10,
+"unit": "numerical scale"
+}
+}
+]
+}
+]
+},
+{
+"name": "Pulse Rate",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low pulse rate",
+"value_criterion": {
+"value": 60,
+"unit": "beats per minute"
+}
+},
+{
+"label": "normal pulse rate",
+"value_criterion": {
+"value": 75,
+"unit": "beats per minute"
+}
+},
+{
+"label": "elevated pulse rate",
+"value_criterion": {
+"value": 100,
+"unit": "beats per minute"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low pulse rate",
+"value_criterion": {
+"value": 60,
+"unit": "beats per minute"
+}
+},
+{
+"label": "normal pulse rate",
+"value_criterion": {
+"value": 75,
+"unit": "beats per minute"
+}
+},
+{
+"label": "elevated pulse rate",
+"value_criterion": {
+"value": 100,
+"unit": "beats per minute"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low pulse rate",
+"value_criterion": {
+"value": 60,
+"unit": "beats per minute"
+}
+},
+{
+"label": "normal pulse rate",
+"value_criterion": {
+"value": 75,
+"unit": "beats per minute"
+}
+},
+{
+"label": "elevated pulse rate",
+"value_criterion": {
+"value": 100,
+"unit": "beats per minute"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low temperature",
+"value_criterion": {
+"value": 35.0,
+"unit": "°C"
+}
+},
+{
+"label": "normal temperature",
+"value_criterion": {
+"value": 37.0,
+"unit": "°C"
+}
+},
+{
+"label": "elevated temperature",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low temperature",
+"value_criterion": {
+"value": 35.0,
+"unit": "°C"
+}
+},
+{
+"label": "normal temperature",
+"value_criterion": {
+"value": 37.0,
+"unit": "°C"
+}
+},
+{
+"label": "elevated temperature",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low temperature",
+"value_criterion": {
+"value": 35.0,
+"unit": "°C"
+}
+},
+{
+"label": "normal temperature",
+"value_criterion": {
+"value": 37.0,
+"unit": "°C"
+}
+},
+{
+"label": "elevated temperature",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low leukocytosis",
+"value_criterion": {
+"value": 4000,
+"unit": "per μL"
+}
+},
+{
+"label": "normal leukocytosis",
+"value_criterion": {
+"value": 10, "unit": "per μL"
+}
+},
+{
+"label": "elevated leukocytosis",
+"value_criterion": {
+"value": 15, "unit": "per μL"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low leukocytosis",
+"value_criterion": {
+"value": 4000,
+"unit": "per μL"
+}
+},
+{
+"label": "normal leukocytosis",
+"value_criterion": {
+"value": 10, "unit": "per μL"
+}
+},
+{
+"label": "elevated leukocytosis",
+"value_criterion": {
+"value": 15, "unit": "per μL"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low leukocytosis",
+"value_criterion": {
+"value": 4000,
+"unit": "per μL"
+}
+},
+{
+"label": "normal leukocytosis",
+"value_criterion": {
+"value": 10, "unit": "per μL"
+}
+},
+{
+"label": "elevated leukocytosis",
+"value_criterion": {
+"value": 15, "unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP Level",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low CRP level",
+"value_criterion": {
+"value": 1,
+"unit": "mg/dL"
+}
+},
+{
+"label": "normal CRP level",
+"value_criterion": {
+"value": 5,
+"unit": "mg/dL"
+}
+},
+{
+"label": "elevated CRP level",
+"value_criterion": {
+"value": 10,
+"unit": "mg/dL"
+}

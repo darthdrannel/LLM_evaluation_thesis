@@ -1,0 +1,598 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["Pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild chest pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Chest pain with coughing/hopping/percussion",
+"context": ["Pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Moderate chest pain with coughing/hopping/percussion"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal temperature"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Leukocytosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal leukocytosis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMN percentage"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal PMN percentage"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP level"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal CRP level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendedicitis Inflammatory Response score",
+"context": ["Inflammatory response score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal inflammatory response score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["Alvarado score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Alvarado score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["Pediatric appendicitis score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pediatric appendicitis score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["Age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal patient age"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Gender",
+"context": ["Gender"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Male patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Female patient",
+"context": ["Gender"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Female patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nonbinary patient",
+"context": ["Gender"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Nonbinary patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient height",
+"context": ["Height"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal patient height"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient weight",
+"context": ["Weight"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal patient weight"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "BMI",
+"context": ["BMI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BMI"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Body temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal body temperature"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Heart rate",
+"context": ["Heart rate"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal heart rate"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Respiratory rate",
+"context": ["Respiratory rate"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal respiratory rate"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "SpO2",
+"context": ["SpO2"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal SpO2"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulse oximetry saturation",
+"context": ["Saturation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulse oximetry saturation"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulse pressure",
+"context": ["Pulse pressure"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulse pressure"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Systolic blood pressure",
+"context": ["Blood pressure"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal systolic blood pressure"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Diastolic blood pressure",
+"context": ["Blood pressure"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal diastolic blood pressure"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Heart rate variability",
+"context": ["Heart rate variability"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal heart rate variability"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Respiratory rate variability",
+"context": ["Respiratory rate variability"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal respiratory rate variability"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulse oximetry saturation variability",
+"context": ["Saturation variability"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulse oximetry saturation variability"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulse pressure variability",
+"context": ["Pulse pressure variability"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulse pressure variability"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Systolic blood pressure variability",
+"context": ["Blood pressure variability"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal systolic blood pressure variability"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Diastolic blood pressure variability",
+"context": ["Blood pressure variability"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal diastolic blood pressure variability"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Heart rate variability index",
+"context": ["Heart rate variability index"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal heart rate variability index"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Respiratory rate variability index",
+"context": ["Respiratory rate variability index"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal respiratory rate variability index"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulse oximetry saturation variability index",
+"context": ["Saturation variability index"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulse oximetry saturation variability index"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulse pressure variability index",
+"context": ["Pulse pressure variability index"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulse pressure variability index"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Systolic blood pressure variability index",
+"context": ["Blood pressure variability index"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal systolic blood pressure variability index"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Diastolic blood pressure variability index",
+"context": ["Blood pressure variability index"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal diastolic blood pressure variability index"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Heart rate variability standard deviation",
+"context": ["Heart rate variability standard deviation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal heart rate variability standard deviation"
+}
+],
+"gender": null,

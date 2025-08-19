@@ -1,0 +1,86 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "2024 ESC/ESH Guidelines on the management of arterial hypertension",
+        "updated guidelines",
+        "elevated blood pressure and hypertension",
+        "office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg",
+        "target systolic BP of 120–129 mmHg",
+        "out-of-office BP measurement",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure Measurement",
+      "context": [
+        "validated and calibrated device",
+        "correct measurement technique",
+        "consistent approach",
+        "out-of-office BP measurement",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 80,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "office systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "office systolic BP of 120–139 mmHg or diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+"observations": [
+{
+"name": "Patient Age",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adult",
+"value_criterion": {
+"value": 18,
+"unit": "years"
+}
+},
+{
+"label": "Child",
+"value_criterion": {
+"value": [2, 18],
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "Abdominal Pain Migration",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": {
+"value": 0,
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": {
+"value": 0,
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": {
+"value": 0,
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Absent",
+"value_criterion": {
+"value": 0,
+"unit": "point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Rebound Pain",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Light",
+"value_criterion": {
+"value": 1,
+"unit": "point"
+}
+},
+{
+"label": "Medium",
+"value_criterion": {
+"value": 2,
+"unit": "points"
+}
+},
+{
+"label": "Strong",
+"value_criterion": {
+"value": 3,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Clinical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "< 37.3°C (99.1°F)",
+"value_criterion": {
+"value": [35, 37.2],
+"unit": "°C"
+}
+},
+{
+"label": "≥ 37.3°C (99.1°F)",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "< 10,000 per μL (10.0 × 109 per L)",
+"value_criterion": {
+"value": 9900,
+"unit": "per μL"
+}
+},
+{
+"label": "≥ 10,000 per μL (10.0 × 109 per L)",
+"value_criterion": {
+"value": [10000, 14900],
+"unit": "per μL"
+}
+},
+{
+"label": "≥ 15,000 per μL (15.0 × 109 per L)",
+"value_criterion": {
+"value": 15000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN",
+"context": ["Lab Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "< 75%",
+"value_criterion": {
+"value": 74,
+"unit": "%"
+}
+},
+{
+"label": "≥ 75%",
+"value_criterion": {
+"value": [75, 100],
+"unit": "%"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": ["Lab Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "< 10 g per L",
+"value_criterion": {
+"value": 9.9,
+"unit": "g/L"
+}
+},
+{
+"label": "≥ 50 g per L",
+"value_criterion": {
+"value": 50,
+"unit": "g/L"
+}
+}
+]
+}
+]
+}
+]
+,"conditions": [
+{
+"name": "Suspected Appendicitis (Alvarado Score)",
+"observations": ["Abdominal Pain Migration", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "Suspected Appendicitis (Pediatric Score)",
+"observations": ["Abdominal Pain Migration", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain with Coughing/Hopping/Percussion", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "Appendicitis Inflammatory Response",
+"observations": ["Vomiting", "Right Iliac Fossa Pain", "Rebound Pain (Light)", "Rebound Pain (Medium)", "Rebound Pain (Strong)", "Temperature", "Leukocytosis", "PMN"]
+}
+]
+}

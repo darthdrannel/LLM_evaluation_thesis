@@ -1,0 +1,483 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Blood Pressure",
+        "Out-of-Office Blood Pressure",
+        "Automated Oscillometric Monitor",
+        "Manual Auscultatory Method"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 130,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 150,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 160,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 170,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 180,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 190,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 200,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 210,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 220,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 230,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 240,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 250,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 260,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 270,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 280,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 290,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 300,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Orthostatic Hypotension Assessment",
+        "Orthostatic Hypotension Symptoms"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 30,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": [
+        "Frailty Assessment",
+        "Frailty Symptoms"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 95,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 100,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 105,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 110,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 115,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 125,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 130,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 135,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 145,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 150,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 155,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 160,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 165,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 170,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 175,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 180,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 185,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 190,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 195,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 200,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 205,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 210,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 215,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 220,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 225,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 230,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 235,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 240,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 245,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 250,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 255,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 260,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 265,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 270,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 275,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 280,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 285,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 290,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "

@@ -1,0 +1,69 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measured With Validated Device",
+"context": ["Office Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": { "value": [120, 80], "unit": "mmHg" }},
+{"label": "Elevated", "value_criterion": { "value": [120, 89], "unit": "mmHg" }}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Measured Out of Office",
+"context": ["Home Setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": { "value": [120, 80], "unit": "mmHg" }},
+{"label": "White-Coat Hypertension", "value_criterion": { "value": [140, 90], "unit": "mmHg" }},
+{"label": "Masked Hypertension", "value_criterion": { "value": [120, 80], "unit": "mmHg" }}
+]
+}
+]
+},
+{
+"name": "BP Measured With Manual Auscultation",
+"context": ["AF Patient"],
+"patient_inferences": [
+{"inferences": [{"label": "Measured", "value_criterion": { "value": 1, "unit": "boolean" }}]},
+{"inferences": [{"label": "Normal", "value_criterion": { "value": [120, 80], "unit": "mmHg" }}]},
+{"inferences": [{"label": "Elevated", "value_criterion": { "value": [121, 89], "unit": "mmHg" }}]}
+]},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Initial Diagnosis or Symptom Occurrence"],
+"patient_inferences": [
+{"inferences": [
+{"label": "Negative (no orthostatic hypotension)", "value_criterion": { "value": 0, "unit": "boolean" }},
+{"label": "Positive (orthostatic hypotension)", "value_criterion": { "value": [-20, -10], "unit": "mmHg" }}
+]},
+{"inferences": [{"label": "Assessment Performed", "value_criterion": { "value": 1, "unit": "boolean" }}]},
+{
+"inferences": [
+{"label": "Not Applicable"},
+{"label": "Awaiting Assessment Result"}
+]},
+{
+"inferences": [],
+"gender": null,
+"age": { "value": 50, "unit": "years" }
+}
+]}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measured With Validated Device"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+      		 	      				

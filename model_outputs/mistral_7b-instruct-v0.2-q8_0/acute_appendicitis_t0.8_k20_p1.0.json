@@ -1,0 +1,181 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AppendicitisSuspected",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "AppendicitisDiagnosed",
+"value_criterion": {
+"value": [2, 3, 4, 5],
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AnorexiaPresent",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea or Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "NauseaOrVomitingPresent",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "FeverPresent",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "ElevatedBodyTemperature",
+"value_criterion": {
+"value": [37.3, 38],
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "LeukocytosisPresent",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "ElevatedWhiteBloodCellCount",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "ElevatedWhiteBloodCellPercentage",
+"value_criterion": {
+"value": 75,
+"unit": "%"
+}
+}
+],
+"gender": "nonbinary",
+"age": null
+}
+]
+},
+{
+"name": "PMN",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "ElevatedPolymorphonucleocytesCountOrPercentage",
+"value_criterion": {
+"value": 75,
+"unit": "%"
+}
+},
+{
+"label": "ElevatedPolymorphonucleocytesCount",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "ElevatedCRPPresence",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "ElevatedCRPValue",
+"value_criterion": {
+"value": [50, 10],
+"unit": "g per L"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "AppendicitisSuspected",
+"observations": ["Abdominal Pain"]
+},
+{
+"name": "AppendicitisDiagnosed",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea or Vomiting", "Temperature", "Leukocytosis", "PMN"]
+}
+]
+}

@@ -1,0 +1,84 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado score",
+      "context": ["Appendicitis assessment", "Suspected appendicitis diagnosis"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {"value": 6, "unit": "", "operator": ">="}
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Appendicitis assessment", "Suspected appendicitis diagnosis"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": null
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {"value": 8, "unit": "", "operator": ">="}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response score",
+      "context": ["Appendicitis assessment", "Suspected appendicitis diagnosis"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": null
+            },
+            {
+              "label": "normal",
+              "value_criterion": {"value": 5, "unit": "", "operator": "="}
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {"value": 8, "unit": "", "operator": ">="}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Appendicitis",
+      "observations": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"]
+    },
+    {
+      "name": "Suspected appendicitis ",
+      "observations": ["Appendicitis Inflammatory Response score", "Right lower quadrant tenderness", "Right lower quadrant pain with coughing/hopping/percussion", "Rebound pain, strong", "PMN ≥ 75%"]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+"observations": [
+{
+"name": "Patient Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "AppendicitisSuspected", "value_criterion": { "value": 1, "unit": "points" }},
+{"label": "MildAbdominalPain", "value_criterion": { "value": [1, 2], "unit": "points" }}
+]
+}
+]
+},
+{
+"name": "Patient Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Fever", "value_criterion": { "value": 37.3, "unit": "°C" }},
+{"label": "ElevatedTemperature", "value_criterion": { "value": [37.3, 38], "unit": "°C" }}
+]
+}
+]
+},
+{
+"name": "Patient Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Leukocytosis", "value_criterion": { "value": 10000, "unit": "per μL" }}
+]
+}
+]
+},
+{
+"name": "Patient LeukocytePercentage",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "PMNGreaterThan75", "value_criterion": { "value": 75, "unit": "%" }}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "AppendicitisSuspected",
+"observations": ["Patient Abdominal Pain"]
+},
+{
+"name": "Fever",
+"observations": ["Patient Temperature"]
+},
+{
+"name": "Leukocytosis",
+"observations": ["Patient Leukocytosis"]
+},
+{
+"name": "PMNGreaterThan75",
+"observations": ["Patient LeukocytePercentage"]
+}
+]
+}

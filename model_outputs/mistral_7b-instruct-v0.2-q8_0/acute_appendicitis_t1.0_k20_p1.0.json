@@ -1,0 +1,371 @@
+{
+"observations": [
+{
+"name": "Patient Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain Level",
+"value_criterion": {
+"value": [1, 2, 3],
+"unit": "Alvarado score points"
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Temperature",
+"context": ["Body Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Temperature",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C (99.1°F)"
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": [1, 2],
+"unit": "",
+"operator": ">="
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Fever",
+"value_criterion": {
+"value": 38,
+"unit": "°C (100.4°F)",
+"operator": ">"
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Elevated Temperature",
+"value_criterion": {
+"value": 38.5,
+"unit": "°C (101.3°F)"
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": [2, 3],
+"unit": "",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Leukocytosis",
+"context": ["Complete Blood Count", "White Blood Cells"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Leukocytosis",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL (10.0 × 109 per L)"
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": [1, 2],
+"unit": "",
+"operator": ">="
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Elevated Leukocytosis",
+"value_criterion": {
+"value": 15000,
+"unit": "per μL (15.0 × 109 per L)"
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": 3,
+"unit": "",
+"operator": ">"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Elevated Leukocytosis",
+"value_criterion": {
+"value": [10000, 14900],
+"unit": "per μL (10.0 to 14.9 × 109 per L)"
+}
+},
+{
+"label": "Mild Appendicitis Inflammatory Response",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+}
+],
+"age": {
+"value": 0,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Elevated Leukocytosis",
+"value_criterion": {
+"value": [15000],
+"unit": "per μL (15.0 × 109 per L)"
+}
+},
+{
+"label": "Severe Appendicitis Inflammatory Response",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+}
+],
+"age": {
+"value": 0,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Patient Anorexia",
+"context": ["Appetite"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Anorexia",
+"value_criterion": {
+"value": 1,
+"unit": "",
+"operator": "="
+}
+}
+]
+},
+{
+"inferences": [],
+"age": {
+"value": 0,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Patient Nausea",
+"context": ["Gastrointestinal Symptoms"],
+"patient_inferences": [
+{
+"inferences": [],
+"age": {
+"value": 0,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Patient Vomiting",
+"context": ["Gastrointestinal Symptoms"],
+"patient_inferences": [
+{
+"inferences": [],
+"age": {
+"value": 0,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Patient Right Lower Quadrant Tenderness",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Right Lower Quadrant Tenderness",
+"value_criterion": {
+"value": 1,
+"unit": "",
+"operator": "="
+}
+},
+{
+"label": "Possible Appendicitis",
+"value_criterion": {
+"value": [1, 2],
+"unit": "",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Rebound Tenderness (Medium)",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Rebound pain (medium)",
+"value_criterion": {
+"value": 1,
+"unit": "",
+"operator": "="
+}
+},
+{
+"label": "Mild Appendicitis Inflammatory Response",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Leukocyte Percentage",
+"context": ["Complete Blood Count", "Leukocytes"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "70% to 84% PMN",
+"value_criterion": {
+"value": [70, 84],
+"unit": "%"
+}
+},
+{
+"label": "Mild Appendicitis Inflammatory Response",
+"value_criterion": {
+"value": 1,
+"unit": "",
+"operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient CRP Level",
+"context": ["Blood Test"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "CRP (10 to 49 g per L)",
+"value_criterion": {
+"value": 10,
+"unit": "g per L"
+}
+},
+{
+"label": "Mild Appendicitis Inflammatory Response",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+},
+{
+"label": "CRP (≥50 g per L)",
+"value_criterion": {
+"value": 50,
+"unit": "g per L",
+"operator": ">"
+}
+},
+{
+"label": "Severe Appendicitis Inflammatory Response",
+"value_criterion": {
+"value": 2,
+"unit": "",
+"operator": "<="
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Possible Appendicitis",
+"observations": [
+"Patient Abdominal Pain",
+"Patient Temperature (1)",
+"Patient Leukocytosis",
+"Patient Anorexia",
+"Patient Nausea / Vomiting"
+]
+},
+{
+"name": "Mild Appendicitis Inflammatory Response",
+"observations": [
+"Patient Rebound Tenderness (Medium)",
+"Patient Leukocyte Percentage"
+]
+}
+]
+}

@@ -1,0 +1,15 @@
+{"observations": [
+    {"name": "Blood Pressure", "context": ["Office BP measurement", "Out-of-office BP measurement"], "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}]}
+    ]},
+    {"name": "Diastolic Blood Pressure", "context": ["Office BP measurement", "Out-of-office BP measurement"], "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [70, 89], "unit": "mmHg"}}]}
+    ]},
+    {"name": "Orthostatic Hypotension", "context": ["Initial diagnosis of elevated BP or hypertension"], "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}]}
+    ]}
+],
+"conditions": [
+    {"name": "Elevated Blood Pressure", "observations": ["Blood Pressure", "Diastolic Blood Pressure"]},
+    {"name": "Orthostatic Hypotension", "observations": ["Orthostatic Hypotension"]}
+]}

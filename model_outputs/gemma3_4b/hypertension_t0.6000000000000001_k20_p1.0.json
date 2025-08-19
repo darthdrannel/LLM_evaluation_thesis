@@ -1,0 +1,42 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": [
+                "ESC/ESH Guidelines on the management of arterial hypertension",
+                "2024 document",
+                "updated guidelines",
+                "elevated blood pressure and hypertension"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "elevated",
+                    "value_criterion": {
+                    "value": 140,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated BP",
+            "observations": [
+                "office systolic BP of ≥120 mmHg",
+                "office diastolic BP of ≥70 mmHg"
+            ]
+        },
+        {
+            "name": "Hypertension",
+            "observations": [
+                "office systolic BP of ≥140 mmHg",
+                "office diastolic BP of ≥90 mmHg"
+            ]
+        }
+    ]
+}

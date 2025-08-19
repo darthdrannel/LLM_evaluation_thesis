@@ -1,0 +1,51 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}]},
+        {"inferences": [{"label": "hypertension", "value_criterion": {"value": [140, 180], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "context": ["Office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "target", "value_criterion": {"value": [120, 129], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Diastolic Blood Pressure",
+      "context": ["Office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "target", "value_criterion": {"value": [70, 89], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Target Systolic Blood Pressure",
+      "observations": ["Systolic Blood Pressure"]
+    },
+    {
+      "name": "Target Diastolic Blood Pressure",
+      "observations": ["Diastolic Blood Pressure"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+"observations": [
+    {
+        "name": "Anorexia",
+        "context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal condition"
+                    }
+                ]
+            } ]
+    },
+    {
+        "name": "Nausea/vomiting",
+        "context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal condition"
+                    }
+                ]
+            } ]
+    },
+    {
+        "name": "Right lower quadrant pain",
+        "context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal condition"
+                    }
+                ]
+            } ]
+    },
+    {
+        "name": "Right Iliac fossa pain",
+        "context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal condition"
+                    }
+                ]
+            } ]
+    },
+    {
+        "name": "Temperature",
+        "context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal condition"
+                    }
+                ]
+            },
+            {
+                "inferences": [
+                    {
+                    "label": "elevated temperature"
+                    },
+                    {
+                    "label": "temperature change"
+                    },
+                    {
+                    "label": "fever"
+                    }
+                ]
+            } ]
+        }],
+"conditions": [
+    {
+        "name": "Chest X-ray negative for appendicitis signs"
+    ,
+    "observations": ["Anorexia", "Nausea/vomiting", "Right lower quadrant pain", "Right Iliac fossa pain", "Temperature"] }] }

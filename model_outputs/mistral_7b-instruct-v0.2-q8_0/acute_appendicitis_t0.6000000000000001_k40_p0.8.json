@@ -1,0 +1,124 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "AppendicitisSuspected", "value_criterion": { "value": 1, "unit": "Point" }},
+{"label": "MildAppendicitis", "value_criterion": { "value": [1, 2], "unit": "Points" }}
+]
+}
+]
+},
+{
+"name": "Nausea and Vomiting",
+"context": ["Abdominal"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "AppendicitisSuspected", "value_criterion": { "value": 1, "unit": "Point" }}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Fever", "value_criterion": { "value": 37.3, "unit": "°C" }},
+{"label": "HighGradeFever", "value_criterion": { "value": [38, 38.5], "unit": "°C" }}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "ElevatedWhiteBloodCellCount", "value_criterion": { "value": 10000, "unit": "per μL" }}
+]
+}
+]
+},
+{
+"name": "Polymorphonucleocytes (PMN)",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "ElevatedPercentagePMN", "value_criterion": { "value": 75, "unit": "%" }}
+]
+}
+]
+},
+{
+"name": "C-reactive protein (CRP)",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "ElevatedCRP", "value_criterion": { "value": 50, "unit": "g per L" }}
+]
+}
+]
+},
+{
+"name": "Patient Age",
+"context": ["Demographic"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Adult", "value_criterion": { "value": 18, "unit": "years" }}
+]
+}
+]
+},
+{
+"name": "Patient Gender",
+"context": ["Demographic"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Male", "value_criterion": { "value": 1, "unit": "" }}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "AppendicitisSuspected",
+"observations": ["Abdominal Pain", "Nausea and Vomiting", "Temperature", "Leukocytosis"]
+},
+{
+"name": "MildAppendicitis",
+"observations": ["Abdominal Pain", "Nausea and Vomiting", "Temperature", "Leukocytosis"]
+},
+{
+"name": "Fever",
+"observations": ["Temperature"]
+},
+{
+"name": "HighGradeFever",
+"observations": ["Temperature"]
+},
+{
+"name": "ElevatedWhiteBloodCellCount",
+"observations": ["Leukocytosis"]
+},
+{
+"name": "ElevatedPercentagePMN",
+"observations": ["Polymorphonucleocytes (PMN)"]
+},
+{
+"name": "ElevatedCRP",
+"observations": ["C-reactive protein (CRP)"]
+}
+]
+}

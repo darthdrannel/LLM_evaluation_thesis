@@ -1,0 +1,499 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP",
+        "Automated Oscillometric Monitor",
+        "Orthostatic Hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [
+        "Patient Age"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 65,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 75,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value

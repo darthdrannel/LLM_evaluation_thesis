@@ -1,0 +1,106 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Arterial Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<="
+}
+},
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension",
+"context": ["systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Orthostatic Hypotension (OH)",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<="
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP)",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Hypertension",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Arterial Hypertension",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Elevated BP",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Normal BP",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Orthostatic Hypotension (OH)",
+"observations": ["Blood Pressure"]
+}
+]
+}

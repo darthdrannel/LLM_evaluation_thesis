@@ -1,0 +1,126 @@
+{"observations": [
+  {
+    "name": "Alvarado score",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "low", "value_criterion": {"value": [1,2,3,4,5], "unit": ""}},
+        {"label": "normal", "value_criterion": {"value": [6,7,8,9,10], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Pediatric Appendicitis Score",
+    "context": ["Appendicitis evaluation in pediatric patients"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "low", "value_criterion": {"value": [1,2,3,4], "unit": ""}},
+        {"label": "normal", "value_criterion": {"value": [5,6,7,8,9,10,11,12], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Appendicitis Inflammatory Response score",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "low", "value_criterion": {"value": [1,2,3], "unit": ""}},
+        {"label": "normal", "value_criterion": {"value": [4,5,6,7,8,9,10,11,12], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Migration of pain",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "present", "value_criterion": {"value": [1], "unit": ""}},
+        {"label": "absent", "value_criterion": {"value": [0], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Anorexia",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "present", "value_criterion": {"value": [1], "unit": ""}},
+        {"label": "absent", "value_criterion": {"value": [0], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Nausea/vomiting",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "present", "value_criterion": {"value": [1], "unit": ""}},
+        {"label": "absent", "value_criterion": {"value": [0], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Right lower quadrant tenderness",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "present", "value_criterion": {"value": [2], "unit": ""}},
+        {"label": "absent", "value_criterion": {"value": [0,1], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Rebound pain",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "present", "value_criterion": {"value": [1,2], "unit": ""}},
+        {"label": "absent", "value_criterion": {"value": [0], "unit": ""}}
+      ]}
+    ]
+  },
+  {
+    "name": "Temperature",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "elevated", "value_criterion": {"value": [37.3], "unit": "°C"}},
+        {"label": "normal", "value_criterion": {"value": [0, 36.9], "unit": "°C"}}
+      ]}
+    ]
+  },
+  {
+    "name": "Leukocytosis",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "elevated", "value_criterion": {"value": [10, 10000], "unit": "per μL"}},
+        {"label": "normal", "value_criterion": {"value": [0, 9999], "unit": "per μL"}}
+      ]}
+    ]
+  },
+  {
+    "name": "PMN",
+    "context": ["Appendicitis evaluation"],
+    "patient_inferences": [
+      {"inferences": [
+        {"label": "elevated", "value_criterion": {"value": [75], "unit": "%"}},
+        {"label": "normal", "value_criterion": {"value": [0, 74], "unit": "%"}}
+      ]}
+    ]
+  }
+],
+"conditions": [
+  {
+    "name": "Suspected appendicitis",
+    "observations": ["Alvarado score"]
+  },
+  {
+    "name": "Appendicitis in pediatric patients",
+    "observations": ["Pediatric Appendicitis Score"]
+  },
+  {
+    "name": "Appendicitis with inflammatory response",
+    "observations": ["Appendicitis Inflammatory Response score"]
+  }
+]}

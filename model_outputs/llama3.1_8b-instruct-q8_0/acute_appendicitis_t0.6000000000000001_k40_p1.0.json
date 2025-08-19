@@ -1,0 +1,77 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "normal", "value_criterion": {"value": [0, 4], "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "normal", "value_criterion": {"value": [0, 6], "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "normal", "value_criterion": {"value": [0, 4], "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "C-reactive protein (CRP)",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [10, 49], "unit": "g per L"}}]}
+      ]
+    },
+    {
+      "name": "Polymorphonucleocytes (PMN)",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [70, 84], "unit": "%"}}]}
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [10, 14990], "unit": "per μL"}}]}
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [37.3, 38.5], "unit": "°C"}}]}
+      ]
+    },
+    {
+      "name": "Right lower quadrant tenderness",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": { "value": 0, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Rebound pain",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": { "value": 0, "unit": ""}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Appendicitis",
+      "observations": ["C-reactive protein (CRP)", "Polymorphonucleocytes (PMN)", "Leukocytosis", "Temperature", "Right lower quadrant tenderness", "Rebound pain"]
+    }
+  ]
+}

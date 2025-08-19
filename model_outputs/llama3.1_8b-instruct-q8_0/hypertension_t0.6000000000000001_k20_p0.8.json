@@ -1,0 +1,59 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["office", "out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {"value": [120, 139], "unit": "mmHg"}
+            },
+            {
+              "label": "hypertension",
+              "value_criterion": {"value": [140, 180], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["patient's age"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "frailty",
+              "value_criterion": {"value": [85, 90], "unit": "years"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respiratory Rate",
+      "context": ["patient's respiratory rate"],
+      "patient_inferences": [
+        {
+          "inferences": []
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Frailty",
+      "observations": ["Age"]
+    }
+  ]
+}

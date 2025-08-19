@@ -1,0 +1,260 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AppendicitisSuspected",
+"value_criterion": {
+"value": [2, 3],
+"unit": "rebound pain score"
+}
+},
+{
+"label": "AppendicitisDiagnosed",
+"value_criterion": {
+"value": [5, 7],
+"unit": "total Alvarado score"
+}
+},
+{
+"label": "Pediatric AppendicitisSuspected",
+"value_criterion": {
+"value": [3, 4],
+"unit": "rebound pain score"
+}
+},
+{
+"label": "Pediatric AppendicitisDiagnosed",
+"value_criterion": {
+"value": [8, 12],
+"unit": "total Pediatric Appendicitis score"
+}
+},
+{
+"label": "AppendicitisInflammatoryResponseSuspected",
+"value_criterion": {
+"value": [1, 3],
+"unit": "rebound pain score"
+}
+},
+{
+"label": "AppendicitisInflammatoryResponseDiagnosed",
+"value_criterion": {
+"value": [7, 12],
+"unit": "total Appendicitis Inflammatory Response score"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea",
+"context": ["Gastrointestinal"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AppendicitisSuspected",
+"value_criterion": {
+"value": 1,
+"unit": "present"
+}
+},
+{
+"label": "AnorexiaSuspected",
+"value_criterion": {
+"value": 1,
+"unit": "present"
+}
+}
+]
+}
+]
+},{
+"name": "Temperature",
+"context": ["Body Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AppendicitisSuspected",
+"value_criterion": {
+"value": [37.3, 38],
+"unit": "'C"
+}
+},
+{
+"label": "LeukocytosisSuspected",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL"
+}
+},
+{
+"label": "PMNPercentageGreaterThan75Suspected",
+"value_criterion": {
+"value": [75, 100],
+"unit": "%"
+}
+}
+]
+}
+]
+},{
+"name": "Leukocytosis",
+"context": ["White Blood Cell Count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "AppendicitisSuspected",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "LeukocytosisDiagnosed",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL"
+}
+}
+]
+}
+]
+},{
+"name": "PMNPercentage",
+"context": ["White Blood Cell Count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "PMNPercentageGreaterThan75Suspected",
+"value_criterion": {
+"value": [75, 100],
+"unit": "%"
+}
+},
+{
+"label": "PMNPercentageGreaterThan84Suspected",
+"value_criterion": {
+"value": [85, 100],
+"unit": "%"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "AppendicitisSuspected",
+"observations": ["Abdominal Pain"]
+},
+{
+"name": "AnorexiaSuspected",
+"observations": ["Nausea"]
+},
+{
+"name": "MildAlvaradoScore",
+"observations": [
+"Migration of pain",
+"Anorexia",
+"Nausea/vomiting",
+"Right lower quadrant tenderness",
+"Leukocytosis >= 10,000 per μL (10.0 × 109 per L)",
+"PMN >= 75%"
+]
+},
+{
+"name": "ModerateAlvaradoScore",
+"observations": [
+"Migration of pain",
+"Anorexia",
+"Nausea/vomiting",
+"Right lower quadrant tenderness",
+"Rebound pain",
+"Temperature >= 37.3°C (99.1°F)",
+"Leukocytosis >= 10,000 per μL (10.0 × 109 per L)",
+"PMN >= 75%"
+]
+},
+{
+"name": "HighAlvaradoScore",
+"observations": [
+"Migration of pain",
+"Anorexia",
+"Nausea/vomiting",
+"Right lower quadrant tenderness",
+"Rebound pain",
+"Temperature >= 37.3°C (99.1°F)",
+"Leukocytosis >= 10,000 per μL (10.0 × 109 per L)",
+"PMN >= 75%"
+]
+},
+{
+"name": "PediatricAppendicitisSuspected",
+"observations": ["Abdominal Pain"]
+},
+{
+"name": "ModeratePediatricAppendicitisScore",
+"observations": [
+"Migration of pain",
+"Anorexia",
+"Nausea/vomiting",
+"Right lower quadrant tenderness",
+"Rebound pain with coughing/hopping/percussion",
+"Temperature >= 38°C (100.4°F)",
+"Leukocytosis >= 10,000 per μL"
+]
+},
+{
+"name": "HighPediatricAppendicitisScore",
+"observations": [
+"Migration of pain",
+"Anorexia",
+"Nausea/vomiting",
+"Right lower quadrant tenderness",
+"Rebound pain with coughing/hopping/percussion",
+"Temperature >= 38°C (100.4°F)",
+"Leukocytosis >= 10,000 per μL",
+"PMN >= 75%"
+]
+},
+{
+"name": "MildAppendicitisInflammatoryResponseScore",
+"observations": ["Vomiting", "Right Iliac fossa pain", "Rebound pain, light"]
+},
+{
+"name": "ModerateAppendicitisInflammatoryResponseScore",
+"observations": [
+"Vomiting",
+"Right Iliac fossa pain",
+"Rebound pain, light",
+"Rebound pain, medium",
+"Leukocytosis 10 to 49 g per L",
+"CRP 10 to 49 g per L"
+]
+},
+{
+"name": "HighAppendicitisInflammatoryResponseScore",
+"observations": [
+"Vomiting",
+"Right Iliac fossa pain",
+"Rebound pain, light",
+"Rebound pain, medium",
+"Rebound pain, strong",
+"Temperature >= 38.5°C (101.3°F)",
+"Leukocytosis >= 15,000 per μL",
+"CRP >= 50 g per L"
+]
+}
+]
+}

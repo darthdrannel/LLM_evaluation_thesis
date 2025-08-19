@@ -1,0 +1,91 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Clinical evaluation", "Laboratory tests"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": [5, 10], "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": [6, 12], "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": [6, 12], "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Migration of pain",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Nausea/vomiting",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Right lower quadrant tenderness",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Rebound pain",
+      "context": ["Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Temperature ≥ 37.3°C (99.1°F)",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": [37.3, 40], "unit": "°C"}}]}
+      ]
+    },
+    {
+      "name": "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": [10000, 20000], "unit": "/μL"}}]}
+      ]
+    },
+    {
+      "name": "PMN ≥ 75%",
+      "context": ["Laboratory tests"],
+      "patient_inferences": [
+        {"inferences": [{"label": "high", "value_criterion": {"value": [0.75, 1], "unit": ""}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Appendicitis",
+      "observations": ["Migration of pain", "Anorexia", "Nausea/vomiting", "Right lower quadrant tenderness", "Rebound pain", "Temperature ≥ 37.3°C (99.1°F)", "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)", "PMN ≥ 75%"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["BP measurement", "Office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal", "value_criterion": {"value": [120, 80], "unit": "mmHg"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["BP assessment", "Initial diagnosis"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Abnormal", "value_criterion": {"value": [-20, -10], "unit": "mmHg", "operator": "<"}}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "AF and BP Measurement",
+"context": ["BP measurement", "Atrial fibrillation"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Unmeasured", "value_criterion": null}
+],
+"gender": null,
+"age": null
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+  																		

@@ -1,0 +1,50 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["Chest X-ray (PA view)"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "normal chest x-ray, no signs of infection or inflammation 1"}]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["Chest CT-scan (coronal view)"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "normal lung and pleura, no signs of infection or inflammation 1"}]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["Chest CT-scan (axial view)"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "normal lung and pleura, no signs of infection or inflammation 1"}]
+}
+]
+},
+{
+"name": "Patient Age",
+"context": ["Age at the time of the examination"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "age-appropriate reference range 1"}]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Normal Chest X-ray and CT-Scan",
+"observations": ["Chest X-ray (PA view)", "Chest CT-scan (coronal view)", "Chest CT-scan (axial view)"]
+}
+]
+}

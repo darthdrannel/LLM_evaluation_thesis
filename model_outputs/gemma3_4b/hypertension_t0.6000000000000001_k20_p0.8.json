@@ -1,0 +1,122 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Office BP Measurement"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Elevated BP"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP measurement"
+      ]
+    },
+    {
+      "name": "Orthostatic hypotension",
+      "observations": [
+        "Orthostatic hypotension"
+      ]
+    }
+  ]
+}

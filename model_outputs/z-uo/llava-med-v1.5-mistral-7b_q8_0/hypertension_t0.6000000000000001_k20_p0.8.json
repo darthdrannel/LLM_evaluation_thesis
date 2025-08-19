@@ -1,0 +1,48 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office setting", "hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High BP",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "Low BP",
+"value_criterion": {
+"value": 60,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated BP",
+"observations": ["Blood Pressure"]
+}
+]
+}

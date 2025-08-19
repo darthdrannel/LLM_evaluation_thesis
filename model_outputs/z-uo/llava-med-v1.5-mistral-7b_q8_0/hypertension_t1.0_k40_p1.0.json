@@ -1,0 +1,65 @@
+{
+"observations": [
+  {
+    "name": "Blood Pressure",
+    "context": ["Chest X-ray", "Coronal chest ct scan", "Axial chest ct scan"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Systolic Blood Pressure (sBP)",
+            "value_criterion": {
+              "value": 120,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "label": "Diastolic Blood Pressure (dBP)",
+            "value_criterion": {
+              "value": 70,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orthostatic Hypotension",
+    "context": ["Chest X-ray", "Coronal chest ct scan", "Axial chest ct scan"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "Systolic Blood Pressure (sBP)",
+            "value_criterion": {
+              "value": 120,
+              "unit": "",
+              "operator": "<"
+            }
+          },
+          {
+            "label": "Diastolic Blood Pressure (dBP)",
+            "value_criterion": {
+              "value": 70,
+              "unit": "",
+              "operator": "<"
+            }
+          }
+        ]
+      }
+    ]
+  }
+],
+"conditions": [
+  {
+    "name": "Hypertension",
+    "observations": ["Hypertension"]
+  },
+  {
+    "name": "Elevated Blood Pressure (eBP)",
+    "observations": ["Blood Pressure (BP) above the 95th blood pressure cut-off point for an individual's risk category"]
+  }
+]
+
+}

@@ -1,0 +1,113 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "management of arterial hypertension",
+        "elevated blood pressure and hypertension",
+        "office systolic BP",
+        "office diastolic BP",
+        "out-of-office BP measurement",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "management of arterial hypertension",
+        "elevated blood pressure and hypertension",
+        "office systolic BP",
+        "office diastolic BP",
+        "out-of-office BP measurement",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "management of arterial hypertension",
+        "elevated blood pressure and hypertension",
+        "office systolic BP",
+        "office diastolic BP",
+        "out-of-office BP measurement",
+        "orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "office systolic BP of ≥120 mmHg",
+        "office diastolic BP of ≥70 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "office systolic BP of ≥140 mmHg",
+        "office diastolic BP of ≥90 mmHg"
+      ]
+    }
+  ]
+}

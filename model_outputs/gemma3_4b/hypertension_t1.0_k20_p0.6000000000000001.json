@@ -1,0 +1,70 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "2024 ESC/ESH Guidelines on the management of arterial hypertension",
+        "Updated guidelines incorporating new evidence and recommendations",
+        "Focus on elevated blood pressure and hypertension categories",
+        "Recommendation to target systolic BP of 120-129 mmHg in select patients",
+        "Importance of out-of-office BP measurement for diagnosis",
+        "Consideration of orthostatic hypotension assessment"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure Measurement",
+      "context": [
+        "Validated and calibrated device",
+        "Correct measurement technique",
+        "Consistent approach for each patient"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "accurate",
+              "value_criterion": {
+                "value": 1,
+                "unit": "standard deviation"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office systolic BP of 120–139 mmHg or diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office systolic BP of ≥140 mmHg or diastolic BP of ≥90 mmHg"
+      ]
+    }
+  ]
+}

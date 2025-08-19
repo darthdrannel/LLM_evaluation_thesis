@@ -1,0 +1,166 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal blood pressure"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure"
+}
+]
+}
+]
+},
+{
+"name": "Respiration Rate",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal respiration rate"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "elevated respiration rate"
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal chest x-ray"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal Chest CT-Scan",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial Chest CT-Scan",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal axial chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "abnormal axial chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal pediatric appendicitis score"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "elevated pediatric appendicitis score"
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis Inflammatory Response Score",
+"context": ["supine position", "resting state"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal appendicitis inflammatory response score"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "elevated appendicitis inflammatory response score"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray abnormality",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal Chest CT-Scan abnormality",
+"observations": ["Coronal Chest CT-Scan"]
+},
+{
+"name": "Axial Chest CT-Scan abnormality",
+"observations": ["Axial Chest CT-Scan"]
+},
+{
+"name": "Pediatric Appendicitis Score elevation",
+"observations": ["Pediatric Appendicitis Score"]
+},
+{
+"name": "Appendicitis Inflammatory Response Score elevation",
+"observations": ["Appendicitis Inflammatory Response Score"]
+}
+]
+}

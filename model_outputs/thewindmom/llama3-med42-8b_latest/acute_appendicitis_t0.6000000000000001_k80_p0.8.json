@@ -1,0 +1,135 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["clinical examination", "lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "suspected appendicitis",
+              "value_criterion": {
+                "value": [6, 10],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "high likelihood of appendicitis",
+              "value_criterion": {
+                "value": [8, 10],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "very high likelihood of appendicitis",
+              "value_criterion": {
+                "value": [10, 10],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["clinical examination", "lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "suspected appendicitis in children",
+              "value_criterion": {
+                "value": [6, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "high likelihood of appendicitis in children",
+              "value_criterion": {
+                "value": [9, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "very high likelihood of appendicitis in children",
+              "value_criterion": {
+                "value": [12, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["clinical examination", "lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "suspected appendicitis with inflammation",
+              "value_criterion": {
+                "value": [6, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "high likelihood of appendicitis with severe inflammation",
+              "value_criterion": {
+                "value": [9, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "very high likelihood of appendicitis with severe inflammation",
+              "value_criterion": {
+                "value": [12, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "High Likelihood of Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Very High Likelihood of Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

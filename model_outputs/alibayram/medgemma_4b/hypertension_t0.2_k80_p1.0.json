@@ -1,0 +1,191 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "Orthostatic Hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": [
+        "Frailty"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 1,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 1,
+                "unit": "months"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 1,
+                "unit": "days"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [
+        "Age"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": "months"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 1,
+                "unit": "days"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Orthostatic Hypotension"
+      ]
+    },
+    {
+      "name": "Frailty",
+      "observations": [
+        "Frailty"
+      ]
+    },
+    {
+      "name": "Age",
+      "observations": [
+        "Age"
+      ]
+    }
+  ]
+}

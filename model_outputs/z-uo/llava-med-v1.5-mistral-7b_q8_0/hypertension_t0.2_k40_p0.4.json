@@ -1,0 +1,82 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "validated and calibrated device"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct measurement technique applied",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Consistent approach to BP measurement for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+},
+{
+"name": "Out-of-office BP Measurement",
+"context": ["diagnostic purposes"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Detects both white-coat hypertension and masked hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Repeat office BP measurement using correct standardized technique if out-of-office measurements are not feasible",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP Measurement in AF",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension at initial diagnosis and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "Perform assessment after patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure and Hypertension Guidelines 2024",
+"observations": ["Blood Pressure Measurement", "Out-of-office BP Measurement", "BP Measurement in AF"]
+}
+]
+}

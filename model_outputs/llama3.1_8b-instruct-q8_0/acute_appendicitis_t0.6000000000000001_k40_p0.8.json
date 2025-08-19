@@ -1,0 +1,64 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["clinical assessment", "diagnostic tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {"value": [0, 3], "unit": ""}
+            },
+            {
+              "label": "high",
+              "value_criterion": {"value": [7, 10], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["pediatric assessment", "diagnostic tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {"value": [0, 3], "unit": ""}
+            },
+            {
+              "label": "high",
+              "value_criterion": {"value": [9, 12], "unit": ""}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["inflammatory response", "diagnostic tools"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {"value": [0, 3], "unit": ""}
+            },
+            {
+              "label": "high",
+              "value_criterion": {"value": [9, 12], "unit": ""}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

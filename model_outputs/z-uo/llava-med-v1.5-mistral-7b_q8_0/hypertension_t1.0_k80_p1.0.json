@@ -1,0 +1,46 @@
+{
+"observations": [
+   {
+      "name": "Blood pressure measurement",
+      "context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-Scan"],
+      "patient_inferences": [
+         {
+            "inferences": [],
+            "age": {
+               "value": 48,
+               "unit": "years"
+            }
+         },
+         {
+            "inferences": [],
+            "age": {
+               "value": 23,
+               "unit": "years"
+            }
+         },
+         {
+            "inferences": [],
+            "age": {
+               "value": 35,
+               "unit": "years"
+            }
+         },
+         {
+            "inferences": [],
+            "age": {
+               "value": 62,
+               "unit": "years"
+            }
+         }
+      ]
+   }],
+   "conditions": [
+      {
+         "name": "Arterial hypertension diagnosis",
+         "observations": ["Blood pressure measurement"]
+      },
+      {
+         "name": "Fatal and non-fatal cardiovascular disease outcomes",
+         "observations": ["Blood pressure measurement", "Blood flow tests, especially coronary angiography for CHA2DS2-VASc score>2 ", "coronal chest CT-Scan", "axial chest CT-scan"]
+      }]
+   }

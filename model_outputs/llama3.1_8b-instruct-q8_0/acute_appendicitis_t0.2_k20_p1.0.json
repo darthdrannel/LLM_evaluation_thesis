@@ -1,0 +1,90 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 10, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 12, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 0, "unit": ""}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 12, "unit": ""}}]}
+      ]
+    },
+    {
+      "name": "Migration of pain",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Nausea/vomiting",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Right lower quadrant tenderness",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Rebound pain",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Temperature ≥ 37.3°C (99.1°F)",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    },
+    {
+      "name": "PMN ≥ 75%",
+      "context": ["Diagnostic Tools for the Evaluation of Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": null}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

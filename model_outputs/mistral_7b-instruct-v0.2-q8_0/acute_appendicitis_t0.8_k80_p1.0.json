@@ -1,0 +1,168 @@
+{
+"observations": [
+{
+"name": "Patient Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild Abdominal Pain",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "Moderate Abdominal Pain",
+"value_criterion": {
+"value": [2, 3],
+"unit": "points"
+}
+},
+{
+"label": "Severe Abdominal Pain",
+"value_criterion": {
+"value": [4, 5],
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Nausea/Vomiting",
+"context": ["None"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild Nausea/Vomiting",
+"value_criterion": {
+"value": 1,
+"unit": "points"
+}
+},
+{
+"label": "Moderate Nausea/Vomiting",
+"value_criterion": {
+"value": [2],
+"unit": "points"
+}
+},
+{
+"label": "Severe Nausea/Vomitting",
+"value_criterion": {
+"value": [3],
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Body Temperature",
+"value_criterion": {
+"value": [36.5, 37.4],
+"unit": "°C"
+}
+},
+{
+"label": "Elevated Body Temperature",
+"value_criterion": {
+"value": [37.5, 38.4],
+"unit": "°C"
+}
+},
+{
+"label": "High Fever",
+"value_criterion": {
+"value": [38.5, 100.4],
+"unit": "°F"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild Leukocytosis",
+"value_criterion": {
+"value": [10000, 14900],
+"unit": "per µL"
+}
+},
+{
+"label": "Moderate Leukocytosis",
+"value_criterion": {
+"value": [15000],
+"unit": "per µL"
+}
+},
+{
+"label": "Severe Leukocytosis",
+"value_criterion": {
+"value": [15000, 49000],
+"unit": "per µL"
+}
+}
+]
+}
+]
+},
+{
+"name": "Patient PMN",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild Elevation of PMN",
+"value_criterion": {
+"value": 70,
+"unit": "%"
+}
+},
+{
+"label": "Moderate Elevation of PMN",
+"value_criterion": {
+"value": 85,
+"unit": "%"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Suspected Appendicitis (Adult)",
+"observations": ["Patient Abdominal Pain", "Patient Nausea/Vomiting"]
+},
+{
+"name": "Suspected Appendicitis (Pediatric)",
+"observations": [
+"Patient Abdominal Pain",
+"Patient Nausea/Vomiting",
+"Patient Temperature",
+"Patient Leukocytosis",
+"Patient PMN"
+]
+}
+]
+}

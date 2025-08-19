@@ -1,0 +1,99 @@
+{
+"observations": [
+{
+"name": "Patient Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Possible Appendicitis", "value_criterion": { "value": [2, 3], "unit": "Rebound pain points" }}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Fever", "value_criterion": { "value": 37.3, "unit": "°C" }}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Elevated White Blood Cell Count", "value_criterion": { "value": 10000, "unit": "per μL" }}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient PMN Percentage",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Elevated Neutrophil Count", "value_criterion": { "value": 75, "unit": "%" }}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient Vomiting",
+"context": ["Gastrointestinal"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Nausea or Vomiting", "value_criterion": { "value": 1, "unit": "None" }}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient Age",
+"context": ["Demographic"],
+"patient_inferences": [
+{
+"inferences": [],
+"gender": null,
+"age": {
+"value": 0,
+"unit": "years",
+"operator": "<"
+}
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Possible Appendicitis",
+"observations": ["Patient Abdominal Pain"]
+},
+{
+"name": "Fever",
+"observations": ["Patient Temperature"]
+},
+{
+"name": "Elevated White Blood Cell Count",
+"observations": ["Patient Leukocytosis"]
+},
+{
+"name": "Elevated Neutrophil Count",
+"observations": ["Patient PMN Percentage"]
+}
+]
+}
+
+   																	

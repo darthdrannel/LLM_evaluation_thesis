@@ -1,0 +1,134 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["ESH Guidelines"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Validated and calibrated device used for measurement",
+"value_criterion": {
+"value": [1],
+"unit": "times"
+}
+},
+{
+"label": "Correct measurement technique enforced",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Consistent approach to BP measurement for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Out-of-office Blood Pressure Measurement",
+"context": ["ESH Guidelines"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Recommended for diagnostic purposes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Can detect white-coat hypertension and masked hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Repeat office BP measurement recommended if out-of-office measurements not feasible",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Manual auscultatory method considered when measuring BP in AF with automated oscillometric monitors",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Assessment for orthostatic hypotension considered at initial diagnosis of elevated BP or hypertension and thereafter",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Performed after patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Considered if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Drop in systolic BP of ≥20 mmHg and/or diastolic BP of ≥10 mmHg after standing for 1 and/or 3 min",
+"value_criterion": {
+"value": [20, 10],
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Orthostatic hypotension assessment recommended for elevated BP or hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+],
+"gender": null,
+"age": null
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Out-of-office Blood Pressure Measurement"]
+}
+]
+}

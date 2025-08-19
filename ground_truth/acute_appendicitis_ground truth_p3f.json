@@ -1,0 +1,255 @@
+{
+  "observations": [
+    {
+      "name": "migration of pain",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anorexia",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nausea/vomiting",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right lower quadrant tenderness",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right lower quadrant pain with coughing/hopping/percussion",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right Iliac fossa pain",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rebound pain",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "light",
+              "value_criterion": null
+            },
+            {
+              "label": "medium",
+              "value_criterion": null
+            },
+            {
+              "label": "strong",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 37.3,
+                "unit": "°C",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [
+                  10000,
+                  14900
+                ],
+                "unit": "per μL",
+                "operator": null
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 15000,
+                "unit": "per μL",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "polymorphonucleocytes (PMN)",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [
+                  70,
+                  84
+                ],
+                "unit": "%",
+                "operator": null
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 85,
+                "unit": "%",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C-reactive Protein (CRP)",
+      "context": [],
+      "patient_inferences": [
+        {
+          "gender": null,
+          "age": null,
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [
+                  10,
+                  49
+                ],
+                "unit": "g per L",
+                "operator": null
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 50,
+                "unit": "g per L",
+                "operator": ">="
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "acute appendicitis",
+      "observations": [
+        "migration of pain",
+        "anorexia",
+        "nausea/vomiting",
+        "right lower quadrant tenderness",
+        "right lower quadrant pain with coughing/hopping/percussion",
+        "right Iliac fossa pain",
+        "rebound pain",
+        "Temperature",
+        "Leukocytosis",
+        "polymorphonucleocytes (PMN)",
+        "C-reactive Protein (CRP)"
+      ]
+    }
+  ]
+}

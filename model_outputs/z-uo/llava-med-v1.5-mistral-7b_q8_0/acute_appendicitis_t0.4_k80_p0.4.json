@@ -1,0 +1,614 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["PAS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low pediatric appendicitis score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["AIRS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low appendicitis inflammatory response score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["AS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low alvarado score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["PA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low patient age"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["PG"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Female patient gender"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low CRP level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis level",
+"context": ["Leukocytosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low leukocytosis level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMN"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low PMN percentage"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low temperature"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pain intensity",
+"context": ["Pain intensity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low pain intensity"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea/vomiting",
+"context": ["Nausea/vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low nausea/vomiting"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Anorexia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low anorexia"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Migrated pain",
+"context": ["Migrated pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low migrated pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Rebound pain",
+"context": ["Rebound pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low rebound pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Right lower quadrant tenderness",
+"context": ["RLQ tenderness"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low right lower quadrant tenderness"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Right Iliac fossa pain",
+"context": ["RIF pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low right iliac fossa pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["PAS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low pediatric appendicitis score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["AIRS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low appendicitis inflammatory response score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["AS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low alvarado score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["PA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low patient age"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["PG"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Female patient gender"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low crp level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis level",
+"context": ["Leukocytosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low leukocytosis level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMN"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low pmn percentage"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low temperature"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pain intensity",
+"context": ["Pain intensity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low pain intensity"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea/vomiting",
+"context": ["Nausea/vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low nausea/vomiting"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Anorexia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low anorexia"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Migrated pain",
+"context": ["Migrated pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low migrated pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Rebound pain",
+"context": ["Rebound pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low rebound pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Right lower quadrant tenderness",
+"context": ["RLQ tenderness"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low right lower quadrant tenderness"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Right Iliac fossa pain",
+"context": ["RIF pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low right iliac fossa pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["PAS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low pediatric appendicitis score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["AIRS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low appendicitis inflammatory response score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["AS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low alvarado score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["PA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low patient age"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["PG"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Female patient gender"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low crp level"
+}
+],
+"gender": null,
+"age": null

@@ -1,0 +1,291 @@
+{
+"observations": [
+{
+"name": "Vomiting",
+"context": ["gastrointestinal pain, nausea, and vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Right Iliac fossa pain",
+"context": ["right iliac fossa pain with coughing/hopping/percussion"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Rebound pain",
+"context": ["rebound pain with coughing/hopping/percussion"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature ≥ 38.5°C (101.3°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "PMN",
+"context": ["polymorphonucleocytes (PMN) ≥ 75%"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+},
+{
+"name": "CRP",
+"context": ["C-reactive protein (CRP) ≥ 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 25,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "Low"
+},
+{
+"label": "Normal"
+},
+{
+"label": "Elevated"
+}
+],
+"age": {
+"value": 42,
+"unit": "years"
+}
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Appendicitis",
+"observations": ["Vomiting", "Right Iliac fossa pain with coughing/hopping/percussion", "Rebound pain with coughing/hopping/percussion", "Temperature ≥ 38.5°C (101.3°F)", "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"]
+}
+]
+}

@@ -1,0 +1,69 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office setting", "Home setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP",
+"value_criterion": {
+"value": 130,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Clinic setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP response to standing",
+"value_criterion": {
+"value": 10,
+"unit": "mmHg"
+}
+},
+{
+"label": "Abnormal BP response to standing",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP) and Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}

@@ -1,0 +1,42 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": ["Office measurement", "Out-of-office measurement"],
+            "patient_inferences": [
+                {"inferences": [{"label": "Elevated BP", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}]},
+                {"inferences": [{"label": "Hypertension", "value_criterion": {"value": [140, 90], "unit": "mmHg"}}]}
+            ]
+        },
+        {
+            "name": "Age",
+            "context": ["Patient's age"],
+            "patient_inferences": [
+                {"inferences": [{"label": "Young adult", "value_criterion": {"value": [18, 40], "unit": "years"}}]},
+                {"inferences": [{"label": "Older adult", "value_criterion": {"value": [65, 80], "unit": "years"}}]}
+            ]
+        },
+        {
+            "name": "Frailty",
+            "context": ["Patient's frailty status"],
+            "patient_inferences": [
+                {"inferences": [{"label": "Non-frail", "value_criterion": null}]},
+                {"inferences": [{"label": "Moderate-to-severe frailty", "value_criterion": null}]}
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated BP",
+            "observations": ["Blood Pressure"]
+        },
+        {
+            "name": "Hypertension",
+            "observations": ["Blood Pressure"]
+        },
+        {
+            "name": "Orthostatic Hypotension",
+            "observations": ["Blood Pressure", "Symptoms"]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal blood pressure"
+}
+],
+"age": {
+"value": 35,
+"unit": "years"
+}
+},
+{
+"inferences": [
+{
+"label": "low blood pressure"
+}
+]
+}
+]
+},
+{
+"name": "Respiration Rate",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal respiration rate"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "elevated respiration rate"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Pneumonia",
+"observations": ["Blood Pressure", "Respiration Rate"]
+},
+{
+"name": "Pneumothorax",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Pleural effusion",
+"observations": ["Chest X-ray"]
+}
+]
+}

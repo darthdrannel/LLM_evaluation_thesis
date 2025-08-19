@@ -1,0 +1,504 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "coronal chest CT-scan",
+"context": ["coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "axial chest CT-scan",
+"context": ["axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal axial chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "blood pressure",
+"context": ["blood pressure"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low blood pressure"
+}
+]
+}
+]
+},
+{
+"name": "heart rate",
+"context": ["heart rate"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated heart rate"
+}
+]
+}
+]
+},
+{
+"name": "temperature",
+"context": ["temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high fever"
+}
+]
+}
+]
+},
+{
+"name": "leukocytosis",
+"context": ["leukocytosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated leukocyte count"
+}
+]
+}
+]
+},
+{
+"name": "pmn percentage",
+"context": ["pmn percentage"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high pmn percentage"
+}
+]
+}
+]
+},
+{
+"name": "crp level",
+"context": ["crp level"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated crp level"
+}
+]
+}
+]
+},
+{
+"name": "abdominal pain",
+"context": ["abdominal pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "right lower quadrant tenderness"
+}
+]
+}
+]
+},
+{
+"name": "rebound pain",
+"context": ["rebound pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "medium rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "right lower quadrant pain with coughing/hopping/percussion",
+"context": ["right lower quadrant pain with coughing/hopping/percussion"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "strong rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "temperature ≥ 37.3°C (99.1°F)",
+"context": ["temperature ≥ 37.3°C (99.1°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high fever"
+}
+]
+}
+]
+},
+{
+"name": "leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)",
+"context": ["leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated leukocyte count"
+}
+]
+}
+]
+},
+{
+"name": "pmn ≥ 75%",
+"context": ["pmn ≥ 75%"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high pmn percentage"
+}
+]
+}
+]
+},
+{
+"name": "crp ≥ 10 g per L",
+"context": ["crp ≥ 10 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated crp level"
+}
+]
+}
+]
+},
+{
+"name": "abdominal pain in children",
+"context": ["abdominal pain in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "right lower quadrant tenderness"
+}
+]
+}
+]
+},
+{
+"name": "rebound pain in children",
+"context": ["rebound pain in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "medium rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "right lower quadrant pain with coughing/hopping/percussion in children",
+"context": ["right lower quadrant pain with coughing/hopping/percussion in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "strong rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "temperature ≥ 38°C (100.4°F) in children",
+"context": ["temperature ≥ 38°C (100.4°F) in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high fever"
+}
+]
+}
+]
+},
+{
+"name": "leukocytosis ≥ 10,000 per μL (10.0 × 109 per L) in children",
+"context": ["leukocytosis ≥ 10,000 per μL (10.0 × 109 per L) in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated leukocyte count"
+}
+]
+}
+]
+},
+{
+"name": "pmn ≥ 75% in children",
+"context": ["pmn ≥ 75% in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high pmn percentage"
+}
+]
+}
+]
+},
+{
+"name": "crp ≥ 10 g per L in children",
+"context": ["crp ≥ 10 g per L in children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated crp level"
+}
+]
+}
+]
+},
+{
+"name": "abdominal pain in infants",
+"context": ["abdominal pain in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "right lower quadrant tenderness"
+}
+]
+}
+]
+},
+{
+"name": "rebound pain in infants",
+"context": ["rebound pain in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "medium rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "right lower quadrant pain with coughing/hopping/percussion in infants",
+"context": ["right lower quadrant pain with coughing/hopping/percussion in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "strong rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "temperature ≥ 38°C (100.4°F) in infants",
+"context": ["temperature ≥ 38°C (100.4°F) in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high fever"
+}
+]
+}
+]
+},
+{
+"name": "leukocytosis ≥ 10,000 per μL (10.0 × 109 per L) in infants",
+"context": ["leukocytosis ≥ 10,000 per μL (10.0 × 109 per L) in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated leukocyte count"
+}
+]
+}
+]
+},
+{
+"name": "pmn ≥ 75% in infants",
+"context": ["pmn ≥ 75% in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high pmn percentage"
+}
+]
+}
+]
+},
+{
+"name": "crp ≥ 10 g per L in infants",
+"context": ["crp ≥ 10 g per L in infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated crp level"
+}
+]
+}
+]
+},
+{
+"name": "abdominal pain in neonates",
+"context": ["abdominal pain in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "right lower quadrant tenderness"
+}
+]
+}
+]
+},
+{
+"name": "rebound pain in neonates",
+"context": ["rebound pain in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "medium rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "right lower quadrant pain with coughing/hopping/percussion in neonates",
+"context": ["right lower quadrant pain with coughing/hopping/percussion in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "strong rebound pain"
+}
+]
+}
+]
+},
+{
+"name": "temperature ≥ 38°C (100.4°F) in neonates",
+"context": ["temperature ≥ 38°C (100.4°F) in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high fever"
+}
+]
+}
+]
+},
+{
+"name": "leukocytosis ≥ 10,000 per μL (10.0 × 109 per L) in neonates",
+"context": ["leukocytosis ≥ 10,000 per μL (10.0 × 109 per L) in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated leukocyte count"
+}
+]
+}
+]
+},
+{
+"name": "pmn ≥ 75% in neonates",
+"context": ["pmn ≥ 75% in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "high pmn percentage"
+}
+]
+}
+]
+},
+{
+"name": "crp ≥ 10 g per L in neonates",
+"context": ["crp ≥ 10 g per L in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated crp level"
+}
+]
+}
+]
+},
+{
+"name": "abdominal pain in children with appendicitis",
+"context": ["abdominal pain in children with appendicitis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "right lower quadrant tenderness"
+}
+]
+}
+]
+},
+{
+"name": "rebound pain in children with appendicitis",
+"context": ["rebound pain in children with appendicitis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "medium

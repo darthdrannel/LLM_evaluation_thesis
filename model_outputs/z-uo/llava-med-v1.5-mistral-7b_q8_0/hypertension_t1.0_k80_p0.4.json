@@ -1,0 +1,35 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office setting", "Clinic"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Orthostatic Hypotension Assessment"
+ 																			,
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}

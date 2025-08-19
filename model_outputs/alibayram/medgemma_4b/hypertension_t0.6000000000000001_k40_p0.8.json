@@ -1,0 +1,84 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Systolic BP ≥140 mmHg or Office Diastolic BP ≥90 mmHg",
+        "Elevated BP: Office Systolic BP 120–139 mmHg or Office Diastolic BP 70–89 mmHg",
+        "Out-of-office BP measurement is recommended for diagnostic purposes",
+        "Assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing)",
+        "Measurement using a validated and calibrated device, to enforce the correct measurement technique, and to apply a consistent approach to BP measurement for each patient."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 70,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office Systolic BP ≥140 mmHg or Office Diastolic BP ≥90 mmHg",
+        "Elevated BP: Office Systolic BP 120–139 mmHg or Office Diastolic BP 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": [
+        "Elevated BP: Office Systolic BP 120–139 mmHg or Office Diastolic BP 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing)",
+        "Assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing)"
+      ]
+    }
+  ]
+}

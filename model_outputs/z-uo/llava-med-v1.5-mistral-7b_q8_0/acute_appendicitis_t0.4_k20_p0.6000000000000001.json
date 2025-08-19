@@ -1,0 +1,110 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR", "chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CT-scan", "coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CT-scan", "axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal axial chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Patient's age",
+"context": ["age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Age within normal range"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Age outside of normal range"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Normal chest x-ray",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Abnormal chest x-ray",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Normal coronal chest ct-scan",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Abnormal coronal chest ct-scan",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Normal axial chest ct-scan",
+"observations": ["Axial chest CT-scan"]
+},
+{
+"name": "Abnormal axial chest ct-scan",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

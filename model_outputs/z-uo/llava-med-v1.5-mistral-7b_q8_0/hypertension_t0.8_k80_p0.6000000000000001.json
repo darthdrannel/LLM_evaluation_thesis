@@ -1,0 +1,413 @@
+{
+"observations": [
+{
+"name": "BP measurement technique",
+"context": ["automated oscillometric monitor", "manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Proper BP measurement technique is used."
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic hypotension assessment",
+"context": ["lying or sitting for 5 min"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Orthostatic hypotension is assessed at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise."
+}
+]
+}
+]
+},
+{
+"name": "Elevated BP/hypertension diagnosis confirmation",
+"context": ["out-of-office measurements", "repeat office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The diagnosis of elevated BP or hypertension is confirmed using either out-of-office measurements or a repeat office BP measurement."
+}
+]
+}
+]
+},
+{
+"name": "AF and BP measurement",
+"context": ["automated oscillometric monitor"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP measurement is performed using a manual auscultatory method in patients with atrial fibrillation (AF) when an automated oscillometric monitor has not been validated for BP measurement in AF."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement frequency",
+"context": ["every 2 years"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood pressure is measured at least every 2 years."
+}
+]
+}
+]
+},
+{
+"name": "Patient's BP levels and control",
+"context": ["high risk for cardiovascular disease (CVD), stroke, heart failure, or renal impairment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is aware of their blood pressure levels and takes appropriate measures to control their BP."
+}
+]
+}
+]
+},
+{
+"name": "Treatment targets for patients with elevated BP or hypertension",
+"context": ["target systolic BP of 120–129 mmHg"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Patients with elevated BP or hypertension are aware of the target systolic BP (120–129 mmHg) and take appropriate measures to achieve this goal."
+}
+]
+}
+]
+},
+{
+"name": "Elevated blood pressure management",
+"context": ["pharmacological interventions, lifestyle changes"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Patients with elevated blood pressure receive appropriate pharmacological interventions and make necessary lifestyle changes to manage their condition effectively."
+}
+]
+}
+]
+},
+{
+"name": "Elevated blood pressure management in older adults",
+"context": ["tailoring treatment with respect to frailty and into older age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Treatment for elevated blood pressure is tailored to the specific needs of older adults, taking into account factors such as frailty and overall health."
+}
+]
+}
+]
+},
+{
+"name": "Implementation of elevated blood pressure management guidelines",
+"context": ["national societies' implementation initiatives"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "National societies are taking steps to improve the implementation of elevated blood pressure management guidelines."
+}
+]
+}
+]
+},
+{
+"name": "Sex and gender considerations in elevated blood pressure management",
+"context": ["sex and gender as an integral com-ponent throughout the document"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs and considerations of both sexes and different genders."
+}
+]
+}
+]
+},
+{
+"name": "Improved transparency regarding elevated blood pressure management recommendations",
+"context": ["evidence tables in the Supplementary section"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Patients and healthcare professionals have access to improved transparency regarding the evidence-based recommendations for managing elevated blood pressure."
+}
+]
+}
+]
+},
+{
+"name": "Addressing barriers to implementation of elevated blood pressure management guidelines",
+"context": ["dedicated section on implementation in the Supplementary data online"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The 2024 Guidelines include a dedicated section on implementation in the Supplementary data online, which may help address potential barriers to implementing elevated blood pressure management guidelines."
+}
+]
+}
+]
+},
+{
+"name": "Evidence-based recommendations for managing elevated blood pressure",
+"context": ["surrogate outcomes such as BP lowering alone"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are based on evidence that shows benefit on cardiovascular disease (CVD) outcomes, rather than just surrogate outcomes like BP lowering."
+}
+]
+}
+]
+},
+{
+"name": "General practitioner input in elevated blood pressure management guidelines",
+"context": ["one task force member is a general practitioner"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are informed by the perspectives and expertise of general practitioners."
+}
+]
+}
+]
+},
+{
+"name": "Consideration of patient input and lived experiences in elevated blood pressure management guidelines",
+"context": ["national societies' implementation initiatives"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs, experiences, and perspectives of patients."
+}
+]
+}
+]
+},
+{
+"name": "Cardiovascular disease risk assessment in elevated blood pressure management guidelines",
+"context": ["high risk for cardiovascular disease (CVD), stroke, heart failure, or renal impairment"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are tailored to the specific needs of patients at high risk for cardiovascular disease, stroke, heart failure, or renal impairment."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement in pregnancy",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood pressure is measured using a manual auscultatory method during pregnancy."
+}
+]
+}
+]
+},
+{
+"name": "Pregnancy and elevated blood pressure management guidelines",
+"context": ["specific considerations for pregnant patients"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs, experiences, and perspectives of pregnant patients."
+}
+]
+}
+]
+},
+{
+"name": "Severe hypertension management in pregnancy",
+"context": ["specific considerations for managing severe hypertension during pregnancy"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Specific considerations are taken into account when managing severe hypertension during pregnancy."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement in pediatric patients",
+"context": ["office-based blood pressure measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Blood pressure is measured using office-based blood pressure measurement techniques in pediatric patients."
+}
+]
+}
+]
+},
+{
+"name": "Elevated blood pressure management guidelines for pediatric patients",
+"context": ["specific considerations for managing elevated blood pressure in pediatric patients"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs, experiences, and perspectives of pediatric patients."
+}
+]
+}
+]
+},
+{
+"name": "Cardiovascular disease risk assessment in pediatric patients",
+"context": ["specific considerations for managing elevated blood pressure in pediatric patients at high risk for cardiovascular disease"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are tailored to the specific needs of pediatric patients at high risk for cardiovascular disease."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement in infants and young children",
+"context": ["non-invasive methods"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Non-invasive methods are used to measure blood pressure in infants and young children."
+}
+]
+}
+]
+},
+{
+"name": "Elevated blood pressure management guidelines for infants and young children",
+"context": ["specific considerations for managing elevated blood pressure in infants and young children"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs, experiences, and perspectives of infants and young children."
+}
+]
+}
+]
+},
+{
+"name": "Cardiovascular disease risk assessment in infants and young children",
+"context": ["specific considerations for managing elevated blood pressure in infants and young children at high risk for cardiovascular disease"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are tailored to the specific needs of infants and young children at high risk for cardiovascular disease."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement in neonates",
+"context": ["non-invasive methods"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Non-invasive methods are used to measure blood pressure in neonates."
+}
+]
+}
+]
+},
+{
+"name": "Elevated blood pressure management guidelines for neonates",
+"context": ["specific considerations for managing elevated blood pressure in neonates"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs, experiences, and perspectives of neonates."
+}
+]
+}
+]
+},
+{
+"name": "Cardiovascular disease risk assessment in neonates",
+"context": ["specific considerations for managing elevated blood pressure in neonates at high risk for cardiovascular disease"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are tailored to the specific needs of neonates at high risk for cardiovascular disease."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure measurement in preterm infants",
+"context": ["non-invasive methods"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Non-invasive methods are used to measure blood pressure in preterm infants."
+}
+]
+}
+]
+},
+{
+"name": "Elevated blood pressure management guidelines for preterm infants",
+"context": ["specific considerations for managing elevated blood pressure in preterm infants"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines take into account the unique needs, experiences, and perspectives of preterm infants."
+}
+]
+}
+]
+},
+{
+"name": "Cardiovascular disease risk assessment in preterm infants",
+"context": ["specific considerations for managing elevated blood pressure in preterm infants at high risk for cardiovascular disease"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated blood pressure management guidelines are tailored to the specific needs of preterm infants at

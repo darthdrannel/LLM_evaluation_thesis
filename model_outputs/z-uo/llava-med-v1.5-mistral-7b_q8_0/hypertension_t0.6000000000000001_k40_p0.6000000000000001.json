@@ -1,0 +1,179 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Office Systolic BP (mmHg)", "Office Diastolic BP (mmHg)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Systolic Blood Pressure (sBP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Diastolic Blood Pressure (dBP)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Measurement",
+"context": ["Validated and calibrated device", "Correct measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Measuring Blood Pressure",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Enforcing Correct Measurement Technique",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Applying Consistent Approach to BP Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Out-of-Office Blood Pressure Measurement",
+"context": ["Diagnostic purposes", "White-coat hypertension", "Masked hypertension"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Out-of-Office BP Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Confirming Diagnosis with Repeat Office BP Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring in Atrial Fibrillation (AF)",
+"context": ["Automated oscillometric monitors", "Manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessing Blood Pressure Monitoring in AF",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Considering Manual Auscultatory Method for BP Measurement in AF",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["Suggestive symptoms arise", "5 minutes of lying or sitting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Assessing Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Performing Assessment after Patient is First Lying or Sitting for 5 Minutes",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Hypertension",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Systolic Blood Pressure (sBP)",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Diastolic Blood Pressure (dBP)",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Out-of-Office BP Measurement",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "White-coat hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Masked hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"observations": ["Blood Pressure Monitoring in Atrial Fibrillation (AF)"]
+}
+]
+}

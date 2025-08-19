@@ -1,0 +1,84 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["Chest X-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Abnormal chest x-ray"
+}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["Coronal chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest ct-scan"
+}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["Axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{
+"label": "Abnormal axial chest ct-scan"
+}],
+"gender": null,
+"age": null
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray abnormality",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan abnormality",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan abnormality",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

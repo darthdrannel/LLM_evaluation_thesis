@@ -1,0 +1,177 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild",
+"value_criterion": {
+"value": 1,
+"unit": "Points"
+}
+},
+{
+"label": "Moderate",
+"value_criterion": {
+"value": [2, 3],
+"unit": "Points"
+}
+},
+{
+"label": "Severe",
+"value_criterion": {
+"value": [4, 5],
+"unit": "Points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["Gastrointestinal"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild",
+"value_criterion": {
+"value": 1,
+"unit": "Points"
+}
+},
+{
+"label": "Moderate",
+"value_criterion": {
+"value": 2,
+"unit": "Points"
+}
+},
+{
+"label": "Severe",
+"value_criterion": {
+"value": [3, 4],
+"unit": "Points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Body Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [36.5, 37.2],
+"unit": "°C"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [37.3, 38.49],
+"unit": "°C"
+}
+},
+{
+"label": "High",
+"value_criterion": {
+"value": [38.5, 100.4],
+"unit": "°F"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["White Blood Cell Count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [0, 9990],
+"unit": "per μL"
+}
+},
+{
+"label": "Mild",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "Moderate to Severe",
+"value_criterion": {
+"value": [15000, 49000],
+"unit": "per μL"
+}
+},
+{
+"label": "Severe",
+"value_criterion": {
+"value": 50000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["White Blood Cell Count"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "< 75%",
+"value_criterion": {
+"value": [0, 74],
+"unit": "%"
+}
+},
+{
+"label": "≥ 75%",
+"value_criterion": {
+"value": [75, 100],
+"unit": "%"
+}
+}
+]
+}
+]
+}
+]
+,"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": ["Abdominal Pain", "Nausea/Vomiting", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Alvarado Score ≥ 7",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Pediatric Appendicitis Score ≥ 7",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain with Coughing/Hopping/Percussion", "Temperature", "Leukocytosis", "PMN percentage"]
+},
+{
+"name": "Appendicitis Inflammatory Response score ≥ 7",
+"observations": ["Vomiting", "Right Iliac Fossa Pain", "Rebound Pain (Light, Medium, Strong)", "Temperature", "Leukocytosis", "PMN percentage", "CRP"]
+}
+]
+}

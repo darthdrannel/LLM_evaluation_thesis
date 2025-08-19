@@ -1,0 +1,553 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["ACTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["PAS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pediatric appendicitis score is less than 12"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["AIRS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Appendicitis inflammatory response score is less than 12"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "CRP level is less than 50 g per L"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Leukocytosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Leukocytosis is less than 15,000 per μL (15.0 × 109 per L)"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMN"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "PMN percentage is less than 75%"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["Age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Patient age is less than 18 years old"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pain location",
+"context": ["Pain location"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain is located in the right lower quadrant"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Temperature is less than 38.5°C (101.3°F)"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the abdomen and pelvis",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal MRI of the abdomen and pelvis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the abdomen",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the abdomen"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Blood culture",
+"context": ["Blood culture"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Negative blood culture"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Severity of pain",
+"context": ["Pain severity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain is described as mild or moderate"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Duration of pain",
+"context": ["Pain duration"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain has been present for less than 24 hours"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea and vomiting",
+"context": ["Nausea and vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Nausea and vomiting are present"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Anorexia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Anorexia is present"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Weight loss",
+"context": ["Weight loss"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Weight loss is present"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anemia",
+"context": ["Anemia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Anemia is present"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Tachycardia",
+"context": ["Tachycardia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Heart rate is greater than 120 beats per minute"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Fever",
+"context": ["Fever"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Fever is present"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Elevated white blood cell count",
+"context": ["Elevated WBC"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "White blood cell count is greater than 15,000 per μL (15.0 × 109 per L)"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for leukocytes",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of leukocytes"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for nitrites",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of nitrites"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for blood",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of blood"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for protein",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of protein"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for glucose",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of glucose"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for ketones",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of ketones"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for specific gravity",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows a specific gravity value greater than 1.035"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for bilirubin",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of bilirubin"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for urea nitrogen",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of urea nitrogen"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for amylase",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of amylase"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for lipase",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of lipase"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for creatinine",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of creatinine"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for hemoglobin",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of hemoglobin"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Positive urinalysis for hematocrit",
+"context": ["Positive UA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Urinalysis shows the presence of hematocrit"
+}
+],
+"gender": null,

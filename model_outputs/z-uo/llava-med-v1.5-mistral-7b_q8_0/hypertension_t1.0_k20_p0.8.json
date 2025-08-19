@@ -1,0 +1,86 @@
+{
+"observations": [
+{
+"name": "Measuring blood pressure",
+"context": ["in the out-of-office setting", "during an initial visit"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal out-of-office BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated out-of-office BP measurement",
+"value_criterion": {
+"value": 130,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Assessing orthostatic hypotension",
+"context": ["during an initial visit", "during a subsequent visit if symptoms arise"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal orthostatic hypotension assessment",
+"value_criterion": {
+"value": 10,
+"unit": "mmHg"
+}
+},
+{
+"label": "Abnormal orthostatic hypotension assessment",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in patients with atrial fibrillation (AF)",
+"context": ["in the out-of-office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 130,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Hypertension",
+"observations": ["Measuring blood pressure"]
+},
+{
+"name": "Orthostatic hypotension (OH)",
+"observations": ["Assessing orthostatic hypotension"]
+}
+]
+}

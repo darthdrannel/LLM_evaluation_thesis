@@ -1,0 +1,90 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension (OH)",
+"context": ["systolic BP drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive OH test",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Negative OH test",
+"value_criterion": {
+"value": 10,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure (BP) measurement technique",
+"context": ["validated and calibrated device", "correct measurement technique"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct BP measurement technique used",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+},
+{
+"label": "BP measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "yes/no"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP)",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Orthostatic Hypotension (OH)",
+"observations": ["Orthostatic Hypotension (OH) test"]
+}
+]
+}

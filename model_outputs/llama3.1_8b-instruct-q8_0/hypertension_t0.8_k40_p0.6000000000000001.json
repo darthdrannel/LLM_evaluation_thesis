@@ -1,0 +1,51 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "elevated", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "present", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["General"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {"label": "frail", "value_criterion": {"value": [85], "unit": "years"}}
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": ["Orthostatic Hypotension"]
+    }
+  ]
+}

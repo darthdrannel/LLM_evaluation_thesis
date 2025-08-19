@@ -1,0 +1,169 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Standardized measurement technique", "validated and calibrated device"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate Blood Pressure Measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Adequate Diastolic Blood Pressure Measurement",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+}],
+"gender": "female"
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["Out-of-office BP measurement", "repeated office BP measurements"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct Blood Pressure Measurement Technique",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+},
+{
+"label": "Out-of-office BP Monitoring",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+},
+{
+"label": "Office Blood Pressure Measurement with Standardized Technique",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+}],
+"gender": "male"
+}
+]
+},
+{
+"name": "Blood Pressure and Heart Rate Monitoring in AF Patients",
+"context": ["Manual auscultatory method", "automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate Blood Pressure Measurement in AF Patients",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Adequate Diastolic Blood Pressure Measurement in AF Patients",
+"value_criterion": {
+"value": 80,
+"unit": "mmHg"
+}
+},
+{
+"label": "Blood Pressure Monitoring with Manual Auscultatory Method in AF Patients",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+}],
+"gender": "nonbinary"
+}
+]
+},
+{
+"name": "Assessment for Orthostatic Hypotension",
+"context": ["Standardized measurement technique after 5-min rest in a seated position"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate Assessment for Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+},
+{
+"label": "Appropriate Diagnosis of Orthostatic Hypotension",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+}],
+"gender": "female"
+}
+]
+},
+{
+"name": "Assessment for Orthostatic Hypotension in Older Age Patients",
+"context": ["Standardized measurement technique after 5-min rest in a seated position"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate Assessment for Orthostatic Hypotension in Older Age Patients",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+},
+{
+"label": "Appropriate Diagnosis of Orthostatic Hypotension in Older Age Patients",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+}],
+"gender": "male"
+}
+]
+},
+{
+"name": "Assessment for Orthostatic Hypotension in Frail Patients",
+"context": ["Standardized measurement technique after 5-min rest in a seated position"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate Assessment for Orthostatic Hypotension in Frail Patients",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+},
+{
+"label": "Appropriate Diagnosis of Orthostatic Hypotension in Frail Patients",
+"value_criterion": {
+"value": 1,
+"unit": "Yes"
+}
+}],
+"gender": "nonbinary"
+}
+]
+}
+]
+
+   																	, "conditions": [
+{
+"name": "Hypertension",
+"observations": ["Blood Pressure Measurement", "Blood Pressure Monitoring", "Blood Pressure and Heart Rate Monitoring in AF Patients"]
+}
+]
+}

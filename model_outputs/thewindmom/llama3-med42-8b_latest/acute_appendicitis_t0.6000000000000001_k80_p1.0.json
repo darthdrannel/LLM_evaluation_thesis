@@ -1,0 +1,82 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Physical Exam"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "High Risk",
+              "value_criterion": {
+                "value": 7,
+                "unit": ""
+              }
+            },
+            {
+              "label": "Low Risk",
+              "value_criterion": {
+                "value": 3,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Physical Exam"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "High Risk",
+              "value_criterion": {
+                "value": 9,
+                "unit": ""
+              }
+            },
+            {
+              "label": "Low Risk",
+              "value_criterion": {
+                "value": 2,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Laboratory Test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "High Risk",
+              "value_criterion": {
+                "value": 10,
+                "unit": ""
+              }
+            },
+            {
+              "label": "Low Risk",
+              "value_criterion": {
+                "value": 2,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

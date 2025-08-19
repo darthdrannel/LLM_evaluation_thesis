@@ -1,0 +1,438 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office setting", "out-of-office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "White-coat hypertension",
+"value_criterion": {
+"value": 135,
+"unit": "mmHg"
+}
+},
+{
+"label": "Masked hypertension",
+"value_criterion": {
+"value": 125,
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension assessment",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 70,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 85,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension assessment",
+"value_criterion": {
+"value": 10,
+"unit": "diastolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension assessment",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 70,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 89,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension assessment",
+"value_criterion": {
+"value": 10,
+"unit": "diastolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+},
+{
+"label": "Orthostatic hypotension assessment",
+"value_criterion": {
+"value": 10,
+"unit": "diastolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+]
+}
+]
+},
+{
+"name": "Elevated Blood Pressure (BP) Management",
+"context": ["office setting", "out-of-office setting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target systolic BP (TSBP) of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Intolerance to TSBP of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target BP that is as low as reasonably achievable (TSBP < 120 mmHg)",
+"value_criterion": {
+"value": 115,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 70,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 89,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Target diastolic BP (TDBP) of 70–85 mmHg",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}
+},
+{
+"label": "Intolerance to TDBP of 70–85 mmHg",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target BP that is as low as reasonably achievable (TDBP < 70 mmHg)",
+"value_criterion": {
+"value": 65,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target systolic BP (TSBP) of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Intolerance to TSBP of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target BP that is as low as reasonably achievable (TSBP < 120 mmHg)",
+"value_criterion": {
+"value": 115,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 70,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 89,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Target diastolic BP (TDBP) of 70–85 mmHg",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}
+},
+{
+"label": "Intolerance to TDBP of 70–85 mmHg",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target BP that is as low as reasonably achievable (TDBP < 70 mmHg)",
+"value_criterion": {
+"value": 65,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 139,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target systolic BP (TSBP) of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Intolerance to TSBP of 120–129 mmHg",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target BP that is as low as reasonably achievable (TSBP < 120 mmHg)",
+"value_criterion": {
+"value": 115,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal BP measurement",
+"value_criterion": {
+"value": 70,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 89,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Hypertension diagnosis",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg"
+}
+},
+{
+"label": "Target diastolic BP (TDBP) of 70–85 mmHg",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}
+},
+{
+"label": "Intolerance to TDBP of 70–85 mmHg",
+"value_criterion": {
+"value": 70,
+"unit": "mmHg"
+}

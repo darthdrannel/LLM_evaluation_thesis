@@ -1,0 +1,74 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["Pneumonia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": 0,
+"unit": "days"
+}
+},
+{
+"label": "Abnormal",
+"value_criterion": {
+"value": 1,
+"unit": "days"
+}
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-Scan (Chest window)",
+"context": ["Pneumonia", "Pneumonia infiltrates in the lungs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": 0,
+"unit": "days"
+}
+},
+{
+"label": "Abnormal or Normal with an unclear etiology (such as a cold),"
+
+}
+], "age": {"value": 29, "unit": "years"}}
+]
+},
+{
+"name": "Axial chest CT-Scan",
+"context": ["Pneumonia infiltrates in the lungs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": 0,
+"unit": "days"
+}
+},
+{
+"label": "Abnormal or Normal with an unclear etiology (such as a cold),"
+
+}
+], "age": {"value": 29, "unit": "years"}}
+]
+}
+],
+"conditions": [
+{
+"name": "Pneumonia infiltrates in the lungs",
+"observations": ["Coronal chest CT-Scan (Chest window)", "Axial chest CT-Scan"]
+}
+]
+}

@@ -1,0 +1,124 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["clinical history", "physical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 6,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 7,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 8,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 10,
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["clinical history", "physical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 6,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 7,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 8,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 12,
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["clinical history", "physical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "low",
+              "value_criterion": {
+                "value": 6,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 7,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 8,
+                "unit": "points"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 12,
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

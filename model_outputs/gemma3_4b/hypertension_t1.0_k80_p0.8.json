@@ -1,0 +1,62 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": [],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "elevated",
+                    "value_criterion": {
+                    "value": 120,
+                    "unit": "mmHg"
+                    }
+                    },
+                    {
+                    "label": "normal",
+                    "value_criterion": {
+                    "value": 90,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "abdominal pain",
+            "context": [
+                "elevated blood pressure"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    {
+                    "label": "low",
+                    "value_criterion": {
+                    "value": 120,
+                    "unit": "mmHg"
+                    }
+                    },
+                    {
+                    "label": "normal",
+                    "value_criterion": {
+                    "value": 90,
+                    "unit": "mmHg"
+                    }
+                    }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated BP",
+            "observations": [
+                "elevated blood pressure"
+            ]
+        }
+    ]
+}

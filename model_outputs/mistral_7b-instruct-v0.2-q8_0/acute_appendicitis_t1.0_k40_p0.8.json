@@ -1,0 +1,121 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": "Point"}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": "Point"}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": "Point"}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 2, "unit": "Point(s)"}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Rebound Pain",
+"context": ["Abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 1, "unit": "Point(s)"}}],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "Medium Intensity", "value_criterion": null}],
+"gender": null,
+"age": null
+},
+{
+"inferences": [
+{"label": "Strong Intensity", "value_criterion": null}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Elevated", "value_criterion": { "value": 37.3, "unit": "°C"}},
+{"label": "Feverish", "value_criterion": null}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Present", "value_criterion": { "value": 10000, "unit": "per μL"}}],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN Percentage",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "≥75%", "value_criterion": null},
+{"label": "≥85%", "value_criterion": null}],
+"gender": null,
+"age": null
+}
+]
+}
+]
+,
+"conditions": [
+{
+"name": "Suspected Appendicitis",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN Percentage"]
+}
+]
+}

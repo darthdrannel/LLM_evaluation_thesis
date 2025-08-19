@@ -1,0 +1,179 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "office systolic BP of ≥140 mmHg or diastolic BP of ≥90 mmHg",
+        "Elevated BP is defined as an office systolic BP of 120–139 mmHg or diastolic BP of 70–89 mmHg"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 139,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 89,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "White-coat Hypertension",
+      "context": [
+        "out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension. Where out-of-office measurements are not logistically and/or economically feasible, then it is recommended that the diagnosis be confirmed with a repeat office BP measurement using the correct standardized measurement technique."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "detect white-coat hypertension",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Masked Hypertension",
+      "context": [
+        "out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension. Where out-of-office measurements are not logistically and/or economically feasible, then it is recommended that the diagnosis be confirmed with a repeat office BP measurement using the correct standardized measurement technique."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "detect masked hypertension",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [
+        "An assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing) should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise. This should be performed after the patient is first lying or sitting for 5 min."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "orthostatic hypotension",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "orthostatic hypotension",
+              "value_criterion": {
+                "value": 10,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": [
+        "Frailty and into older age, which is addressed in multiple sections.",
+        "Treatment to this BP target is well tolerated by the patient",
+        "More lenient BP targets can be considered in persons with symptomatic orthostatic hypotension, those aged 85 years or over, or those with moderate-to-severe frailty"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "frailty",
+              "value_criterion": null
+            },
+            {
+              "label": "age",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "age",
+              "value_criterion": {
+                "value": 100,
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Elevated BP is defined as an office systolic BP of 120–139 mmHg or diastolic BP of 70–89 mmHg",
+        "It is recommended to measure BP using a validated and calibrated device, to enforce the correct measurement technique, and to apply a consistent approach to BP measurement for each patient. I B",
+        "Out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension. Where out-of-office measurements are not logistically and/or economically feasible, then it is recommended that the diagnosis be confirmed with a repeat office BP measurement using the correct standardized measurement technique."
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "It is recommended to measure BP using a validated and calibrated device, to enforce the correct measurement technique, and to apply a consistent approach to BP measurement for each patient. I B",
+        "Out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension. Where out-of-office measurements are not logistically and/or economically feasible, then it is recommended that the diagnosis be confirmed with a repeat office BP measurement using the correct standardized measurement technique.",
+        "An assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing) should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise. This should be performed after the patient is first lying or sitting for 5 min."
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "An assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing) should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise. This should be performed after the patient is first lying or sitting for 5 min."
+      ]
+    },
+    {
+      "name": "White-coat Hypertension",
+      "observations": [
+        "Out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension. Where out-of-office measurements are not logistically and/or economically feasible, then it is recommended that the diagnosis be confirmed with a repeat office BP measurement using the correct standardized measurement technique."
+      ]
+    },
+    {
+      "name": "Masked Hypertension",
+      "observations": [
+        "Out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension. Where out-of-office measurements are not logistically and/or economically feasible, then it is recommended that the diagnosis be confirmed with a repeat office BP measurement using the correct standardized measurement technique."
+      ]
+    },
+    {
+      "name": "Frailty",
+      "observations": [
+        "Frailty and into older age, which is addressed in multiple sections.",
+        "Treatment to this BP target is well tolerated by the patient",
+        "More lenient BP targets can be considered in persons with symptomatic orthostatic hypotension, those aged 85 years or over, or those with moderate-to-severe frailty"
+      ]
+    }
+  ]
+}

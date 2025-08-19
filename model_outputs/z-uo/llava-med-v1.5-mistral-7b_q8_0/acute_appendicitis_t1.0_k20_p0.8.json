@@ -1,0 +1,390 @@
+{
+  "observations": [
+    {
+      "name": "Patient age",
+      "context": ["age"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {
+                "value": 0,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "Age-specific cutoff values for the Alvarado score (referred to as patient's age)",
+              "value_criterion": {
+                "value": 0,
+                "unit": "years"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "Age-specific cutoff values for the Pediatric Appendicitis Score (referred to as patient's age)",
+              "value_criterion": {
+                "value": 0,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "Age-specific cutoff values for the Appendicitis Inflammatory Response score (referred to as patient's age)",
+              "value_criterion": {
+                "value": 0,
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure (BP)",
+      "context": ["BP"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal BP",
+              "value_criterion": {
+                "value": [120, 80],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "BP >90/60 mmHg (referred to as patient's BP)",
+              "value_criterion": {
+                "value": [120, 80],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "BP >95/65 mmHg (referred to as patient's BP)",
+              "value_criterion": {
+                "value": [120, 80],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "BP >100/65 mmHg (referred to as patient's BP)",
+              "value_criterion": {
+                "value": [120, 80],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Urea Nitrogen (BUN) level",
+      "context": ["BUN"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal BUN level",
+              "value_criterion": {
+                "value": 7.5,
+                "unit": "mg/dL"
+              }
+            },
+            {
+              "label": "BUN >12 mg/dL (referred to as patient's BUN level)",
+              "value_criterion": {
+                "value": 7.5,
+                "unit": "mg/dL"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "BUN >14 mg/dL (referred to as patient's BUN level)",
+              "value_criterion": {
+                "value": 7.5,
+                "unit": "mg/dL"
+              }
+            },
+            {
+              "label": "BUN >16 mg/dL (referred to as patient's BUN level)",
+              "value_criterion": {
+                "value": 7.5,
+                "unit": "mg/dL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C-reactive protein (CRP) level",
+      "context": ["CRP"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal CRP level",
+              "value_criterion": {
+                "value": 1,
+                "unit": "mg/dL"
+              }
+            },
+            {
+              "label": "CRP >2 mg/dL (referred to as patient's CRP level)",
+              "value_criterion": {
+                "value": 1,
+                "unit": "mg/dL"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "CRP >3 mg/dL (referred to as patient's CRP level)",
+              "value_criterion": {
+                "value": 1,
+                "unit": "mg/dL"
+              }
+            },
+            {
+              "label": "CRP >4 mg/dL (referred to as patient's CRP level)",
+              "value_criterion": {
+                "value": 1,
+                "unit": "mg/dL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Globular protein ratio (GPR) level",
+      "context": ["GPR"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal GPR level",
+              "value_criterion": {
+                "value": 0.2,
+                "unit": "ratio"
+              }
+            },
+            {
+              "label": "GPR >0.4 (referred to as patient's GPR level)",
+              "value_criterion": {
+                "value": 0.2,
+                "unit": "ratio"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "GPR >0.5 (referred to as patient's GPR level)",
+              "value_criterion": {
+                "value": 0.2,
+                "unit": "ratio"
+              }
+            },
+            {
+              "label": "GPR >0.6 (referred to as patient's GPR level)",
+              "value_criterion": {
+                "value": 0.2,
+                "unit": "ratio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocyte count (leukocytosis)",
+      "context": ["Leukocytosis"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal leukocyte count",
+              "value_criterion": {
+                "value": 5000,
+                "unit": "cells/μL"
+              }
+            },
+            {
+              "label": "Leukocytosis >12,000 cell/μL (referred to as patient's leukocyte count)",
+              "value_criterion": {
+                "value": 5000,
+                "unit": "cells/μL"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "Leukocytosis >14,000 cell/μL (referred to as patient's leukocyte count)",
+              "value_criterion": {
+                "value": 5000,
+                "unit": "cells/μL"
+              }
+            },
+            {
+              "label": "Leukocytosis >16,000 cell/μL (referred to as patient's leukocyte count)",
+              "value_criterion": {
+                "value": 5000,
+                "unit": "cells/μL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pain localization (pain site)",
+      "context": ["pain site"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Localized pain in the right lower quadrant",
+              "value_criterion": null
+            },
+            {
+              "label": "Pain localized to other sites (not in the right lower quadrant)",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pain migration (rebound pain),"
+      , "context": ["rebound pain"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "No pain rebound",
+              "value_criterion": null
+            },
+            {
+              "label": "Mild pain rebound",
+              "value_criterion": null
+            },
+            {
+              "label": "Moderate pain rebound",
+              "value_criterion": null
+            },
+            {
+              "label": "Severe pain rebound",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pain severity (pain intensity),"
+      , "context": ["pain intensity"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Mild pain",
+              "value_criterion": null
+            },
+            {
+              "label": "Moderate pain",
+              "value_criterion": null
+            },
+            {
+              "label": "Severe pain",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pain type (characteristic of pain),"
+      , "context": ["pain characteristics"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Non-rebounding, non-migrating pain with a constant pattern and no associated symptoms",
+              "value_criterion": null
+            },
+            {
+              "label": "Migratory or rebounding pain with an irregular pattern and associated symptoms",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patient's medical history (comorbidities),"
+      , "context": ["medical history"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "No comorbidities",
+              "value_criterion": null
+            },
+            {
+              "label": "Comorbidities present (e.g., diabetes, hypertension, cancer, heart disease, or chronic lung diseases)",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patient's symptoms and signs (sign/symptom points),"
+      , "context": ["symptoms and signs"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "No significant symptoms or signs",
+              "value_criterion": null
+            },
+            {
+              "label": "Significant symptoms or signs (e.g., migratory or rebounding pain, nausea/vomiting, and other relevant symptoms or signs)",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Radiological findings (radiology reports),"
+      , "context": ["radiology reports"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal radiology findings",
+              "value_criterion": null
+            },
+            {
+              "label": "Abnormal radiology findings (e.g., appendicitis, diverticulitis, or other relevant abnormalities)",
+              "value_criterion": null
+            }
+          ]
+        }

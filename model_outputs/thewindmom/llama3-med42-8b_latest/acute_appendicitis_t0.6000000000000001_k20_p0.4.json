@@ -1,0 +1,185 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [6, 10],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [8, 12],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [6, 12],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP",
+      "context": ["blood test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [50, 100],
+                "unit": "mg/L"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["blood test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [15, 20],
+                "unit": "x10^9/L"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN",
+      "context": ["blood test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [85, 100],
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["vital signs"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [38, 40],
+                "unit": "°C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebound Pain",
+      "context": ["physical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Right Lower Quadrant Tenderness",
+      "context": ["physical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anorexia",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nausea/Vomiting",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

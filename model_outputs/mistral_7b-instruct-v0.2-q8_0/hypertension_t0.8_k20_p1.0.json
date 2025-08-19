@@ -1,0 +1,110 @@
+{"observations": [
+{
+"name": "Blood Pressure Measured",
+"context": ["clinic visit", "BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg",
+"operator": "<="
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Out-of-office",
+"context": ["home monitoring"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [121, 89],
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "White-coat hypertension",
+"value_criterion": {
+"value": [],
+"unit": "mmHg",
+"operator": null
+}
+},
+{
+"label": "Masked hypertension",
+"value_criterion": {
+"value": [],
+"unit": "mmHg",
+"operator": null
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": ["clinic visit"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [0, 0],
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic hypotension",
+"value_criterion": {
+"value": [20, 10],
+"unit": "mmHg",
+"operator": ">"
+}
+}
+]
+}
+]
+}
+],
+
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure Measured"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}
+
+  		 						     				

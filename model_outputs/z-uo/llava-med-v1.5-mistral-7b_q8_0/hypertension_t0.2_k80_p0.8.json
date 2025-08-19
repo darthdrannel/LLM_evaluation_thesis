@@ -1,0 +1,506 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "office diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension",
+"context": ["systolic BP drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Orthostatic Hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Out-of-Office Blood Pressure Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Manual Auscultatory Method for Blood Pressure Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Automated Oscillometric Monitors for Blood Pressure Measurement",
+"value_criterion": {
+"value": 0,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Systolic Blood Pressure Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office diastolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Diastolic Blood Pressure Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["repeat office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Repeat Office Blood Pressure Measurement",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Out-of-Office Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Systolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office diastolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Diastolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Automated Oscillometric Monitors for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Manual Auscultatory Method for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Systolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office diastolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Diastolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Automated Oscillometric Monitors for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Manual Auscultatory Method for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Systolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office diastolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Diastolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Automated Oscillometric Monitors for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Manual Auscultatory Method for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Systolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office diastolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Diastolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Automated Oscillometric Monitors for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Manual Auscultatory Method for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Systolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office diastolic BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Office Diastolic Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "measurement"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["automated oscillometric monitors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Automated Oscillometric Monitors for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["manual auscultatory method"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Manual Auscultatory Method for Blood Pressure Measurement Confirmation",
+"value_criterion": {
+"value": 1,
+"unit": "method"
+}
+}
+]
+}
+]
+},
+{
+"name": "Blood Pressure Monitoring",
+"context": ["office systolic BP measurement"],
+"

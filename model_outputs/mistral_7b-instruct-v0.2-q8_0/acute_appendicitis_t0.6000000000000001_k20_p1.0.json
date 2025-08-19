@@ -1,0 +1,180 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain Migration",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Migrating Pain",
+"value_criterion": {
+"value": [1],
+"unit": ""
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Decreased Appetite",
+"value_criterion": {
+"value": [1],
+"unit": ""
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea or Vomiting",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Nausea/Vomiting",
+"value_criterion": {
+"value": [1],
+"unit": ""
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Right Lower Quadrant Tenderness",
+"value_criterion": {
+"value": [2],
+"unit": ""
+}
+}
+]
+}
+]
+},
+{
+"name": "Rebound Pain",
+"context": ["Abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Rebound Tenderness",
+"value_criterion": {
+"value": [1, 2],
+"unit": ""
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Temperature",
+"value_criterion": {
+"value": [37.3, 38],
+"unit": "°C (F)"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated White Blood Cell Count",
+"value_criterion": {
+"value": [10000],
+"unit": "per μL (per L)"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Leukocytosis with PMN Predominance",
+"value_criterion": {
+"value": [75],
+"unit": "%"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN",
+"context": [],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated PMN Count",
+"value_criterion": {
+"value": [15],
+"unit": "%"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "PMN Predominance",
+"value_criterion": {
+"value": [75, 85],
+"unit": "%"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": ["Abdominal Pain Migration", "Anorexia", "Nausea or Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain"]
+},
+{
+"name": "Mild Appendicitis",
+"observations": ["Abdominal Pain Migration", "Anorexia", "Nausea or Vomiting", "Right Lower Quadrant Tenderness", "Temperature", "Leukocytosis"]
+},
+{
+"name": "Moderate Appendicitis",
+"observations": ["Abdominal Pain Migration", "Anorexia", "Nausea or Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN"]
+},
+{
+"name": "Severe Appendicitis",
+"observations": ["Abdominal Pain Migration", "Anorexia", "Nausea or Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN", "CRP"]
+}
+]
+}

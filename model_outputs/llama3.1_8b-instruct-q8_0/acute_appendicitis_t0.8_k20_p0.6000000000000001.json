@@ -1,0 +1,62 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 5, "unit": "", "operator": "="}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 8, "unit": "", "operator": ">"}}]}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Appendicitis diagnosis in children", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 4, "unit": "", "operator": "="}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 10, "unit": "", "operator": ">"}}]}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 6, "unit": "", "operator": "="}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 9, "unit": "", "operator": ">"}}]}
+      ]
+    },
+    {
+      "name": "C-reactive Protein (CRP)",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 10, "unit": "g/L", "operator": "<"}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 50, "unit": "g/L", "operator": ">"}}]}
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 10000, "unit": "/μL", "operator": "<"}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 15000, "unit": "/μL", "operator": ">"}}]}
+      ]
+    },
+    {
+      "name": "Polymorphonucleocytes (PMN)",
+      "context": ["Appendicitis diagnosis", "Clinical evaluation"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 75, "unit": "%", "operator": "<"}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": 85, "unit": "%", "operator": ">"}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Appendicitis",
+      "observations": ["C-reactive Protein (CRP)", "Leukocytosis", "Polymorphonucleocytes (PMN)"]
+    }
+  ]
+}

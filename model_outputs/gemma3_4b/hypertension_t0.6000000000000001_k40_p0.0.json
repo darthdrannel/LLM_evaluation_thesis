@@ -1,0 +1,91 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP Measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 90,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Elevated BP",
+        "Hypertension",
+        "Office BP Measurement",
+        "Out-of-office BP Measurement",
+        "White-coat hypertension",
+        "Masked hypertension",
+        "Orthostatic hypotension"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 129,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 79,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office systolic BP of 120–139 mmHg",
+        "Office diastolic BP of 70–89 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office systolic BP of ≥140 mmHg",
+        "Office diastolic BP of ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic hypotension",
+      "observations": [
+        "≥20 systolic BP mmHg drop",
+        "≥10 diastolic BP mmHg drop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+"observations": [
+{
+"name": "BP measurement",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Adequate BP measurement technique is used",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured correctly and consistently for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "Out-of-office BP measurement",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured outside of the clinic or hospital setting to confirm elevated BP or hypertension diagnosis and detect white-coat hypertension and masked hypertension",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured outside of the clinic or hospital setting when out-of-office measurements are not feasible for diagnostic purposes, and then confirmed with a repeat office BP measurement using the correct standardized measurement technique",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured outside of the clinic or hospital setting to assess for orthostatic hypotension in patients with elevated BP or hypertension and suggestive symptoms",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in AF patients",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured using a manual auscultatory method in AF patients when automated oscillometric monitors have not been validated for BP measurement in these circumstances, and when possible",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured correctly using a manual auscultatory method in AF patients, with the patient lying or sitting for 5 minutes before the measurement to ensure adequate blood flow to the arteries",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "Assessment for orthostatic hypotension",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "An assessment for orthostatic hypotension is performed at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise, after the patient is first lying or sitting for 5 minutes",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "The assessment for orthostatic hypotension is performed to detect and manage potential issues related to low blood pressure after standing up or during physical activity",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP target for adults receiving BP-lowering medications",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "A target systolic BP of 120–129 mmHg is pursued for adults receiving BP-lowering medications, provided it is well tolerated by the patient",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "A more lenient BP target is considered in cases where a target systolic BP of 120–129 mmHg is not pursued due to intolerance or the existence of conditions that favour a more lenient BP target, such as symptomatic orthostatic hypotension, age 85 years or older, or moderate-to-severe frailty",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "The systolic BP target of 120–129 mmHg is achieved through out-of-office BP measurement to confirm the target BP level",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "Personalized clinical decision-making and shared decisions with the patient are emphasized for determining the most appropriate BP target based on individual patient needs and circumstances",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "Evidence-based recommendations for drug or procedural interventions in hypertension management",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Drug or procedural interventions aimed at BP lowering alone are not recommended for a Class I recommendation, except for lifestyle interventions and low-risk non-pharmacological interventions aimed at implementation or care delivery",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "Evidence related to fatal and non-fatal CVD outcomes is considered when making recommendations for drug or procedural interventions in hypertension management, rather than surrogate outcomes such as BP lowering alone",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "The guidelines are written to make them more user-friendly and accessible for healthcare professionals and patients, with a focus on tailoring treatment to individual patient needs and circumstances",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "The guidelines emphasize the importance of implementing evidence-based recommendations in hypertension management to improve patient outcomes and reduce the risk of cardiovascular disease",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "Implementation of guidelines in clinical practice",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The guidelines include a dedicated section on implementation, with information from national societies following a survey on guideline usage and potential barriers to implementation, in the Supplementary data online",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "The guidelines emphasize the importance of implementing evidence-based recommendations in hypertension management to improve patient outcomes and reduce the risk of cardiovascular disease",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement for pregnant women with hypertension or elevated BP",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured using a validated and calibrated device, following the correct measurement technique for pregnant women with hypertension or elevated BP, at least every 4 weeks during pregnancy",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured correctly and consistently for each pregnant woman with hypertension or elevated BP to ensure accurate assessment of their condition and guide appropriate management strategies",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP measurement is performed in conjunction with other assessments and monitoring as needed to ensure the best possible care for pregnant women with hypertension or elevated BP",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in children and adolescents with hypertension or elevated BP",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured using a validated and calibrated device, following the correct measurement technique for children and adolescents with hypertension or elevated BP, at least every 3 months during growth",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured correctly and consistently for each child and adolescent with hypertension or elevated BP to ensure accurate assessment of their condition and guide appropriate management strategies",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP measurement is performed in conjunction with other assessments and monitoring as needed to ensure the best possible care for children and adolescents with hypertension or elevated BP",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in patients undergoing dialysis for chronic kidney disease (CKD)",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured using a validated and calibrated device, following the correct measurement technique for patients undergoing dialysis for chronic kidney disease (CKD), at least every 3 months during treatment",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured correctly and consistently for each patient undergoing dialysis for CKD to ensure accurate assessment of their condition and guide appropriate management strategies",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP measurement is performed in conjunction with other assessments and monitoring as needed to ensure the best possible care for patients undergoing dialysis for CKD",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in patients with severe heart failure (HF) or reduced ejection fraction (EF), including those undergoing cardiac resynchronization therapy (CRT)",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured using a validated and calibrated device, following the correct measurement technique for patients with severe heart failure (HF) or reduced ejection fraction (EF), including those undergoing cardiac resynchronization therapy (CRT), at least every 3 months during treatment",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP is measured correctly and consistently for each patient with severe HF or reduced EF, including those undergoing CRT, to ensure accurate assessment of their condition and guide appropriate management strategies",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+},
+{
+"label": "BP measurement is performed in conjunction with other assessments and monitoring as needed to ensure the best possible care for patients with severe HF or reduced EF, including those undergoing CRT",
+"value_criterion": {
+"value": 1,
+"unit": "boolean"
+}
+}
+]
+}
+]
+},
+{
+"name": "BP measurement in patients with severe heart valve disease (HVD) or reduced left ventricular ejection fraction (LVEF), including those undergoing percutaneous coronary intervention (PCI)",
+"context": ["clinic", "hospital"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "BP is measured using a validated and calibrated device, following the correct measurement technique for patients with severe heart valve disease (HVD) or reduced left ventricular ejection fraction (LVEF), including those undergoing percutaneous coronary intervention (PCI), at least every 3 months during treatment",
+"value_criterion": {
+"value": 1,

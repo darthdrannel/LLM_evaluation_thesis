@@ -1,0 +1,382 @@
+{
+"observations": [
+{
+"name": "Abdominal pain",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pain is present in the patient's abdomen."
+}
+]
+}
+]
+},
+{
+"name": "Fever",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has a fever, which may indicate an infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has an elevated white blood cell count, which may indicate an infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "Pneumonia",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have pneumonia, which is an infection that causes inflammation in the air sacs of the lungs."
+}
+]
+}
+]
+},
+{
+"name": "Risk factors for appendicitis",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has risk factors for appendicitis, which may increase their likelihood of developing the condition."
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's temperature is elevated, which may indicate an infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "Vital signs",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's vital signs, such as heart rate and blood pressure, may provide additional information about their overall health and response to the infection or inflammation."
+}
+]
+}
+]
+},
+{
+"name": "WBC (white blood cell count)",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's white blood cell count may be elevated, which could indicate an infection or inflammation in the body."
+}
+]
+}
+]
+},
+{
+"name": "X-ray findings",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The chest X-ray and CT scans may reveal specific findings that can help healthcare professionals diagnose the patient's condition, such as pneumonia or other lung abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may be experiencing chest pain, which could be related to the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Shortness of breath",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may be experiencing shortness of breath, which could be a result of the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Cough",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may be experiencing a cough, which could be related to the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Sputum production",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may be producing sputum, which is a thick fluid that can be a sign of infection or inflammation in the lungs."
+}
+]
+}
+]
+},
+{
+"name": "Chest tightness",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may be experiencing chest tightness, which could be a result of the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Lung sounds",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's lung sounds may be abnormal, which could indicate the presence of an infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray findings",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The chest X-ray may reveal specific findings that can help healthcare professionals diagnose the patient's condition, such as pneumonia or other lung abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Chest CT scan findings",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The chest CT scans may reveal specific findings that can help healthcare professionals diagnose the patient's condition, such as pneumonia or other lung abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Pulmonary edema",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have pulmonary edema, which is a condition where fluid accumulates in the lungs, making it difficult for the patient to breathe."
+}
+]
+}
+]
+},
+{
+"name": "Pneumothorax",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have a pneumothorax, which is a condition where air accumulates in the pleural space, causing the lung to collapse."
+}
+]
+}
+]
+},
+{
+"name": "Pleural effusion",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have a pleural effusion, which is a condition where fluid accumulates in the pleural space, making it difficult for the patient to breathe."
+}
+]
+}
+]
+},
+{
+"name": "Pneumomediastinum",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have a pneumomediastinum, which is a condition where air accumulates in the mediastinum (the central compartment of the thoracic cavity), causing pressure on the surrounding structures."
+}
+]
+}
+]
+},
+{
+"name": "Chest wall abnormalities",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have chest wall abnormalities, such as fractures or deformities, which could be related to the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Lung abscess",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have a lung abscess, which is a localized collection of pus within the lung tissue, often caused by an infection."
+}
+]
+}
+]
+},
+{
+"name": "Pneumonia in other parts of the body",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have pneumonia in other parts of the body, such as the pleura or lung parenchyma, which could be related to the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray findings",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The chest X-rays may reveal specific findings that can help healthcare professionals diagnose the patient's condition, such as pneumonia or other lung abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Chest CT scan findings",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The chest CT scans may reveal specific findings that can help healthcare professionals diagnose the patient's condition, such as pneumonia or other lung abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Pleural effusion",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have a pleural effusion, which is a condition where fluid accumulates in the pleural space, making it difficult for the patient to breathe."
+}
+]
+}
+]
+},
+{
+"name": "Pneumothorax",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have a pneumothorax, which is a condition where air accumulates in the pleural space, causing the lung to collapse."
+}
+]
+}
+]
+},
+{
+"name": "Pleural abnormalities",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient may have pleural abnormalities, such as thickening or inflammation of the pleura, which could be related to the infection or inflammation in their lungs."
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray findings",
+"context": ["Chest X-ray", "coronal chest CT

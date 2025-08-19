@@ -1,0 +1,73 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Elevated BP",
+              "value_criterion": {
+                "value": [120, 139],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Hypertension",
+              "value_criterion": {
+                "value": [140, 159],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Frailty",
+              "value_criterion": {
+                "value": [85],
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gender",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Female",
+              "value_criterion": null
+            },
+            {
+              "label": "Male",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+"observations": [
+{
+"name": "Alvarado score",
+"context": ["Abdominal pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "suspected appendicitis"
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["Abdominal pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "suspected appendicitis"
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis Inflammatory Response score",
+"context": ["Abdominal pain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "suspected appendicitis"
+}
+]
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["Lab test results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated CRP level"
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage in leukocytosis",
+"context": ["Lab test results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "elevated PMN percentage in leukocytosis"
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Vital signs"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "fever"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "suspected appendicitis",
+"observations": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"]
+}
+]
+}

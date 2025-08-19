@@ -1,0 +1,137 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado score",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [6, 10],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["clinical assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [7, 12],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response score",
+      "context": ["lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [6, 12],
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [10, 0],
+                "unit": "/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMN",
+      "context": ["lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [75, 100],
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRP",
+      "context": ["lab tests"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [50, 0],
+                "unit": "mg/L"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temperature - feverish",
+      "context": ["vital signs"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": [37.3, 0],
+                "unit": "°C"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected appendicitis",
+      "observations": [
+        "Alvarado score",
+        "Pediatric Appendicitis Score",
+        "Appendicitis Inflammatory Response score",
+        "Leukocytosis",
+        "PMN",
+        "CRP",
+        "Temperature - feverish"
+      ]
+    }
+  ]
+}

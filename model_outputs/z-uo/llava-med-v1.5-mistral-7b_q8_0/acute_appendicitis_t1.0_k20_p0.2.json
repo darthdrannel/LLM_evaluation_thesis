@@ -1,0 +1,335 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the coronal chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the axial chest ct-scan."
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is experiencing chest pain, which may be related to an underlying condition or injury. Further evaluation and tests will be needed to determine the cause and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature of 37.5°C (99.5°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's temperature is elevated, which could be a sign of an infection or inflammation. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["leukocytosis with 12,000 per μL (12.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has leukocytosis, which is an elevated white blood cell count. This can be a sign of infection or inflammation in the body. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["75% polymorphonucleocytes (PMN)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has a high percentage of polymorphonucleocytes in their blood, which is consistent with leukocytosis. This finding may indicate an ongoing infection or inflammation in the body. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["elevated CRP level of 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has an elevated C-reactive protein (CRP) level, which is a marker of inflammation in the body. This finding may indicate an ongoing infection or inflammation. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Appendedicitis Inflammatory Response score",
+"context": ["score of 12 out of 12"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's appendicitis inflammatory response score is high, which may suggest the presence of appendicitis or another inflammatory condition. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["score of 12 out of 12"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pediatric appendicitis score is high, which may suggest the presence of appendicitis or another inflammatory condition in children. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["score of 10 out of 10"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's alvarado score is high, which may suggest the presence of appendicitis or another inflammatory condition. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's chest x-ray appears to be normal, which means that there are no visible abnormalities or signs of disease in the chest area. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's coronal chest ct-scan appears to be normal, which means that there are no visible abnormalities or signs of disease in the chest area. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's axial chest ct-scan appears to be normal, which means that there are no visible abnormalities or signs of disease in the chest area. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is experiencing chest pain, which may be related to an underlying condition or injury. Further evaluation and tests will be needed to determine the cause and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["temperature of 37.5°C (99.5°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's temperature is elevated, which could be a sign of an infection or inflammation. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["leukocytosis with 12,000 per μL (12.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has leukocytosis, which is an elevated white blood cell count. This can be a sign of infection or inflammation in the body. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["75% polymorphonucleocytes (PMN)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has a high percentage of polymorphonucleocytes in their blood, which is consistent with leukocytosis. This finding may indicate an ongoing infection or inflammation in the body. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["elevated CRP level of 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient has an elevated C-reactive protein (CRP) level, which is a marker of inflammation in the body. This finding may indicate an ongoing infection or inflammation. It is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Appendedicitis Inflammatory Response score",
+"context": ["score of 12 out of 12"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's appendicitis inflammatory response score is high, which may suggest the presence of appendicitis or another inflammatory condition. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["score of 12 out of 12"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's pediatric appendicitis score is high, which may suggest the presence of appendicitis or another inflammatory condition in children. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["score of 10 out of 10"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's alvarado score is high, which may suggest the presence of appendicitis or another inflammatory condition. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's chest x-ray appears to be normal, which means that there are no visible abnormalities or signs of disease in the chest area. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's coronal chest ct-scan appears to be normal, which means that there are no visible abnormalities or signs of disease in the chest area. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's axial chest ct-scan appears to be normal, which means that there are no visible abnormalities or signs of disease in the chest area. However, it is important to consider the patient's overall clinical picture and consult a healthcare professional for further evaluation and appropriate treatment."
+}
+]
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["pain in the right lower quadrant of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is experiencing chest pain, which may be related to an underlying condition or injury. Further evaluation

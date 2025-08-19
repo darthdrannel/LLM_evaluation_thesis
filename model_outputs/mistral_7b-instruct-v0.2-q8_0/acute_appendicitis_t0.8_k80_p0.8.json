@@ -1,0 +1,172 @@
+{
+"observations": [
+{
+"name": "Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Migrating",
+"value_criterion": {
+"value": [1, 2],
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Nausea/Vomiting",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 1,
+"unit": "Point"
+}
+},
+{
+"label": "Rebound",
+"value_criterion": {
+"value": [1, 2],
+"unit": "Point"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated",
+"value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": 38,
+"unit": "°C"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": 15000,
+"unit": "per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN Percentage",
+"context": ["N/A"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated (≥75%)",
+"value_criterion": {
+"value": 75,
+"unit": "%"
+}
+},
+{
+"label": "Elevated (≥85%)",
+"value_criterion": {
+"value": 85,
+"unit": "%"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Alvarado Score",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature", "Leukocytosis", "PMN Percentage"]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"observations": ["Abdominal Pain", "Anorexia", "Nausea/Vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain Right Lower Quadrant with Coughing/Hopping/Percussion", "Temperature", "Leukocytosis", "PMN Percentage"]
+},
+{
+"name": "Appendicitis Inflammatory Response score",
+"observations": ["Vomiting", "Right Iliac Fossa Pain", "Rebound Pain (Light, Medium, Strong)", "Temperature", "Leukocytosis", "PMN Percentage", "CRP"]
+}
+]
+}

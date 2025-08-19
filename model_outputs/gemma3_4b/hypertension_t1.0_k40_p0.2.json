@@ -1,0 +1,75 @@
+{
+    "observations": [
+    {
+        "name": "Blood Pressure",
+        "context": ["", "Blood Pressure", "Blood Pressure", "Blood Pressure", "Blood Pressure"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "elevated",
+                    "value_criterion": {
+                    "value": 140,
+                    "unit": "mmHg"
+                    }
+                    }
+                ],
+                "gender": null,
+                "age": null
+            }
+        ]
+    },
+    {
+        "name": "abdominal pain",
+        "context": [],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal",
+                    "value_criterion": {
+                    "value": 0,
+                    "unit": "mmHg"
+                    }
+                    }
+                ],
+                "gender": null,
+                "age": null
+            }
+        ]
+    },
+    {
+        "name": "respiration rate",
+        "context": [],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "normal",
+                    "value_criterion": {
+                    "value": 12,
+                    "unit": "mmHg"
+                    }
+                    }
+                ],
+                "gender": null,
+                "age": null
+            }
+        ]
+    }
+],
+"conditions": [
+    {
+        "name": "Elevated BP",
+        "observations": [
+            "elevated blood pressure"
+        ]
+    },
+    {
+        "name": "Hypertension",
+        "observations": [
+            "elevated blood pressure"
+        ]
+    }
+]
+}

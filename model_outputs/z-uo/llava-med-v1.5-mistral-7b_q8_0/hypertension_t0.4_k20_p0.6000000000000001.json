@@ -1,0 +1,58 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["office", "clinic"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Blood Pressure (BP) measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated BP measurement",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Out-of-office Blood Pressure Measurement",
+"context": ["home"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Out-of-office BP measurement",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated Out-of-office BP measurement",
+"value_criterion": {
+"value": 135,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP) and Hypertension",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}

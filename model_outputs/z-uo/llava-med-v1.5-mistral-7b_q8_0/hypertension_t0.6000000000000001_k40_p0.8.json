@@ -1,0 +1,77 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Office Systolic BP", "Office Diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+},
+{
+"label": "Target Systolic Blood Pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+}
+],
+"age": null
+}
+]
+},
+{
+"name": "Cardiovascular Disease Risk",
+"context": ["High Cardiovascular Disease Risk"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pursue Target Systolic Blood Pressure of 120–129 mmHg for those receiving BP-lowering medications",
+"value_criterion": null
+},
+{
+"label": "Target a BP that is as low as reasonably achievable in selected individual cases where the target systolic BP of 120–129 mmHg is not pursued due to intolerance or the existence of conditions that favor a more lenient BP target",
+"value_criterion": null
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Consider shared decisions with the patient regarding personalized clinical decision-making and treatment goals",
+"value_criterion": null
+}
+],
+"age": null
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (EBP)",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Hypertension",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Cardiovascular Disease Risk (CVD)",
+"observations": ["High Cardiovascular Disease Risk"]
+}
+]
+}

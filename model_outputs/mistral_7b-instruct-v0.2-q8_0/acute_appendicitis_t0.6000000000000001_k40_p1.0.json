@@ -1,0 +1,94 @@
+{
+"observations": [
+{
+"name": "Patient Temperature",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Fever",
+"value_criterion": {
+"value": [37.3, 100.4],
+"unit": "°C (F)"
+}
+},
+{
+"label": "Normal Temperature",
+"value_criterion": {
+"value": [36.5, 97.7],
+"unit": "°C (F)"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Lab Results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Leukocyte Count",
+"value_criterion": {
+"value": [10000, 15000],
+"unit": "per μL (per L)"
+}
+},
+{
+"label": "Normal Leukocyte Count",
+"value_criterion": {
+"value": [4500, 9999],
+"unit": "per μL (per L)"
+}
+}
+]
+}
+]
+},
+{
+"name": "Right Lower Quadrant Tenderness",
+"context": ["Physical Examination"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Present",
+"value_criterion": {
+"value": [],
+"unit": ""
+}
+},
+{
+"label": "Absent",
+"value_criterion": {
+"value": [],
+"unit": ""
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis Suspected",
+"observations": ["Patient Temperature", "Leukocytosis", "Right Lower Quadrant Tenderness"]
+},
+{
+"name": "Alvarado Score ≥ 7",
+"observations": ["Migration of Pain", "Anorexia", "Nausea/vomiting", "Right Lower Quadrant Tenderness", "Rebound Pain", "Temperature ≥ 37.3°C (99.1°F)", "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"]
+},
+{
+"name": "Pediatric Appendicitis Score ≥ 7",
+"observations": ["Migration of Pain", "Anorexia", "Nausea/vomiting", "Right Lower Quadrant Tenderness", "Rebound pain with coughing/hopping/percussion", "Temperature ≥ 38°C (100.4°F)", "Leukocytosis ≥ 10,000 per μL"]
+},
+{
+"name": "Appendicitis Inflammatory Response Score ≥ 7",
+"observations": ["Vomiting", "Right Iliac fossa pain", "Rebound pain (light)", "Rebound pain (medium)", "Rebound pain (strong)", "Temperature ≥ 38.5°C (101.3°F)", "Leukocytosis ≥ 10,000 to 14,900 per μL", "Leukocytosis ≥ 15,000 per μL", "PMN 70% to 84%", "PMN ≥ 85%", "CRP 10 to 49 g per L", "CRP ≥ 50 g per L"]
+}
+]
+}

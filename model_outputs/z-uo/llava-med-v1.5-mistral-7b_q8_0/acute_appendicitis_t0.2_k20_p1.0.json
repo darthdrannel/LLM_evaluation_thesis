@@ -1,0 +1,180 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "high blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "high blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low blood pressure",
+"value_criterion": {
+"value": 85,
+"unit": "mmHg"
+}
+},
+{
+"label": "normal blood pressure",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg"
+}
+},
+{
+"label": "high blood pressure",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg"
+}
+}
+]
+}
+]
+},
+{
+"name": "Respiration Rate",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "low respiration rate",
+"value_criterion": {
+"value": 12,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "normal respiration rate",
+"value_criterion": {
+"value": 15,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "high respiration rate",
+"value_criterion": {
+"value": 20,
+"unit": "breaths per minute"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low respiration rate",
+"value_criterion": {
+"value": 12,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "normal respiration rate",
+"value_criterion": {
+"value": 15,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "high respiration rate",
+"value_criterion": {
+"value": 20,
+"unit": "breaths per minute"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "low respiration rate",
+"value_criterion": {
+"value": 12,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "normal respiration rate",
+"value_criterion": {
+"value": 15,
+"unit": "breaths per minute"
+}
+},
+{
+"label": "high respiration rate",
+"value_criterion": {
+"value": 20,
+"unit": "breaths per minute"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray",
+"observations": ["Blood Pressure", "Respiration Rate"]
+},
+{
+"name": "coronal chest CT-Scan",
+"observations": ["Blood Pressure", "Respiration Rate"]
+},
+{
+"name": "axial chest CT-scan",
+"observations": ["Blood Pressure", "Respiration Rate"]
+}
+]
+}

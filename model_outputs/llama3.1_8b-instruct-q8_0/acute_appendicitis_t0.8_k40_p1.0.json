@@ -1,0 +1,34 @@
+{
+    "observations": [
+        {
+            "name": "Alvarado score",
+            "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+            "patient_inferences": [
+                {"inferences": [{"label": "low", "value_criterion": {"value": 1, "unit": "", "operator": "<"}}]},
+                {"inferences": [{"label": "high", "value_criterion": {"value": 5, "unit": "", "operator": ">"}}]}
+            ]
+        },
+        {
+            "name": "Pediatric Appendicitis Score",
+            "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+            "patient_inferences": [
+                {"inferences": [{"label": "low", "value_criterion": {"value": 1, "unit": "", "operator": "<"}}]},
+                {"inferences": [{"label": "high", "value_criterion": {"value": 7, "unit": "", "operator": ">"}}]}
+            ]
+        },
+        {
+            "name": "Appendicitis Inflammatory Response score",
+            "context": ["Suspected Appendicitis", "Diagnostic Tools"],
+            "patient_inferences": [
+                {"inferences": [{"label": "low", "value_criterion": {"value": 1, "unit": "", "operator": "<"}}]},
+                {"inferences": [{"label": "high", "value_criterion": {"value": 8, "unit": "", "operator": ">"}}]}
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Suspected Appendicitis",
+            "observations": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"]
+        }
+    ]
+}

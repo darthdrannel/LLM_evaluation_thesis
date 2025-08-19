@@ -1,0 +1,589 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CATS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Chest pain",
+"context": ["CP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild chest pain"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Chest pain with coughing/hopping/percussion",
+"context": ["CP+"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Moderate chest pain with coughing/hopping/percussion"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Fever",
+"context": ["F"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Mild fever"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature ≥ 38.5°C (101.3°F)",
+"context": ["T≥38.5"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Moderate fever"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis ≥ 15,000 per μL (15.0 × 109 per L)",
+"context": ["LC≥15.0"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High leukocytosis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN ≥ 85%",
+"context": ["PMN≥85%"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High PMN percentage"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP ≥ 50 g per L",
+"context": ["CRP≥50"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "High CRP level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Apposite sign",
+"context": ["AP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive apposite sign"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Rovsing sign",
+"context": ["RVS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive Rovsing sign"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Psoas muscle sign",
+"context": ["PMS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive psoas muscle sign"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Obturator sign",
+"context": ["OBTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive obturator sign"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "McBurney sign",
+"context": ["MCS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive McBurney sign"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pelvic inflammatory disease (PID)",
+"context": ["PID"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pelvic inflammatory disease"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Endometriosis",
+"context": ["EM"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive endometriosis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ectopic pregnancy",
+"context": ["EP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive ectopic pregnancy"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ovarian torsion",
+"context": ["OT"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive ovarian torsion"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ovarian cyst",
+"context": ["OC"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive ovarian cyst"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ovarian cancer",
+"context": ["OCa"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive ovarian cancer"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pneumonia",
+"context": ["PN"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pneumonia"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pneumothorax",
+"context": ["PTX"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pneumothorax"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pleural effusion",
+"context": ["PE"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pleural effusion"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pleurisy",
+"context": ["PL"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pleurisy"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pneumomediastinum",
+"context": ["PM"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pneumomediastinum"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pneumopericardium",
+"context": ["PP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pneumopericardium"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pneumoperitoneum",
+"context": ["PPX"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pneumoperitoneum"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pericardial effusion",
+"context": ["PEF"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive pericardial effusion"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritonitis",
+"context": ["PT"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritonitis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Perforated viscus",
+"context": ["PV"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive perforated viscus"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal carcinomatosis",
+"context": ["PC"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal carcinomatosis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal tuberculosis",
+"context": ["PTB"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal tuberculosis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal abscess",
+"context": ["PA"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal abscess"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal hematoma",
+"context": ["PH"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal hematoma"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal hemoperitoneum",
+"context": ["PHP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal hemoperitoneum"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal pseudocyst",
+"context": ["PPC"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal pseudocyst"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal pseudotumor",
+"context": ["PPT"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal pseudotumor"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal mesothelioma",
+"context": ["PM"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive peritoneal mesothelioma"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Peritoneal sarcoma",

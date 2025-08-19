@@ -1,0 +1,439 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray."
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["no significant abnormalities detected in the coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the coronal chest CT-scan."
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["no significant abnormalities detected in the axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the axial chest CT-scan."
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["the patient is a 45-year-old male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's age is within the typical range for appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient gender",
+"context": ["the patient is a male"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's gender is not typically associated with appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient temperature",
+"context": ["the patient has a fever of 38.5°C (101.3°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's elevated temperature may be indicative of an infection or inflammation, which could be related to appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient leukocytosis",
+"context": ["the patient has a white blood cell count of 12,000 per μL (12.0 × 109 per L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's elevated leukocytosis may be indicative of an infection or inflammation, which could be related to appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient PMN percentage",
+"context": ["the patient has a polymorphonucleocyte (PMN) percentage of 75%"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's elevated PMN percentage may be indicative of an infection or inflammation, which could be related to appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Patient CRP level",
+"context": ["the patient has a C-reactive protein (CRP) level of 50 g per L"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's elevated CRP level may be indicative of an infection or inflammation, which could be related to appendicitis."
+}
+]
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["the patient has a total Alvarado score of 10 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's Alvarado score is within the typical range for appendicitis, suggesting that there may be an issue with the appendix."
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["the patient has a total Pediatric Appendicitis Score of 12 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's Pediatric Appendicitis Score is within the typical range for appendicitis, suggesting that there may be an issue with the appendix."
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis Inflammatory Response score",
+"context": ["the patient has a total Appendicitis Inflammatory Response score of 12 points"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's Appendicitis Inflammatory Response score is within the typical range for appendicitis, suggesting that there may be an issue with the appendix."
+}
+]
+}
+]
+},
+{
+"name": "MRI of the abdomen and pelvis",
+"context": ["no significant abnormalities were detected in the mri of the abdomen and pelvis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRI of the abdomen and pelvis."
+}
+]
+}
+]
+},
+{
+"name": "Ultrasound of the abdomen",
+"context": ["no significant abnormalities were detected in the ultrasound of the abdomen"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the ultrasound of the abdomen."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the abdomen and pelvis",
+"context": ["no significant abnormalities were detected in the ct scan of the abdomen and pelvis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the CT scan of the abdomen and pelvis."
+}
+]
+}
+]
+},
+{
+"name": "Laparoscopy",
+"context": ["no significant abnormalities were detected during the laparoscopy"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found during the laparoscopy."
+}
+]
+}
+]
+},
+{
+"name": "Surgical exploration",
+"context": ["no significant abnormalities were detected during the surgical exploration"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found during the surgical exploration."
+}
+]
+}
+]
+},
+{
+"name": "Pathology results",
+"context": ["the pathology results did not show any significant abnormalities"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The pathology results did not reveal any significant abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Endoscopy",
+"context": ["no significant abnormalities were detected during the endoscopy"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found during the endoscopy."
+}
+]
+}
+]
+},
+{
+"name": "Colonoscopy",
+"context": ["no significant abnormalities were detected during the colonoscopy"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found during the colonoscopy."
+}
+]
+}
+]
+},
+{
+"name": "Cystoscopy",
+"context": ["no significant abnormalities were detected during the cystoscopy"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found during the cystoscopy."
+}
+]
+}
+]
+},
+{
+"name": "MRI of the brain",
+"context": ["no significant abnormalities were detected in the mri of the brain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRI of the brain."
+}
+]
+}
+]
+},
+{
+"name": "MRA of the brain",
+"context": ["no significant abnormalities were detected in the mra of the brain"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRA of the brain."
+}
+]
+}
+]
+},
+{
+"name": "MRI of the spine",
+"context": ["no significant abnormalities were detected in the mri of the spine"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRI of the spine."
+}
+]
+}
+]
+},
+{
+"name": "MRA of the spine",
+"context": ["no significant abnormalities were detected in the mra of the spine"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRA of the spine."
+}
+]
+}
+]
+},
+{
+"name": "MRI of the pelvis",
+"context": ["no significant abnormalities were detected in the mri of the pelvis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRI of the pelvis."
+}
+]
+}
+]
+},
+{
+"name": "MRA of the pelvis",
+"context": ["no significant abnormalities were detected in the mra of the pelvis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRA of the pelvis."
+}
+]
+}
+]
+},
+{
+"name": "MRI of the chest",
+"context": ["no significant abnormalities were detected in the mri of the chest"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRI of the chest."
+}
+]
+}
+]
+},
+{
+"name": "MRA of the chest",
+"context": ["no significant abnormalities were detected in the mra of the chest"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRA of the chest."
+}
+]
+}
+]
+},
+{
+"name": "MRI of the abdomen and pelvis with contrast",
+"context": ["no significant abnormalities were detected in the mri of the abdomen and pelvis with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the MRI of the abdomen and pelvis with contrast."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the abdomen and pelvis with contrast",
+"context": ["no significant abnormalities were detected in the ct scan of the abdomen and pelvis with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the CT scan of the abdomen and pelvis with contrast."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the chest with contrast",
+"context": ["no significant abnormalities were detected in the ct scan of the chest with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the CT scan of the chest with contrast."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the brain with contrast",
+"context": ["no significant abnormalities were detected in the ct scan of the brain with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No significant abnormalities were found in the CT scan of the brain with contrast."
+}
+]
+}
+]
+},
+{
+"name": "CT scan of the spine with contrast",
+"context": ["no significant abnormalities were detected in the ct scan of the spine with contrast"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"

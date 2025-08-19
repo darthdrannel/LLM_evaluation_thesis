@@ -1,0 +1,49 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["office", "out-of-office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "elevated", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": [140, 180], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Systolic BP",
+      "context": ["office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "target", "value_criterion": {"value": [120, 129], "unit": "mmHg"}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": [140, 180], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Diastolic BP",
+      "context": ["office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "target", "value_criterion": {"value": [70, 89], "unit": "mmHg"}}]},
+        {"inferences": [{"label": "high", "value_criterion": {"value": [90, 120], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["office"],
+      "patient_inferences": [
+        {"inferences": [{"label": "present", "value_criterion": {"value": [20, 10], "unit": "mmHg"}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure", "Systolic BP", "Diastolic BP"]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": ["Orthostatic Hypotension"]
+    }
+  ]
+}

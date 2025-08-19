@@ -1,0 +1,72 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [1, 2, 1, 2, 1],
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [1, 1, 1, 2, 2, 1],
+                "unit": "points"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Clinical Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Suspected Appendicitis",
+              "value_criterion": {
+                "value": [1, 1, 1, 2, 3, 1],
+                "unit": "points"
+              }
+            },
+            {
+              "label": "Severe Inflammation",
+              "value_criterion": {
+                "value": [2],
+                "unit": "CRP ≥ 50 g per L"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    },
+    {
+      "name": "Severe Inflammation",
+      "observations": ["Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

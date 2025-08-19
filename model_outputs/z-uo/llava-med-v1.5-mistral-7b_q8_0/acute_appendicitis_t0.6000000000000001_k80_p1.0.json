@@ -1,0 +1,143 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["clinical examination", "ECG"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal blood pressure"
+            }
+          ],
+          "gender": "female"
+        },
+        {
+          "inferences": [
+            {
+              "label": "elevated systolic blood pressure"
+            }
+          ],
+          "age": {
+            "value": 25,
+            "unit": "years"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Respiration Rate",
+      "context": ["clinical examination"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal respiration rate"
+            }
+          ],
+          "gender": "male"
+        },
+        {
+          "inferences": [
+            {
+              "label": "elevated respiration rate"
+            }
+          ],
+          "age": {
+            "value": 35,
+            "unit": "years"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blood Urea Nitrogen (BUN) Level",
+      "context": ["blood test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal BUN level"
+            }
+          ],
+          "age": {
+            "value": 40,
+            "unit": "years"
+          }
+        },
+        {
+          "inferences": [
+            {
+              "label": "elevated BUN level"
+            }
+          ],
+          "gender": "nonbinary"
+        }
+      ]
+    },
+    {
+      "name": "Alanine Aminotransferase (ALT) Level",
+      "context": ["blood test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal ALT level"
+            }
+          ],
+          "age": {
+            "value": 50,
+            "unit": "years"
+          }
+        },
+        {
+          "inferences": [
+            {
+              "label": "elevated ALT level"
+            }
+          ],
+          "gender": "nonbinary"
+        }
+      ]
+    },
+    {
+      "name": "Blood Creatinine Level (CrL), eGFR",
+      "context": ["blood test"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal blood creatinine level"
+            }
+          ],
+          "age": {
+            "value": 30,
+            "unit": "years"
+          }
+        },
+        {
+          "inferences": [
+            {
+              "label": "elevated blood creatinine level"
+            }
+          ],
+          "gender": "female"
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Chest X-ray Diagnosis",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Coronal Chest CT-Scan Diagnosis",
+      "observations": ["Blood Urea Nitrogen (BUN) Level"]
+    },
+    {
+      "name": "Axial Chest CT-Scan Diagnosis",
+      "observations": ["Alanine Aminotransferase (ALT) Level"]
+    }
+  ]
+}

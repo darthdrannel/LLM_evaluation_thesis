@@ -1,0 +1,37 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": [
+                "ESC/ESH Guidelines on the management of arterial hypertension",
+                "2024",
+                "Elevated BP",
+                "Office systolic BP",
+                "Out-of-office BP measurement",
+                "Standardized measurement technique"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                {
+                    "label": "elevated BP",
+                    "value_criterion": {
+                    "value": 120,
+                    "unit": "mmHg"
+                    }
+                }
+                ]
+                }
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated BP",
+            "observations": [
+                "Office systolic BP of 120–139 mmHg",
+                "Office diastolic BP of 70–89 mmHg"
+            ]
+        }
+    ]
+}

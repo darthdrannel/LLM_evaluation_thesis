@@ -1,0 +1,78 @@
+{
+"observations": [
+    {
+        "name": "Alvarado score",
+        "context": ["signs", "symptoms"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "score is high, indicating a possible appendicitis"
+                    },
+                    {
+                    "label": "score is low or normal, indicating a possible non-appendicitis condition"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pediatric Appendicitis Score",
+        "context": ["signs", "symptoms"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "score is high, indicating a possible appendicitis"
+                    },
+                    {
+                    "label": "score is low or normal, indicating a possible non-appendicitis condition"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Appendicitis Inflammatory Response score",
+        "context": ["signs", "symptoms"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "score is high, indicating a possible appendicitis"
+                    },
+                    {
+                    "label": "score is low or normal, indicating a possible non-appendicitis condition"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Patient age",
+        "context": ["age"],
+        "patient_inferences": [
+            {
+                "inferences": [
+                    {
+                    "label": "the patient is under 12 years old"
+                    },
+                    {
+                    "label": "the patient is over 12 years old"
+                    }
+                ]
+            }
+        ]
+    }
+],
+"conditions": [
+    {
+        "name": "Appendicitis",
+        "observations": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"]
+    },
+    {
+        "name": "Non-appendicitis conditions",
+        "observations": ["Alvarado score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"]
+    }
+]
+}

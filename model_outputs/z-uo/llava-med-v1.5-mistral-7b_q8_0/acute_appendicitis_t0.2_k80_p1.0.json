@@ -1,0 +1,102 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No abnormalities detected in the chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["no acute lung pathology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No acute lung pathology detected in the coronal chest CT-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal coronal chest CT-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["no acute lung pathology"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No acute lung pathology detected in the axial chest CT-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal axial chest CT-scan"
+}
+]
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["35 years old"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is a 35-year-old male"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "The patient's age is within the normal range for appendicitis"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan",
+"observations": ["Axial chest CT-scan"]
+},
+{
+"name": "Patient age",
+"observations": ["Patient age"]
+}
+]
+}

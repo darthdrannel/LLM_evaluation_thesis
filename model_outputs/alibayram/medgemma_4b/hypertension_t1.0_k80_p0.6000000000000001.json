@@ -1,0 +1,152 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Elevated BP",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Hypertension",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "White-coat hypertension",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Masked hypertension",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Orthostatic hypotension",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": [
+        "Patient Age"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Age",
+              "value_criterion": {
+                "value": 85,
+                "unit": "years"
+              }
+            },
+            {
+              "label": "Age",
+              "value_criterion": {
+                "value": 100,
+                "unit": "years"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": [
+        "Patient Frailty"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Frailty",
+              "value_criterion": {
+                "value": 1,
+                "unit": "frailty scale"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "White-coat hypertension",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "Masked hypertension",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "Orthostatic hypotension",
+      "observations": [
+        "Office Systolic BP",
+        "Office Diastolic BP",
+        "Out-of-Office Systolic BP",
+        "Out-of-Office Diastolic BP"
+      ]
+    },
+    {
+      "name": "Frailty",
+      "observations": [
+        "Patient Frailty"
+      ]
+    }
+  ]
+}

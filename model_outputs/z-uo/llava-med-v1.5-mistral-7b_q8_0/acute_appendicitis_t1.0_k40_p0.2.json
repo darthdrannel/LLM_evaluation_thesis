@@ -1,0 +1,578 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["PAS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pediatric appendicitis score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["AIRS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal appendicitis inflammatory response score"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal CRP level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMN"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal PMN percentage"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis level",
+"context": ["Leukocytosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal leukocytosis level"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal temperature"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pain intensity",
+"context": ["Pain intensity"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pain intensity"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the abdomen and pelvis",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal MRI of the abdomen and pelvis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the abdomen",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the abdomen"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Laparoscopy",
+"context": ["Laparoscopy"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal laparoscopy findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the abdomen and pelvis with contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the abdomen and pelvis with contrast"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the abdomen without contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the abdomen without contrast"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the pelvis",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the pelvis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the pelvis",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the pelvis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the pelvis",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal mri of the pelvis"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the chest without contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the chest without contrast"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the chest with contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the chest with contrast"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the chest",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal mri of the chest"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the chest",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the chest"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "EKG (electrocardiogram)",
+"context": ["EKG"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal EKG findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "ECG (electrocardiogram) with stress test",
+"context": ["ECG"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ECG findings with stress test"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Echocardiography",
+"context": ["Echocardiography"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal echocardiography findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Cardiac MRI",
+"context": ["Cardiac MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal cardiac mri findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Breathing test (spirometry)",
+"context": ["Spirometry"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal breathing test findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pulmonary function test (PFT)",
+"context": ["PFT"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal pulmonary function test findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Chest X-ray with contrast",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the abdomen and pelvis with contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the abdomen and pelvis with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the chest with contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the chest with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan of the pelvis with contrast",
+"context": ["CT scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ct scan of the pelvis with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the abdomen and pelvis with contrast",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal mri of the abdomen and pelvis with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the chest with contrast",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal mri of the chest with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI of the pelvis with contrast",
+"context": ["MRI"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal mri of the pelvis with contrast findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the abdomen and pelvis",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the abdomen and pelvis findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the chest",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the chest findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound of the pelvis",
+"context": ["US"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal ultrasound of the pelvis findings"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "EKG (electrocardiogram) with stress test",
+"context": ["ECG"],
+"patient_inferences": [
+{
+"

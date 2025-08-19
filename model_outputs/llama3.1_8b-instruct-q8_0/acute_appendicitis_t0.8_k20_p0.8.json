@@ -1,0 +1,155 @@
+{"observations": [
+  {
+    "name": "Alvarado Score",
+    "context": ["Clinical assessment"],
+    "patient_inferences": [
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [1,2,3,4,5,6,7,8,9,10],
+            "unit": "",
+            "operator": "="
+          }
+        }
+      ]},
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [1,2],
+            "unit": "",
+            "operator": "="
+          }
+        }
+      ]}
+    ]
+  },
+  {
+    "name": "Pediatric Appendicitis Score",
+    "context": ["Clinical assessment"],
+    "patient_inferences": [
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "unit": "",
+            "operator": "="
+          }
+        }
+      ]},
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [1,2],
+            "unit": "",
+            "operator": "="
+          }
+        }
+      ]}
+    ]
+  },
+  {
+    "name": "Appendicitis Inflammatory Response Score",
+    "context": ["Clinical assessment"],
+    "patient_inferences": [
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "unit": "",
+            "operator": "="
+          }
+        }
+      ]},
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [1,2],
+            "unit": "",
+            "operator": "="
+          }
+        }
+      ]}
+    ]
+  },
+  {
+    "name": "CRP",
+    "context": ["Laboratory test"],
+    "patient_inferences": [
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [10,49],
+            "unit": "g/L",
+            "operator": "="
+          }
+        },
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [50],
+            "unit": "g/L",
+            "operator": "="
+          }
+        }
+      ]}
+    ]
+  },
+  {
+    "name": "PMN count",
+    "context": ["Laboratory test"],
+    "patient_inferences": [
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [70,84],
+            "unit": "%",
+            "operator": "="
+          }
+        },
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [85],
+            "unit": "%",
+            "operator": "="
+          }
+        }
+      ]}
+    ]
+  },
+  {
+    "name": "Leukocytosis count",
+    "context": ["Laboratory test"],
+    "patient_inferences": [
+      {"inferences": [
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [10,14900],
+            "unit": "/μL",
+            "operator": "="
+          }
+        },
+        {
+          "label": null,
+          "value_criterion": {
+            "value": [15000],
+            "unit": "/μL",
+            "operator": "="
+          }
+        }
+      ]}
+    ]
+  }
+], "conditions": [
+  {"name": "Suspected Appendicitis", "observations": ["Alvarado Score"]},
+  {"name": "Appendicitis Inflammatory Response", "observations": ["Appendicitis Inflammatory Response Score"]}
+]}

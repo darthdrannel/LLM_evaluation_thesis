@@ -1,0 +1,160 @@
+{
+  "observations": [
+    {
+      "name": "Office Systolic Blood Pressure",
+      "context": ["office BP measurement", "ESC/ESH 2024 hypertension guidelines"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "hypertension",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [120, 139],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "target",
+              "value_criterion": {
+                "value": [120, 129],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office Diastolic Blood Pressure",
+      "context": ["office BP measurement", "ESC/ESH 2024 hypertension guidelines"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "hypertension",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 90,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": [70, 89],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["standing after lying or sitting for 5 min", "initial diagnosis of elevated BP or hypertension", "ESC/ESH 2024 guidelines"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "present",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 20,
+                "unit": "mmHg systolic drop"
+              }
+            },
+            {
+              "label": "present",
+              "value_criterion": {
+                "operator": ">=",
+                "value": 10,
+                "unit": "mmHg diastolic drop"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Out-of-office Blood Pressure",
+      "context": ["ambulatory BP monitoring", "home BP monitoring", "ESC/ESH 2024 guidelines"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "recommended for diagnosis",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patient Age",
+      "context": ["treatment target consideration", "ESC/ESH 2024 guidelines"],
+      "patient_inferences": [
+        {
+          "age": {
+            "operator": ">=",
+            "value": 85,
+            "unit": "years"
+          },
+          "inferences": [
+            {
+              "label": "consider more lenient BP targets",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty Status",
+      "context": ["treatment target consideration", "ESC/ESH 2024 guidelines"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "moderate-to-severe frailty",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": ["Office Systolic Blood Pressure", "Office Diastolic Blood Pressure"]
+    },
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Office Systolic Blood Pressure", "Office Diastolic Blood Pressure"]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": ["Orthostatic Hypotension"]
+    },
+    {
+      "name": "High CVD Risk requiring out-of-office confirmation",
+      "observations": ["Out-of-office Blood Pressure"]
+    },
+    {
+      "name": "Older Age with adjusted BP target",
+      "observations": ["Patient Age"]
+    },
+    {
+      "name": "Frailty-adjusted BP target",
+      "observations": ["Frailty Status"]
+    }
+  ]
+}

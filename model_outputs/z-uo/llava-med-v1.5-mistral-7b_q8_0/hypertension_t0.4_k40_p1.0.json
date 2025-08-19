@@ -1,0 +1,181 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office BP measurement", "Out-of-office BP measurement"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Correct measurement technique used for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured in the correct position (sitting or lying down)",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "A consistent approach to blood pressure measurement is applied for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Blood pressure measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured in the correct position (sitting or lying down)",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "A consistent approach to blood pressure measurement is applied for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured using a manual auscultatory method in patients with atrial fibrillation (AF) when appropriate",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Blood pressure measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured in the correct position (sitting or lying down)",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "A consistent approach to blood pressure measurement is applied for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "An assessment for orthostatic hypotension should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Blood pressure measured using a validated and calibrated device",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured in the correct position (sitting or lying down)",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "A consistent approach to blood pressure measurement is applied for each patient",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "An assessment for orthostatic hypotension should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "Blood pressure measured using a manual auscultatory method in patients with atrial fibrillation (AF) when appropriate",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+},
+{
+"name": "Assessment for Orthostatic Hypotension",
+"context": ["Elevated blood pressure or hypertension diagnosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "An assessment for orthostatic hypotension should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+},
+{
+"label": "This assessment should be performed after the patient is first lying or sitting for 5 min",
+"value_criterion": {
+"value": 1,
+"unit": "time"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Blood Pressure Measurement"
+ 																			,
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Assessment for Orthostatic Hypotension"
+																		,
+"observations": ["Assessment for Orthostatic Hypotension"]
+}
+]
+}

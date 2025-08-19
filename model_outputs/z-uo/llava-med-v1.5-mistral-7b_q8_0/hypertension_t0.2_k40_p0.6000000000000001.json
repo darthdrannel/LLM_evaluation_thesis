@@ -1,0 +1,82 @@
+{
+"observations": [
+{
+"name": "Blood Pressure",
+"context": ["office systolic BP", "office diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Elevated BP (BP < Hypertension)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<"
+}
+},
+{
+"label": "Normal BP (BP > Elevated BP and < Hypertension)",
+"value_criterion": {
+"value": 90,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Orthostatic Hypotension (OH)",
+"context": ["systolic BP drop at 1 and/or 3 min after standing"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "OH present",
+"value_criterion": {
+"value": 20,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "OH absent",
+"value_criterion": {
+"value": 10,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated BP (BP < Hypertension)",
+"observations": ["Blood Pressure"]
+},
+{
+"name": "Orthostatic Hypotension (OH)",
+"observations": ["Orthostatic Hypotension (OH)"]
+}
+]
+}

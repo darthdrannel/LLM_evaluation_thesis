@@ -1,0 +1,78 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["radiology report"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal chest x-ray"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["radiology report"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal coronal chest ct-scan"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["radiology report"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Abnormal axial chest ct-scan"
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Chest X-ray",
+"observations": ["Chest X-ray"]
+},
+{
+"name": "Coronal chest CT-scan",
+"observations": ["Coronal chest CT-scan"]
+},
+{
+"name": "Axial chest CT-scan",
+"observations": ["Axial chest CT-scan"]
+}
+]
+}

@@ -1,0 +1,197 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 130,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "very high",
+              "value_criterion": {
+                "value": 180,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abdominal Pain",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 0,
+                "unit": "score"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 1,
+                "unit": "score"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 3,
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respiration Rate",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 12,
+                "unit": "breaths/min"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 20,
+                "unit": "breaths/min"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 30,
+                "unit": "breaths/min"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Out-of-Office"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 130,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "very high",
+              "value_criterion": {
+                "value": 180,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": [],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "normal",
+              "value_criterion": {
+                "value": 0,
+                "unit": "score"
+              }
+            },
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 1,
+                "unit": "score"
+              }
+            },
+            {
+              "label": "high",
+              "value_criterion": {
+                "value": 3,
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Blood Pressure",
+        "Out-of-Office",
+        "Blood Pressure",
+        "Orthostatic Hypotension"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Blood Pressure",
+        "Office",
+        "Blood Pressure",
+        "Orthostatic Hypotension"
+      ]
+    }
+  ]
+}

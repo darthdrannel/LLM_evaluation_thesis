@@ -1,0 +1,450 @@
+{
+"observations": [
+{
+"name": "Alvarado score",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_criterion": {
+"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+"unit": "points"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal Alvarado score",
+"value_criterion": {
+"value": 0,
+"unit": "points"
+}
+},
+{
+"label": "Abnormal Alvarado score",
+"value_

@@ -1,0 +1,366 @@
+{
+"observations": [
+{
+"name": "Abdominal pain",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": 0,
+"unit": "pain scale"
+}
+},
+{
+"label": "Mild pain",
+"value_criterion": {
+"value": [1, 2],
+"unit": "pain scale"
+}
+},
+{
+"label": "Moderate pain",
+"value_criterion": {
+"value": [3, 4],
+"unit": "pain scale"
+}
+},
+{
+"label": "Severe pain",
+"value_criterion": {
+"value": [5, 6],
+"unit": "pain scale"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No pain",
+"value_criterion": {
+"value": 0,
+"unit": "pain scale"
+}
+},
+{
+"label": "Mild pain",
+"value_criterion": {
+"value": [1, 2],
+"unit": "pain scale"
+}
+},
+{
+"label": "Moderate pain",
+"value_criterion": {
+"value": [3, 4],
+"unit": "pain scale"
+}
+},
+{
+"label": "Severe pain",
+"value_criterion": {
+"value": [5, 6],
+"unit": "pain scale"
+}
+}
+]
+}
+]
+},
+{
+"name": "Pain rebound",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No pain rebound",
+"value_criterion": {
+"value": 0,
+"unit": "pain scale"
+}
+},
+{
+"label": "Mild pain rebound",
+"value_criterion": {
+"value": [1, 2],
+"unit": "pain scale"
+}
+},
+{
+"label": "Moderate pain rebound",
+"value_criterion": {
+"value": [3, 4],
+"unit": "pain scale"
+}
+},
+{
+"label": "Severe pain rebound",
+"value_criterion": {
+"value": [5, 6],
+"unit": "pain scale"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "No pain rebound",
+"value_criterion": {
+"value": 0,
+"unit": "pain scale"
+}
+},
+{
+"label": "Mild pain rebound",
+"value_criterion": {
+"value": [1, 2],
+"unit": "pain scale"
+}
+},
+{
+"label": "Moderate pain rebound",
+"value_criterion": {
+"value": [3, 4],
+"unit": "pain scale"
+}
+},
+{
+"label": "Severe pain rebound",
+"value_criterion": {
+"value": [5, 6],
+"unit": "pain scale"
+}
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal temperature",
+"value_criterion": {
+"value": 36.5,
+"unit": "°C"
+}
+},
+{
+"label": "Mildly elevated temperature",
+"value_criterion": {
+"value": [37.0, 37.5],
+"unit": "°C"
+}
+},
+{
+"label": "Moderately elevated temperature",
+"value_criterion": {
+"value": [37.6, 38.0],
+"unit": "°C"
+}
+},
+{
+"label": "Severely elevated temperature",
+"value_criterion": {
+"value": [38.1, 38.5],
+"unit": "°C"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal temperature",
+"value_criterion": {
+"value": 97.6,
+"unit": "°F"
+}
+},
+{
+"label": "Mildly elevated temperature",
+"value_criterion": {
+"value": [98.0, 98.5],
+"unit": "°F"
+}
+},
+{
+"label": "Moderately elevated temperature",
+"value_criterion": {
+"value": [98.6, 99.0],
+"unit": "°F"
+}
+},
+{
+"label": "Severely elevated temperature",
+"value_criterion": {
+"value": [99.1, 100.4],
+"unit": "°F"
+}
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal leukocyte count",
+"value_criterion": {
+"value": 4500,
+"unit": "cells per μL"
+}
+},
+{
+"label": "Mildly elevated leukocyte count",
+"value_criterion": {
+"value": [6000, 7500],
+"unit": "cells per μL"
+}
+},
+{
+"label": "Moderately elevated leukocyte count",
+"value_criterion": {
+"value": [9000, 12,0 ],
+"unit": "cells per μL"
+}
+},
+{
+"label": "Severely elevated leukocyte count",
+"value_criterion": {
+"value": [15,0 ],
+"unit": "cells per μL"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal leukocyte count",
+"value_criterion": {
+"value": 4500,
+"unit": "cells per μL"
+}
+},
+{
+"label": "Mildly elevated leukocyte count",
+"value_criterion": {
+"value": [6000, 7500],
+"unit": "cells per μL"
+}
+},
+{
+"label": "Moderately elevated leukocyte count",
+"value_criterion": {
+"value": [9000, 12,0 ],
+"unit": "cells per μL"
+}
+},
+{
+"label": "Severely elevated leukocyte count",
+"value_criterion": {
+"value": [15,0 ],
+"unit": "cells per μL"
+}
+}
+]
+}
+]
+},
+{
+"name": "PMN percentage in the blood",
+"context": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal PMN percentage",
+"value_criterion": {
+"value": 0,
+"unit": "%"
+}
+},
+{
+"label": "Mildly elevated PMN percentage",
+"value_criterion": {
+"value": [1, 2],
+"unit": "%"
+}
+},
+{
+"label": "Moderately elevated PMN percentage",
+"value_criterion": {
+"value": [3, 4],
+"unit": "%"
+}
+},
+{
+"label": "Severely elevated PMN percentage",
+"value_criterion": {
+"value": [5, 6],
+"unit": "%"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Normal PMN percentage",
+"value_criterion": {
+"value": 0,
+"unit": "%"
+}
+},
+{
+"label": "Mildly elevated PMN percentage",
+"value_criterion": {
+"value": [1, 2],
+"unit": "%"
+}
+},
+{
+"label": "Moderately elevated PMN percentage",
+"value_criterion": {
+"value": [3, 4],
+"unit": "%"
+}
+},
+{
+"label": "Severely elevated PMN percentage",
+"value_criterion": {
+"value": [5, 6],
+"unit": "%"
+}
+}
+]
+}
+]
+}
+]
+
+ 																			,
+"conditions": [
+{
+"name": "Suspected appendicitis",
+"observations": ["Abdominal pain", "Pain rebound"]
+},
+{
+"name": "Normal condition",
+"observations": ["Temperature", "Leukocytosis", "PMN percentage in the blood"]
+}
+]
+}

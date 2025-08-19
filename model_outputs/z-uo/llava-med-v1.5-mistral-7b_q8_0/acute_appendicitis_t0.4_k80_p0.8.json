@@ -1,0 +1,399 @@
+{
+"observations": [
+  {
+    "name": "Chest X-ray",
+    "context": ["CXR"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities detected in the chest x-ray"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coronal chest CT-scan",
+    "context": ["CTCOR"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities detected in the coronal chest ct-scan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Axial chest CT-scan",
+    "context": ["CTAXI"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities detected in the axial chest ct-scan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chest pain",
+    "context": ["CHEST PAIN"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is experiencing chest pain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pediatric appendicitis score",
+    "context": ["PED. APP. SCORE"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient's pediatric appendicitis score is 12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Appendicitis inflammatory response score",
+    "context": ["APP. INFLAMMATORY RESPONSE SCORE"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient's appendicitis inflammatory response score is 12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Patient age",
+    "context": ["PATIENT AGE"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is a 15-year-old male"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Patient gender",
+    "context": ["PATIENT GENDER"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is a male"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CRP level",
+    "context": ["CRP LEVEL"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient's CRP level is elevated"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leukocytosis",
+    "context": ["LEUKOCYTOSIS"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient has leukocytosis, which is an elevated white blood cell count"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PMN percentage",
+    "context": ["PMN PERCENTAGE"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient's PMN percentage is high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Temperature",
+    "context": ["TEMPERATURE"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient's temperature is elevated"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chest pain with coughing/hopping/percussion",
+    "context": ["PAIN WITH COUGHING/HOPPING/PERCUSSION"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is experiencing chest pain that worsens with coughing, hopping, or percussion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rebound pain",
+    "context": ["REBOUND PAIN"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is experiencing rebound pain, which is a type of pain that worsens when the pressure on the affected area is released"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Right lower quadrant tenderness",
+    "context": ["RIGHT LOWER QUADRANT TENDERNESS"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient has right lower quadrant tenderness, which is a sign of inflammation or infection in that area"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Anorexia",
+    "context": ["ANOREXIA"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is experiencing anorexia, which is a loss of appetite or a decrease in the amount of food a person eats"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nausea/vomiting",
+    "context": ["NAUSEA/VOMITING"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "The patient is experiencing nausea and vomiting"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MRI of the abdomen",
+    "context": ["MRI ABDOMEN"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the mri of the abdomen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ultrasound of the abdomen",
+    "context": ["ULTRASOUND ABDOMEN"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ultrasound of the abdomen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the abdomen and pelvis with contrast",
+    "context": ["CT ABDOMEN AND PELVIS WITH CONTROL"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the abdomen and pelvis with contrast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the chest, abdomen, and pelvis without contrast",
+    "context": ["CT CHEST, ABDOMEN, AND PELVIS WITHOUT CONTROL"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the chest, abdomen, and pelvis without contrast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the abdomen with contrast",
+    "context": ["CT ABDOMEN WITH CONTROL"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the abdomen with contrast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the chest without contrast",
+    "context": ["CT CHEST WITHOUT CONTROL"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the chest without contrast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the pelvis without contrast",
+    "context": ["CT PELVIS WITHOUT CONTROL"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the pelvis without contrast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the abdomen and pelvis with contrast, excluding the chest",
+    "context": ["CT ABDOMEN AND PELVIS WITH CONTROL (EXCL. CHEST)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the abdomen and pelvis with contrast, excluding the chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the abdomen and pelvis without contrast, excluding the chest",
+    "context": ["CT ABDOMEN AND PELVIS WITHOUT CONTROL (EXCL. CHEST)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the abdomen and pelvis without contrast, excluding the chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the abdomen with contrast, excluding the chest",
+    "context": ["CT ABDOMEN WITH CONTROL (EXCL. CHEST)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the abdomen with contrast, excluding the chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the chest without contrast, excluding the abdomen and pelvis",
+    "context": ["CT CHEST WITHOUT CONTROL (EXCL. ABDOMEN AND PELVIS)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the chest without contrast, excluding the abdomen and pelvis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the pelvis with contrast, excluding the chest",
+    "context": ["CT PELVIS WITH CONTROL (EXCL. CHEST)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the pelvis with contrast, excluding the chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the pelvis without contrast, excluding the chest",
+    "context": ["CT PELVIS WITHOUT CONTROL (EXCL. CHEST)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {
+            "label": "No abnormalities were detected in the ct scan of the pelvis without contrast, excluding the chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CT scan of the abdomen with contrast, excluding the pelvis",
+    "context": ["CT ABDOMEN WITH CONTROL (EXCL. PELVIS)"],
+    "patient_inferences": [
+      {
+        "inferences": [
+          {

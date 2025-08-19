@@ -1,0 +1,81 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Ambulatory"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Elevated BP",
+              "value_criterion": {
+                "value": [120, 139],
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Hypertension",
+              "value_criterion": {
+                "value": [140, 179],
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["Self-Reported", "Medical Record"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Older Adult (>85 years)",
+              "value_criterion": {
+                "value": [85],
+                "unit": "years"
+              }
+            },
+            {
+              "label": "Frailty",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing)",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Older Adult (>85 years) with Hypertension",
+      "observations": ["Age", "Blood Pressure"]
+    },
+    {
+      "name": "Frailty with Hypertension",
+      "observations": ["Age", "Blood Pressure", "Orthostatic Hypotension"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office Visit"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal Blood Pressure",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Hypertension"
+}
+],
+"gender": "male",
+"age": {
+"value": 60,
+"unit": "years"
+}
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}
+
+    			  			  			 		

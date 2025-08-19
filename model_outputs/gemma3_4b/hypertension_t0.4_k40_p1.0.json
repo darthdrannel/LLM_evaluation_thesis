@@ -1,0 +1,38 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Hypertension", "Management", "Guidelines", "ESC"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "elevated",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ],
+          "gender": null,
+          "age": null
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Blood Pressure",
+        "Office Systolic BP ≥140 mmHg or Diastolic BP ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office Systolic BP 120–139 mmHg or Diastolic BP 70–89 mmHg"
+      ]
+    }
+  ]
+}

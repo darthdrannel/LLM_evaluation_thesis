@@ -1,0 +1,157 @@
+{
+  "observations": [
+    {
+      "name": "Chest X-ray",
+      "context": ["CXR"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "No abnormalities detected"
+            },
+            {
+              "label": "Abnormal findings observed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coronal chest CT-scan",
+      "context": ["CCTS_coronal"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "No abnormalities detected"
+            },
+            {
+              "label": "Abnormal findings observed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "axial chest CT-scan",
+      "context": ["CCTS_axial"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "No abnormalities detected"
+            },
+            {
+              "label": "Abnormal findings observed"
+            }
+          ]
+        }
+      ]
+    },
+  {
+      "name": "Blood pressure",
+      "context": ["BP"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal blood pressure"
+            },
+            {
+              "label": "Abnormally low blood pressure"
+            },
+            {
+              "label": "Abnormally high blood pressure"
+            }
+          ]
+        }
+      ]
+    },
+  {
+      "name": "Body temperature",
+      "context": ["Bt"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal body temperature"
+            },
+            {
+              "label": "Abnormally high body temperature"
+            }
+          ]
+        }
+      ]
+    },
+  {
+      "name": "Pulse rate",
+      "context": ["PR"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal pulse rate"
+            },
+            {
+              "label": "Abnormally high pulse rate"
+            }
+          ]
+        }
+      ]
+    },
+  {
+      "name": "Respiration rate",
+      "context": ["RR"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal respiration rate"
+            },
+            {
+              "label": "Abnormally high respiration rate"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected appendicitis",
+      "observations": ["Chest X-ray", "coronal chest CT-scan", "axial chest CT-scan"]
+    },
+    {
+      "name": "Normal blood pressure",
+      "observations": ["Blood pressure"]
+    },
+    {
+      "name": "Abnormally low blood pressure",
+      "observations": ["Blood pressure"]
+    },
+    {
+      "name": "Abnormally high blood pressure",
+      "observations": ["Blood pressure"]
+    },
+    {
+      "name": "Normal body temperature",
+      "observations": ["Body temperature"]
+    },
+    {
+      "name": "Abnormally high body temperature",
+      "observations": ["Body temperature"]
+    },
+    {
+      "name": "Normal pulse rate",
+      "observations": ["Pulse rate"]
+    },
+    {
+      "name": "Abnormally high pulse rate",
+      "observations": ["Pulse rate"]
+    },
+    {
+      "name": "Normal respiration rate",
+      "observations": ["Respiration rate"]
+    }
+  ]
+}

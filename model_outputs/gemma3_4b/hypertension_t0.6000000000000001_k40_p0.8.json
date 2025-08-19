@@ -1,0 +1,33 @@
+{
+    "observations": [
+        {
+            "name": "Blood Pressure",
+            "context": [
+                "management of arterial hypertension",
+                "ESC/European Society of Hypertension Guidelines"
+            ],
+            "patient_inferences": [
+                {
+                    "inferences": [
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditions": [
+        {
+            "name": "Elevated BP",
+            "observations": [
+                "office systolic BP of 120–139 mmHg",
+                "office diastolic BP of 70–89 mmHg"
+            ]
+        },
+        {
+            "name": "Hypertension",
+            "observations": [
+                "office systolic BP of ≥140 mmHg",
+                "office diastolic BP of ≥90 mmHg"
+            ]
+        }
+    ]
+}

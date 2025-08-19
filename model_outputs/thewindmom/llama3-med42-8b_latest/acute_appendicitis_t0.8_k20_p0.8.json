@@ -1,0 +1,79 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["clinical examination", "lab results"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "suspected appendicitis",
+              "value_criterion": {
+                "value": [1, 2, 1, 2, 1],
+                "unit": "score"
+              }
+            }
+          ]
+        },
+        {
+          "inferences": [
+            {
+              "label": "high likelihood of appendicitis",
+              "value_criterion": {
+                "value": [6, 9, 10],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["clinical examination", "lab results"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "suspected appendicitis in pediatric patient",
+              "value_criterion": {
+                "value": [6, 9, 12],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["clinical examination", "lab results"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "severe appendicitis inflammatory response",
+              "value_criterion": {
+                "value": [8, 12],
+                "unit": "score"
+              }
+            },
+            {
+              "label": "moderate appendicitis inflammatory response",
+              "value_criterion": {
+                "value": [4, 10],
+                "unit": "score"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

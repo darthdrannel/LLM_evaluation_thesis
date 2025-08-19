@@ -1,0 +1,124 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office", "Out-of-office"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Elevated BP",
+              "value_criterion": {"value": [120, 139], "unit": "mmHg"}
+            },
+            {
+              "label": "Hypertension",
+              "value_criterion": {"value": [140, 180], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Initial diagnosis", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Present",
+              "value_criterion": {"value": [20, 10], "unit": "mmHg"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frailty",
+      "context": ["Assessment"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Moderate-to-severe frailty",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "context": ["Initial assessment", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "85 years or over",
+              "value_criterion": {"value": [85, 100], "unit": "years"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respiratory Rate",
+      "context": ["Initial assessment", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Normal",
+              "value_criterion": {"value": [12, 20], "unit": "breaths/min"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardiovascular Disease Risk",
+      "context": ["Initial assessment", "Follow-up"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "High risk",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BP-lowering Medications",
+      "context": ["Treatment plan"],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Recommended",
+              "value_criterion": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": ["Orthostatic Hypotension"]
+    },
+    {
+      "name": "Frailty",
+      "observations": ["Frailty"]
+    }
+  ]
+}

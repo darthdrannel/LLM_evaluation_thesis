@@ -1,0 +1,14 @@
+{"observations": [
+ {"name": "Chest X-ray", "context": ["Abnormality in costophrenic angle"], "patient_inferences": [
+ {"inferences": [{"label": "Pneumonia", "value_criterion": { "value": 1, "unit": "score" }}, {"label": "Pneumomediastinum", "value_criterion": { "value": -4, "unit": "score" }}], "gender": "female" },
+ {"inferences": [{"label": "Pneumonia", "value_criterion": { "value": 2, "unit": "score" }}, {"label": "Pneumomediastinum", "value_criterion": { "value": -4, "unit": "score" }}], "gender": "female" },
+ {"inferences": [{"label": "Pneumonia", "value_criterion": { "value": 1, "unit": "score" }}, {"label": "Pneumomediastinum", "value_criterion": { "value": -4, "unit": "score" }}], "gender": "female" },
+ {"inferences": [{"label": "Pneumonia", "value_criterion": { "value": 2, "unit": "score" }}, {"label": "Pneumomediastinum", "value_criterion": { "value": -4, "unit": "score" }}], "gender": "male" },
+ {"inferences": [{"label": "Pneumonia", "value_criterion": { "value": 1, "unit": "score" }}, {"label": "Pneumomediastinum", "value_criterion": { "value": -4, "unit": "score" }}], "gender": "male" },
+ {"inferences": [{"label": "Pneumonia", "value_criterion": { "value": 1, "unit": "score" }}, {"label": "Pneumomediastinum", "value_criterion": { "value": -4, "unit": "score" }}], "gender": "nonbinary" }
+ ]}],
+ "conditions": [
+ {"name": "Chest X-ray", "observations": ["Chest X-ray"]},
+ {"name": "Coronal chest CT-Scan", "observations": ["Coronal chest CT-Scan"]},
+ {"name": "Axial chest CT-scan", "observations": ["Axial chest CT-scan"]}
+ ]}

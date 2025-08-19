@@ -1,0 +1,82 @@
+{
+"observations": [
+{
+"name": "Alvarado Score",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal",
+"value_criterion": {
+"value": 6,
+"unit": "points"
+}
+},
+{
+"label": "abnormal",
+"value_criterion": {
+"value": 7,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Pediatric Appendicitis Score",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal",
+"value_criterion": {
+"value": 4,
+"unit": "points"
+}
+},
+{
+"label": "abnormal",
+"value_criterion": {
+"value": 10,
+"unit": "points"
+}
+}
+]
+}
+]
+},
+{
+"name": "Appendicitis Inflammatory Response score",
+"context": ["Chest X-ray", "coronal chest CT-Scan", "axial chest CT-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "normal",
+"value_criterion": {
+"value": 3,
+"unit": "points"
+}
+},
+{
+"label": "abnormal",
+"value_criterion": {
+"value": 12,
+"unit": "points"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Suspected Appendicitis",
+"observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response score"]
+}
+]
+}

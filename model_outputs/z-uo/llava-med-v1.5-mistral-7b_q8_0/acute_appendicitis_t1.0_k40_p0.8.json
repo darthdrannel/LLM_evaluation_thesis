@@ -1,0 +1,29 @@
+{"observations": [
+    {"name": "Anorexia", "context": ["Abdominal pain", "Nausea/vomiting"], "patient_inferences": [{"inferences": [{"label": "High Anorexia Score"}]}, {"inferences": [{"label": "Low Anorexia Score"}]}]},
+    {"name": "Blood Pressure", "context": ["Temperature ≥ 37.3°C (99.1°F)", "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"], "patient_inferences": [{"inferences": [{"label": "Low Blood Pressure"}]}, {"inferences": [{"label": "High Blood Pressure"}]}]},
+    {"name": "C-reactive protein (CRP)", "context": ["Temperature ≥ 38.5°C (101.3°F)", "Leukocytosis ≥ 15,000 per μL (15.0 × 109 per L)"], "patient_inferences": [{"inferences": [{"label": "Low CRP Score"}]}, {"inferences": [{"label": "High CRP Score"}]}]},
+    {"name": "Fever", "context": ["Temperature ≥ 37.3°C (99.1°F)", "Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"], "patient_inferences": [{"inferences": [{"label": "Low Fever"}]}, {"inferences": [{"label": "High Fever"}]}]},
+    {"name": "Leukocytosis", "context": ["Temperature ≥ 37.3°C (99.1°F)", "C-reactive protein (CRP) ≥ 50 g per L"], "patient_inferences": [{"inferences": [{"label": "Low Leukocytosis Score"}]}, {"inferences": [{"label": "High Leukocytosis Score"}]}]},
+    {"name": "Migration of pain", "context": ["Anorexia", "Nausea/vomiting"], "patient_inferences": [{"inferences": [{"label": "Low Migration of Pain Score"}]}, {"inferences": [{"label": "High Migration of Pain Score"}]}]},
+    {"name": "Nausea/vomiting", "context": ["Anorexia"], "patient_inferences": [{"inferences": [{"label": "Low Nausea/Vomiting Score"}]}, {"inferences": [{"label": "High Nausea/Vomiting Score"}]}]},
+    {"name": "Pain in the right lower quadrant", "context": ["Rebound pain"], "patient_inferences": [{"inferences": [{"label": "Low Pain Score"}]}, {"inferences": [{"label": "High Pain Score"}]}]},
+    {"name": "Polymorphonucleocytes (PMN)", "context": ["Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"], "patient_inferences": [{"inferences": [{"label": "Low PMN Score"}]}, {"inferences": [{"label": "High PMN Score"}]}]},
+    {"name": "Rebound pain", "context": ["Pain in the right lower quadrant"], "patient_inferences": [{"inferences": [{"label": "Low Rebound Pain Score"}]}, {"inferences": [{"label": "High Rebound Pain Score"}]}]},
+    {"name": "Temperature ≥ 37.3°C (99.1°F)", "context": ["Leukocytosis ≥ 10,000 per μL (10.0 × 109 per L)"], "patient_inferences": [{"inferences": [{"label": "Low Fever Score"}]}, {"inferences": [{"label": "High Fever Score"}]}]},
+    {"name": "Temperature ≥ 38.5°C (101.3°F)", "context": ["Leukocytosis ≥ 15,000 per μL (15.0 × 109 per L)"], "patient_inferences": [{"inferences": [{"label": "Low Fever Score"}]}, {"inferences": [{"label": "High Fever Score"}]}]},
+    {"name": "White blood cell count (WBC)", "context": ["Temperature ≥ 37.3°C (99.1°F)"], "patient_inferences": [{"inferences": [{"label": "Low WBC Count"}]}, {"inferences": [{"label": "High WBC Count"}]}]}
+],
+"conditions": [
+    {"name": "Abdominal pain", "observations": ["Anorexia", "Nausea/vomiting", "Pain in the right lower quadrant"]},
+    {"name": "Low Anorexia Score", "observations": ["Blood Pressure ≤ 90/60 mmHg", "C-reactive protein (CRP) ≤ 2 mg/dL (24 g per L)", "Fever < 37.8°C (99.65°F)", "Leukocytosis < 10,000 per μL (10.0 × 109 per L)"]},
+    {"name": "Low Fever Score", "observations": ["Temperature < 37.3°C (99.1°F)", "Leukocytosis < 10,000 per μL (10.0 × 109 per L)"]},
+    {"name": "Low Leukocytosis Score", "observations": ["Temperature ≤ 37.3°C (99.1°F)", "C-reactive protein (CRP) < 2 mg/dL (24 g per L)"]},
+    {"name": "Low Migration of Pain Score", "observations": ["Anorexia ≤ 1", "Nausea/vomiting ≤ 1"]},
+    {"name": "Low Nausea/Vomiting Score", "observations": ["Anorexia ≤ 1"]},
+    {"name": "Low Pain Score", "observations": ["Pain in the right lower quadrant ≤ 2"]},
+    {"name": "Low PMN Score", "observations": ["Leukocytosis < 10,000 per μL (10.0 × 109 per L)"]},
+    {"name": "Low Rebound Pain Score", "observations": ["Pain in the right lower quadrant with coughing/hopping/percussion ≤ 2"]},
+    {"name": "Low WBC Count", "observations": ["Temperature ≤ 37.3°C (99.1°F)"]}
+]
+
+}

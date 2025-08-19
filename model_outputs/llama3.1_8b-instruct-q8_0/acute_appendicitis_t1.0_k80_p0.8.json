@@ -1,0 +1,59 @@
+{
+  "observations": [
+    {
+      "name": "Alvarado Score",
+      "context": ["Suspected Appendicitis", "Adult Patients"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 5, "unit": ""}}], "gender": null, "age": null}
+      ]
+    },
+    {
+      "name": "Pediatric Appendicitis Score",
+      "context": ["Suspected Appendicitis", "Pediatric Patients"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 6, "unit": ""}}], "gender": null, "age": null}
+      ]
+    },
+    {
+      "name": "Appendicitis Inflammatory Response Score",
+      "context": ["Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 6, "unit": ""}}], "gender": null, "age": null}
+      ]
+    },
+    {
+      "name": "CRP",
+      "context": ["Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 10, "unit": "g per L"}}], "gender": null, "age": null}
+      ]
+    },
+    {
+      "name": "PMN",
+      "context": ["Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 70, "unit": "%"}}], "gender": null, "age": null}
+      ]
+    },
+    {
+      "name": "Temperature",
+      "context": ["Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 37.3, "unit": "°C"}}], "gender": null, "age": null}
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "context": ["Suspected Appendicitis"],
+      "patient_inferences": [
+        {"inferences": [{"label": "low", "value_criterion": {"value": 10, "unit": "per μL"}}], "gender": null, "age": null}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Suspected Appendicitis",
+      "observations": ["Alvarado Score", "Pediatric Appendicitis Score", "Appendicitis Inflammatory Response Score"]
+    }
+  ]
+}

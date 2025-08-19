@@ -1,0 +1,106 @@
+{
+"observations": [
+{
+"name": "Patient's Abdominal Pain",
+"context": ["Right Lower Quadrant"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Presence of Appendicitis", "value_criterion": {
+"value": [2, 3],
+"unit": "Rebound pain points"
+}}]
+}
+]
+},
+{
+"name": "Patient's Temperature",
+"context": ["Body"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Fever", "value_criterion": {
+"value": 37.3,
+"unit": "°C"
+}},
+{"label": "High Fever", "value_criterion": {
+"value": 38,
+"unit": "°C"
+}}]
+}
+]
+},
+{
+"name": "Patient's Leukocytosis",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Leukocytosis", "value_criterion": {
+"value": 10000,
+"unit": "per μL"
+}}]
+},
+{
+"inferences": [
+{"label": "Severe Leukocytosis", "value_criterion": {
+"value": 15000,
+"unit": "per μL"
+}}]
+}
+]
+},
+{
+"name": "Patient's PMN percentage",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal PMN percentage", "value_criterion": {
+"value": [75, 84],
+"unit": "%"
+}},
+{"label": "Elevated PMN percentage", "value_criterion": {
+"value": 85,
+"unit": "%"
+}}]
+}
+]
+},
+{
+"name": "Patient's CRP level",
+"context": ["Blood"],
+"patient_inferences": [
+{
+"inferences": [
+{"label": "Normal CRP level", "value_criterion": {
+"value": 10,
+"unit": "g per L"
+}},
+{"label": "Elevated CRP level", "value_criterion": {
+"value": 50,
+"unit": "g per L"
+}}]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Appendicitis",
+"observations": ["Patient's Abdominal Pain", "Patient's Temperature", "Patient's Leukocytosis", "Patient's PMN percentage"]
+},
+{
+"name": "Alvarado Score > 7",
+"observations": ["Patient's Abdominal Pain", "Patient's Anorexia", "Patient's Nausea/vomiting", "Patient's Right Lower Quadrant tenderness", "Patient's Rebound pain", "Patient's Temperature", "Patient's Leukocytosis"]
+},
+{
+"name": "Pediatric Appendicitis Score > 7",
+"observations": ["Patient's Abdominal Pain", "Patient's Anorexia", "Patient's Nausea/vomiting", "Patient's Right Lower Quadrant tenderness", "Patient's Rebound pain with coughing/hopping/percussion", "Patient's Temperature", "Patient's Leukocytosis"]
+},
+{
+"name": "Appendicitis Inflammatory Response score > 7",
+"observations": ["Patient's Vomiting", "Patient's Right Iliac fossa pain", "Patient's Rebound pain (light, medium, strong)", "Patient's Temperature", "Patient's Leukocytosis", "Patient's PMN percentage", "Patient's CRP level"]
+}
+]
+}

@@ -1,0 +1,132 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Office Systolic BP ≥140 mmHg or Office Diastolic BP ≥90 mmHg"
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Elevated BP",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Hypertension",
+              "value_criterion": {
+                "value": 140,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Out-of-office BP measurement is recommended for diagnostic purposes, particularly because it can detect both white-coat hypertension and masked hypertension."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "White-coat hypertension",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "label": "Masked hypertension",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "Most automated oscillometric monitors have not been validated for BP measurement in AF; BP measurement should be considered using a manual auscultatory method in these circumstances, where possible."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "AF",
+              "value_criterion": {
+                "value": 120,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "context": [
+        "An assessment for orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing) should be considered at least at the initial diagnosis of elevated BP or hypertension and thereafter if suggestive symptoms arise. This should be performed after the patient is first lying or sitting for 5 min."
+      ],
+      "patient_inferences": [
+        {
+          "inferences": [
+            {
+              "label": "Orthostatic hypotension",
+              "value_criterion": {
+                "value": 20,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Elevated BP",
+      "observations": [
+        "Office Systolic BP ≥120 mmHg or Office Diastolic BP ≥70 mmHg"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "observations": [
+        "Office Systolic BP ≥140 mmHg or Office Diastolic BP ≥90 mmHg"
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": [
+        "Orthostatic hypotension (≥20 systolic BP and/or ≥10 diastolic BP mmHg drop at 1 and/or 3 min after standing)"
+      ]
+    },
+    {
+      "name": "White-coat hypertension",
+      "observations": [
+        "Office Systolic BP ≥120 mmHg or Office Diastolic BP ≥70 mmHg"
+      ]
+    },
+    {
+      "name": "Masked hypertension",
+      "observations": [
+        "Office Systolic BP ≥120 mmHg or Office Diastolic BP ≥70 mmHg"
+      ]
+    },
+    {
+      "name": "AF",
+      "observations": [
+        "Office Systolic BP ≥120 mmHg or Office Diastolic BP ≥70 mmHg"
+      ]
+    }
+  ]
+}

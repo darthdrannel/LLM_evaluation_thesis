@@ -1,0 +1,88 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["BP measurement", "Office visit"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal",
+"value_criterion": {
+"value": [120, 80],
+"unit": "mmHg"
+}
+},
+{
+"label": "Elevated",
+"value_criterion": {
+"value": [120, 89],
+"unit": "mmHg"
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": [140, 90],
+"unit": "mmHg"
+}
+},
+{
+"label": "Orthostatic Hypotension",
+"value_criterion": {
+"value": [-20, -10],
+"unit": "mmHg",
+"operator": "<"
+}
+}
+]
+}
+]
+},
+{
+"name": "AF and Blood Pressure Measurement",
+"context": ["Atrial fibrillation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Unmeasured",
+"value_criterion": {
+"value": [],
+"unit": "mmHg"
+}
+},
+{
+"label": "Measured",
+"value_criterion": {
+"value": [0],
+"unit": "mmHg",
+"operator": null
+}
+},
+{
+"label": "Manual auscultation required",
+"value_criterion": {
+"value": [],
+"unit": "mmHg",
+"operator": null
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure or Hypertension",
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension",
+"observations": ["Blood Pressure Measurement"]
+}
+]
+}
+
+																				

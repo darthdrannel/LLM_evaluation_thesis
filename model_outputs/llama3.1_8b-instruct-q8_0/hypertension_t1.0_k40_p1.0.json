@@ -1,0 +1,10 @@
+{"observations": [
+    {"name": "Elevated Blood Pressure", "context": ["Initial Diagnosis", "Follow-up Visit"], "patient_inferences": [{"inferences": [{"label": "high"}]}]},
+    {"name": "Blood Pressure Target", "context": ["Office Visit", "Follow-up Appointment"], "patient_inferences": [{"inferences": [{"label": "target"}, {"label": "achieved"}]}]},
+    {"name": "Orthostatic Hypotension", "context": ["Initial Diagnosis", "Follow-up Visit"], "patient_inferences": [{"inferences": [{"label": "present"}]}]}
+], "conditions": [
+    {"name": "Arterial Hypertension", "observations": ["Elevated Blood Pressure", "Blood Pressure Target"]},
+    {"name": "Cardiovascular Disease Risk", "observations": ["Elevated Blood Pressure"]}
+]}
+
+            

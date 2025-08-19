@@ -1,0 +1,249 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": ["Office Systolic BP", "Office Diastolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Elevated Blood Pressure (BP)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Hypertension",
+"value_criterion": {
+"value": 140,
+"unit": "mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Elevated BP (BP-Elevated)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<="
+}
+},
+{
+"label": "Orthostatic Hypotension",
+"value_criterion": {
+"value": 20,
+"unit": "systolic BP mmHg drop at 1 and/or 3 min after standing"
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Blood Pressure Measurement",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg",
+"operator": ">="
+}
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Blood Pressure Measurement",
+"value_criterion": {
+"value": 140,
+"unit": "systolic BP mmHg",
+"operator": ">="
+}
+},
+{
+"label": "Blood Pressure Measurement",
+"value_criterion": {
+"value": 90,
+"unit": "diastolic BP mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Frailty Assessment",
+"context": ["Age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Frailty",
+"value_criterion": {
+"value": 85,
+"unit": "years"
+}
+}
+]
+}
+]
+},
+{
+"name": "Sex and Gender Assessment",
+"context": ["Sex", "Gender"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Male",
+"value_criterion": {
+"value": 0,
+"unit": "sex"
+}
+},
+{
+"label": "Female",
+"value_criterion": {
+"value": 1,
+"unit": "sex"
+}
+},
+{
+"label": "Nonbinary",
+"value_criterion": {
+"value": 2,
+"unit": "sex"
+}
+}
+],
+"gender": null
+}
+]
+},
+{
+"name": "Blood Pressure Target Assessment",
+"context": ["Systolic BP"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Target Systolic BP (BP-Target)",
+"value_criterion": {
+"value": 120,
+"unit": "mmHg",
+"operator": "<="
+}
+},
+{
+"label": "Non-target Systolic BP (BP-Non-Target)",
+"value_criterion": {
+"value": 130,
+"unit": "mmHg",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Lifestyle Assessment",
+"context": ["Dietary Salt Intake"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Low-risk Non-pharmacological Interventions (BP-LRNPI)",
+"value_criterion": {
+"value": 5,
+"unit": "g/day",
+"operator": "<="
+}
+},
+{
+"label": "High-risk Non-pharmacological Interventions (BP-HRNPI)",
+"value_criterion": {
+"value": 10,
+"unit": "g/day",
+"operator": ">="
+}
+}
+]
+}
+]
+},
+{
+"name": "Implementation Assessment",
+"context": ["Guideline Implementation"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Poor Implementation of Guidelines (BP-IG)",
+"value_criterion": {
+"value": 1,
+"unit": "implementation"
+}
+},
+{
+"label": "Good Implementation of Guidelines (BP-GIG)",
+"value_criterion": {
+"value": 0,
+"unit": "implementation"
+}
+}
+]
+}
+]
+}
+],
+"conditions": [
+{
+"name": "Elevated Blood Pressure (BP-Elevated)"
+ 																			,
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Hypertension"
+																		,
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Elevated BP (BP-Elevated)"
+																		,
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension"
+																		,
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Frailty"
+																		,
+"observations": ["Age"]
+},
+{
+"name": "Sex and Gender"
+																		,
+"observations": ["Sex", "Gender"]
+},
+{
+"name": "Blood Pressure Target Assessment"
+																		,
+"observations": ["Systolic BP"]
+},
+{
+"name": "Lifestyle Assessment"
+																		,
+"observations": ["Dietary Salt Intake"]
+},
+{
+"name": "Implementation Assessment"
+																		,
+"observations": ["Guideline Implementation"]
+}
+]
+}

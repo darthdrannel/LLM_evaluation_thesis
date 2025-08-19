@@ -1,0 +1,58 @@
+{
+"observations": [
+{
+"name": "Blood Pressure Measurement",
+"context": [
+"office BP measurement",
+"consistent approach to BP measurement"
+],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "White-coat hypertension detected"
+}
+]
+},
+{
+"inferences": [
+{
+"label": "Masked hypertension detected"
+}
+]
+}
+]
+}
+
+,
+{
+"name": "Orthostatic Hypotension Assessment",
+"context": [
+"initial diagnosis of elevated BP or hypertension",
+"suggestive symptoms arise"
+],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Positive assessment for orthostatic hypotension"
+}
+]
+}
+]
+}
+
+],
+"conditions": [
+{
+"name": "Measuring Blood Pressure"
+  																		,
+"observations": ["Blood Pressure Measurement"]
+},
+{
+"name": "Orthostatic Hypotension Assessment"
+  																,
+"observations": ["Orthostatic Hypotension Assessment"]
+}
+]
+}

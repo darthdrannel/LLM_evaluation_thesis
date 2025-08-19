@@ -1,0 +1,594 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["CXR"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal chest x-ray"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal coronal chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["CCTS"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Normal axial chest ct-scan"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient age",
+"context": ["Age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Age of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Alvarado score",
+"context": ["Alvarado score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Alvarado score of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pediatric appendicitis score",
+"context": ["Pediatric appendicitis score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pediatric appendicitis score of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Appendicitis inflammatory response score",
+"context": ["Appendicitis inflammatory response score"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Appendicitis inflammatory response score of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CRP level",
+"context": ["CRP level"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "CRP level of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "PMN percentage",
+"context": ["PMN percentage"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "PMN percentage of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Leukocytosis level",
+"context": ["Leukocytosis level"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Leukocytosis level of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Temperature"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Temperature of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "MRI findings",
+"context": ["MRI findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "MRI findings of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Ultrasound findings",
+"context": ["Ultrasound findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Ultrasound findings of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "CT scan findings",
+"context": ["CT scan findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "CT scan findings of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Lab results",
+"context": ["Lab results"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Lab results of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Clinical findings",
+"context": ["Clinical findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Clinical findings of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Surgical findings",
+"context": ["Surgical findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Surgical findings of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Histopathological findings",
+"context": ["Histopathological findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Histopathological findings of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Pathology report",
+"context": ["Pathology report"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Pathology report of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Diagnosis",
+"context": ["Diagnosis"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Diagnosis of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Treatment plan",
+"context": ["Treatment plan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Treatment plan of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Medications prescribed",
+"context": ["Medications prescribed"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Medications prescribed for the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Follow-up plan",
+"context": ["Follow-up plan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Follow-up plan of the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Referral to other specialists",
+"context": ["Referral to other specialists"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Referral to other specialists for the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Additional diagnostic tests",
+"context": ["Additional diagnostic tests"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "Additional diagnostic tests for the patient"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's overall health status",
+"context": ["Overall health status"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's overall health status"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's medical history",
+"context": ["Medical history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's medical history"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's social history",
+"context": ["Social history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's social history"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's lifestyle factors",
+"context": ["Lifestyle factors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's lifestyle factors"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's risk factors",
+"context": ["Risk factors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's risk factors"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's allergies",
+"context": ["Allergies"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's allergies"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's medications",
+"context": ["Medications"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's medications"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's family history",
+"context": ["Family history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's family history"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's genetic information",
+"context": ["Genetic information"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's genetic information"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's environmental factors",
+"context": ["Environmental factors"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's environmental factors"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's occupational history",
+"context": ["Occupational history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's occupational history"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's travel history",
+"context": ["Travel history"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's travel history"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's immune system status",
+"context": ["Immune system status"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's immune system status"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's mental health status",
+"context": ["Mental health status"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's mental health status"
+}
+],
+"gender": null,
+"age": null
+}
+]
+},
+{
+"name": "Patient's overall well-being",
+"context": ["Overall well-being"],
+"patient_inferences": [
+{
+"inferences": [
+{

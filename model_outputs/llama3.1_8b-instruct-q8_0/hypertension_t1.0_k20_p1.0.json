@@ -1,0 +1,62 @@
+{
+  "observations": [
+    {
+      "name": "Blood Pressure",
+      "context": ["Office Visit", "Outpatient Clinic", "Inpatient Hospitalization"],
+      "patient_inferences": [
+        {"inferences": [{"label": "Elevated BP", "value_criterion": {"value": [120, 139], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Diastolic Blood Pressure",
+      "context": ["Office Visit", "Outpatient Clinic", "Inpatient Hospitalization"],
+      "patient_inferences": [
+        {"inferences": [{"label": "Elevated BP", "value_criterion": {"value": [70, 89], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "context": ["Office Visit", "Outpatient Clinic", "Inpatient Hospitalization"],
+      "patient_inferences": [
+        {"inferences": [{"label": "Low BP", "value_criterion": {"value": [120, 129], "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "context": ["Office Visit", "Outpatient Clinic"],
+      "patient_inferences": [
+        {"inferences": [{"label": "Present", "value_criterion": {"value": 20, "unit": "mmHg"}}]}
+      ]
+    },
+    {
+      "name": "Frailty Status",
+      "context": ["Office Visit", "Outpatient Clinic"],
+      "patient_inferences": [
+        {
+          "inferences": [{"label": "Mild Frailty", "value_criterion": {"value": [2, 4], "unit": "years"}}]
+        }
+      ]
+    },
+    {
+      "name": "Patient Symptomatology",
+      "context": ["Office Visit", "Outpatient Clinic"],
+      "patient_inferences": [
+        {"inferences": [{"label": "Present", "value_criterion": { "value": 5, "unit": "minutes"}}]}
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hypertension",
+      "observations": ["Blood Pressure"]
+    },
+    {
+      "name": "Elevated Blood Pressure",
+      "observations": ["Blood Pressure", "Diastolic Blood Pressure"]
+    },
+    {
+      "name": "Orthostatic Hypotension",
+      "observations": ["Orthostatic Hypotension"]
+    }
+  ]
+}

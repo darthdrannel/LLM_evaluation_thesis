@@ -1,0 +1,458 @@
+{
+"observations": [
+{
+"name": "Chest X-ray",
+"context": ["Normal chest x-ray"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No acute cardiopulmonary pathology detected"
+}
+]
+}
+]
+},
+{
+"name": "Coronal chest CT-scan",
+"context": ["Normal coronal chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No acute cardiopulmonary pathology detected"
+}
+]
+}
+]
+},
+{
+"name": "Axial chest CT-scan",
+"context": ["Normal axial chest ct-scan"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No acute cardiopulmonary pathology detected"
+}
+]
+}
+]
+},
+{
+"name": "PatientAge",
+"context": ["Patient's age"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is 30 years old."
+}
+]
+}
+]
+},
+{
+"name": "CRP",
+"context": ["Normal CRP levels (≤1 mg/dL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No signs of inflammation in the patient."
+}
+]
+}
+]
+},
+{
+"name": "PMN",
+"context": ["Normal PMN levels (≤75% and ≥10,000 per μL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No signs of infection or inflammation in the patient."
+}
+]
+}
+]
+},
+{
+"name": "Temperature",
+"context": ["Normal temperature (≤37.3°C or 99.1°F)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's body temperature is within the normal range."
+}
+]
+}
+]
+},
+{
+"name": "Leukocytosis",
+"context": ["Normal leukocytosis levels (≤10,000 per μL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "No signs of infection or inflammation in the patient."
+}
+]
+}
+]
+},
+{
+"name": "Pain score",
+"context": ["Pain score is 0 out of 10, indicating no pain."],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is not experiencing significant pain."
+}
+]
+}
+]
+},
+{
+"name": "Nausea/vomiting",
+"context": ["Absence of nausea or vomiting"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is not experiencing nausea or vomiting."
+}
+]
+}
+]
+},
+{
+"name": "Anorexia",
+"context": ["Absence of anorexia"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is not experiencing a loss of appetite."
+}
+]
+}
+]
+},
+{
+"name": "Tachycardia",
+"context": ["Absence of tachycardia (<120 beats per minute)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's heart rate is within the normal range."
+}
+]
+}
+]
+},
+{
+"name": "Tachypnea",
+"context": ["Absence of tachypnea (<20 breaths per minute)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's breathing rate is within the normal range."
+}
+]
+}
+]
+},
+{
+"name": "Respiratory distress",
+"context": ["Absence of respiratory distress"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is not experiencing significant difficulty in breathing."
+}
+]
+}
+]
+},
+{
+"name": "Oliguria",
+"context": ["Absence of oliguria (<500 mL per day)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is not experiencing significant urine output reduction."
+}
+]
+}
+]
+},
+{
+"name": "Hydration status",
+"context": ["Normal hydration status (>2 L per day)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is adequately hydrated."
+}
+]
+}
+]
+},
+{
+"name": "Jaundice",
+"context": ["Absence of jaundice"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient is not experiencing significant jaundice."
+}
+]
+}
+]
+},
+{
+"name": "Mental status",
+"context": ["Normal mental status"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's mental status is normal, without signs of confusion or disorientation."
+}
+]
+}
+]
+},
+{
+"name": "Blood pressure",
+"context": ["Normal blood pressure (<130/85 mmHg)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's blood pressure is within the normal range."
+}
+]
+}
+]
+},
+{
+"name": "Pulse oximetry (SpO2)",
+"context": ["Normal pulse oximetry levels (>95%)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's oxygen saturation is within the normal range."
+}
+]
+}
+]
+},
+{
+"name": "ECG",
+"context": ["Normal ECG findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's ECG results are normal, without any significant abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Urinalysis",
+"context": ["Normal urinalysis findings"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's urinalysis results are normal, without any significant abnormalities."
+}
+]
+}
+]
+},
+{
+"name": "Serum amylase and lipase levels",
+"context": ["Normal serum amylase and lipase levels (≤3 times the upper limit of normal)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum amylase and lipase levels are within the normal range, which may indicate no significant pancreatic or gastrointestinal issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum glucose levels",
+"context": ["Normal serum glucose levels (≤140 mg/dL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum glucose levels are within the normal range, which may indicate no significant metabolic issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum sodium levels",
+"context": ["Normal serum sodium levels (≥135 mEq/L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum sodium levels are within the normal range, which may indicate no significant electrolyte imbalances."
+}
+]
+}
+]
+},
+{
+"name": "Serum potassium levels",
+"context": ["Normal serum potassium levels (≥3.5 mEq/L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum potassium levels are within the normal range, which may indicate no significant electrolyte imbalances."
+}
+]
+}
+]
+},
+{
+"name": "Serum creatinine levels",
+"context": ["Normal serum creatinine levels (≤1.3 mg/dL for males and ≤1.1 mg/dL for females)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum creatinine levels are within the normal range, which may indicate no significant kidney function issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum bilirubin levels",
+"context": ["Normal serum bilirubin levels (≤1.2 mg/dL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum bilirubin levels are within the normal range, which may indicate no significant liver function issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum urea nitrogen (BUN) levels",
+"context": ["Normal serum BUN levels (≤20 mg/dL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum BUN levels are within the normal range, which may indicate no significant kidney function issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum amylase and lipase levels",
+"context": ["Normal serum amylase and lipase levels (≤3 times the upper limit of normal)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum amylase and lipase levels are within the normal range, which may indicate no significant pancreatic or gastrointestinal issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum glucose levels",
+"context": ["Normal serum glucose levels (≤140 mg/dL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum glucose levels are within the normal range, which may indicate no significant metabolic issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum sodium levels",
+"context": ["Normal serum sodium levels (≥135 mEq/L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum sodium levels are within the normal range, which may indicate no significant electrolyte imbalances."
+}
+]
+}
+]
+},
+{
+"name": "Serum potassium levels",
+"context": ["Normal serum potassium levels (≥3.5 mEq/L)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum potassium levels are within the normal range, which may indicate no significant electrolyte imbalances."
+}
+]
+}
+]
+},
+{
+"name": "Serum creatinine levels",
+"context": ["Normal serum creatinine levels (≤1.3 mg/dL for males and ≤1.1 mg/dL for females)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum creatinine levels are within the normal range, which may indicate no significant kidney function issues."
+}
+]
+}
+]
+},
+{
+"name": "Serum bilirubin levels",
+"context": ["Normal serum bilirubin levels (≤1.2 mg/dL)"],
+"patient_inferences": [
+{
+"inferences": [
+{
+"label": "The patient's serum bilirubin levels are within the normal range, which may indicate no significant liver function issues."
+}
+]
+}
+]
+},
+{
